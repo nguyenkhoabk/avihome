@@ -1,0 +1,128 @@
+.breadcrumbs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+	li {
+		display: inline;
+		a,span {
+			font-size: 14px;
+			font-weight: 500;
+			color: #fff;
+			line-height: 1.8;
+		}
+		span {
+			opacity: 0.65;
+		}
+		&:after {
+			font-family: 'FontAwesome';
+			display: inline-block;
+			content: '\f061';
+			font-size: 10px;
+			letter-spacing: -0.02em;
+			padding: 0 10px;
+			color: #fff;
+		}
+	}
+	li:last-child:after {
+		display: none;
+	}
+}
+.page-title-layout-only-breadcrumb {
+	.breadcrumbs {
+		li {
+			a,span {
+				color: inherit;
+			}
+			span {
+				opacity: 1;
+			}
+			&:after {
+				color: inherit;
+			}
+		}
+	}
+	.page-title-inner {
+		padding: 15px 0;
+		border-bottom:1px solid @border_color_dark ;
+	}
+}
+
+.page-title:not(.page-title-layout-only-breadcrumb) {
+	padding: 36px 0;
+	.gradient(@color: #FFF, @start: darken(@accent_color,20%), @stop: darken(@accent_color,16%));
+	h1 {
+		font-size: 24px;
+		font-weight: bold;
+		color: #fff;
+		margin: 0;
+		display: inline-block;
+	}
+	p {
+		font-size: 14px;
+		color: #fff;
+		margin: 5px 0;
+		opacity: 0.65;
+	}
+}
+.page-title-inner {
+	position: relative;
+}
+
+.page-title-background {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: transparent;
+	position: relative;
+	&:before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		background-color: rgba(0,0,0,0.3);
+	}
+}
+
+.parallax-disabled {
+	background-attachment: scroll !important;
+	background-position: 50% 50% !important;
+}
+
+
+
+.page-title-layout-normal:not(.left) {
+	.breadcrumbs {
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		height: 25px;
+	}
+}
+.page-title-layout-normal.left {
+	h1 + ul.breadcrumbs {
+		margin-top: 5px;
+	}
+}
+
+.page-title-layout-center {
+	text-align: center;
+	h1 {
+		font-size: 40px;
+		letter-spacing: -0.02em;
+		text-transform: uppercase;
+		font-weight: 900;
+	}
+	p {
+		font-size: 15px;
+	}
+	h1 + .ul.breadcrumbs {
+		margin-top: 5px;
+	}
+}

@@ -1,0 +1,149 @@
+.g5plus-lists-color-blue span {
+  background-color: #5472D2;
+  color: #5472D2;
+}
+.g5plus-lists-color-turquoise span {
+  background-color: #00C1CF;
+  color: #00C1CF;
+}
+.g5plus-lists-color-pink span {
+  background-color: #FE6C61;
+  color: #FE6C61;
+}
+.g5plus-lists-color-violet span {
+  background-color: #8D6DC4;
+  color: #8D6DC4;
+}
+.g5plus-lists-color-peacoc span {
+  background-color: #4CADC9;
+  color: #4CADC9;
+}
+.g5plus-lists-color-chino span {
+  background-color: #CEC2AB;
+  color: #CEC2AB;
+}
+.g5plus-lists-color-mulled_wine span {
+  background-color: #50485B;
+  color: #50485B;
+}
+.g5plus-lists-color-vista_blue span {
+  background-color: #75D69C;
+  color: #75D69C;
+}
+.g5plus-lists-color-black span {
+  background-color: #2A2A2A;
+  color: #2A2A2A;
+}
+.g5plus-lists-color-orange span {
+  background-color: #F7BE68;
+  color: #F7BE68;
+}
+.g5plus-lists-color-sky span {
+  background-color: #5AA1E3;
+  color: #5AA1E3;
+}
+.g5plus-lists-color-green span {
+  background-color: #6DAB3C;
+  color: #6DAB3C;
+}
+.g5plus-lists-color-juicy_pink span {
+  background-color: #F4524D;
+  color: #F4524D;
+}
+.g5plus-lists-color-sandy_brown span {
+  background-color: #F79468;
+  color: #F79468;
+}
+.g5plus-lists-color-purple span {
+  background-color: #B97EBB;
+  color: #B97EBB;
+}
+.g5plus-lists-color-white span {
+  background-color: #fff;
+  color: #fff;
+}
+.g5plus-lists-color-grey span {
+  background-color: #eee;
+}
+.g5plus-lists {
+  list-style: none;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.g5plus-lists span {
+  float: left;
+  font-size: 14px;
+  position: relative;
+}
+.g5plus-lists span > i {
+  letter-spacing: -0.02em;
+}
+.g5plus-lists p {
+  padding-left: 30px;
+  font-size: 14px;
+  color: #858585;
+  position: relative;
+  top: -2px;
+}
+.g5plus-lists li + li {
+  margin-top: 20px;
+}
+.g5plus-list-size-xs span {
+  font-size: 10px;
+}
+.g5plus-list-size-xs p {
+  padding-left: 20px;
+}
+.g5plus-list-size-sm span {
+  font-size: 12px;
+}
+.g5plus-list-size-sm p {
+  padding-left: 25px;
+}
+.g5plus-list-size-lg span {
+  font-size: 18px;
+}
+.g5plus-list-size-lg p {
+  padding-left: 40px;
+}
+.g5plus-list-size-lg.g5plus-lists-round span {
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+}
+.g5plus-list-size-lg.g5plus-lists-round p {
+  padding-left: 55px;
+}
+.g5plus-lists-simple span {
+  background-color: transparent !important;
+}
+.g5plus-lists-round span {
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  -webkit-border-radius: 100%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 100%;
+  -moz-background-clip: padding;
+  border-radius: 100%;
+  background-clip: padding-box;
+}
+.g5plus-lists-round span > i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.g5plus-lists-round p {
+  padding-left: 45px;
+}
+.g5plus-lists-round .g5plus-lists-color-white span,
+.g5plus-lists-round .g5plus-lists-color-grey span {
+  color: #444;
+}

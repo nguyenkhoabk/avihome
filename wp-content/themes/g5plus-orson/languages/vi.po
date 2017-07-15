@@ -1,0 +1,2903 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: G5Plus Orson\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-29 13:31+0000\n"
+"PO-Revision-Date: 2017-06-05 10:59+0000\n"
+"Last-Translator: tranvanky <tranvankyntc@gmail.com>\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: comments.php:24
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "One Comments"
+msgstr ""
+
+#: comments.php:24
+msgid "Comments (%)"
+msgstr "Bình luận(%)"
+
+#: sidebar.php:33
+msgid "Click to show Canvas Sidebar"
+msgstr ""
+
+#: sidebar.php:38
+msgid "Click to hide Canvas Sidebar"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "%s SEARCH RESULTS FOR: %s"
+msgstr ""
+
+#: search.php:19
+msgid "NEW SEARCH"
+msgstr ""
+
+#: search.php:20
+msgid "If you are not happy with the results below please do another search"
+msgstr ""
+
+#: 404.php:13
+msgid "404 PAGE"
+msgstr ""
+
+#: 404.php:14
+msgid "The page you are looking for does not exist."
+msgstr ""
+
+#: 404.php:16
+msgid "Return to the"
+msgstr ""
+
+#: 404.php:16
+msgid "home page"
+msgstr ""
+
+#: includes/theme-filter.php:15
+#, php-format
+msgid "Your Name %s"
+msgstr ""
+
+#: includes/theme-filter.php:17
+#, php-format
+msgid "Email Address %s"
+msgstr ""
+
+#: includes/theme-filter.php:19
+msgid "Website"
+msgstr ""
+
+#: includes/theme-filter.php:31
+msgid "Your Comment *"
+msgstr "Nội dung bình luận"
+
+#: includes/theme-filter.php:34
+msgid "Post Comment"
+msgstr "Đăng bình luận"
+
+#: includes/tax-meta.php:13 includes/meta-boxes.php:1010
+msgid "Page Title"
+msgstr ""
+
+#: includes/tax-meta.php:32 includes/meta-boxes.php:1015
+msgid "Show/Hide Page Title?"
+msgstr ""
+
+#: includes/tax-meta.php:41
+msgid "Page Title Background Image"
+msgstr ""
+
+#: includes/tax-meta.php:48
+msgid "Banner"
+msgstr ""
+
+#: includes/tax-meta.php:62
+msgid "Banner Layout"
+msgstr ""
+
+#: includes/tax-meta.php:71
+msgid "Banner Type"
+msgstr ""
+
+#: includes/tax-meta.php:79
+msgid "Banner Image"
+msgstr ""
+
+#: includes/tax-meta.php:80
+msgid "Only useful when the banner type is Image"
+msgstr ""
+
+#: includes/tax-meta.php:87
+msgid "Banner Video"
+msgstr ""
+
+#: includes/tax-meta.php:89
+msgid ""
+"Only useful when the banner type is Video. Video url (oembed) or embed code"
+msgstr ""
+
+#: includes/tax-meta.php:97 includes/options-functions.php:437
+#: includes/register-require-plugin.php:37
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/tax-meta.php:99
+msgid "Only useful when the banner type is Revolution Slider."
+msgstr ""
+
+#: includes/options-functions.php:14 includes/options-functions.php:417
+#: includes/meta-boxes.php:286 includes/meta-boxes.php:1164
+#: g5plus-framework/xmenu/inc/global.php:19
+msgid "Full Width"
+msgstr ""
+
+#: includes/options-functions.php:15 includes/options-functions.php:418
+#: includes/meta-boxes.php:287 includes/meta-boxes.php:541
+#: includes/meta-boxes.php:1166
+msgid "Container"
+msgstr ""
+
+#: includes/options-functions.php:19 includes/options-functions.php:49
+#: includes/options-functions.php:68 includes/options-functions.php:135
+#: includes/options-functions.php:172 includes/options-functions.php:405
+#: includes/options-functions.php:422 includes/options-functions.php:440
+#: includes/meta-boxes.php:39 includes/meta-boxes.php:263
+#: includes/meta-boxes.php:285 includes/meta-boxes.php:299
+#: includes/meta-boxes.php:337 includes/meta-boxes.php:390
+#: includes/meta-boxes.php:425 includes/meta-boxes.php:477
+#: includes/meta-boxes.php:540 includes/meta-boxes.php:552
+#: includes/meta-boxes.php:564 includes/meta-boxes.php:576
+#: includes/meta-boxes.php:592 includes/meta-boxes.php:653
+#: includes/meta-boxes.php:665 includes/meta-boxes.php:677
+#: includes/meta-boxes.php:690 includes/meta-boxes.php:702
+#: includes/meta-boxes.php:1163 includes/meta-boxes.php:1255
+#: includes/meta-boxes.php:1269 includes/meta-boxes.php:1282
+#: includes/meta-boxes.php:1360 g5plus-framework/xmenu/inc/global.php:315
+msgid "Default"
+msgstr ""
+
+#: includes/options-functions.php:44
+msgid "Small (1/4)"
+msgstr ""
+
+#: includes/options-functions.php:45
+msgid "Large (1/3)"
+msgstr ""
+
+#: includes/options-functions.php:63
+msgid "Tile Left & Breadcrumb Right"
+msgstr ""
+
+#: includes/options-functions.php:64 includes/options-functions.php:161
+msgid "Center"
+msgstr ""
+
+#: includes/options-functions.php:65
+msgid "Only Breadcrumb"
+msgstr ""
+
+#: includes/options-functions.php:92
+msgid "Large Image"
+msgstr ""
+
+#: includes/options-functions.php:93
+msgid "Medium Image"
+msgstr ""
+
+#: includes/options-functions.php:94
+msgid "Masonry"
+msgstr ""
+
+#: includes/options-functions.php:117
+msgid "Navigation"
+msgstr ""
+
+#: includes/options-functions.php:118 templates/paging/load-more.php:15
+msgid "Load More"
+msgstr ""
+
+#: includes/options-functions.php:119
+msgid "Infinite Scroll"
+msgstr ""
+
+#: includes/options-functions.php:130 includes/meta-boxes.php:553
+#: includes/meta-boxes.php:565
+msgid "On"
+msgstr ""
+
+#: includes/options-functions.php:131 includes/meta-boxes.php:554
+#: includes/meta-boxes.php:566
+msgid "Off"
+msgstr ""
+
+#: includes/options-functions.php:147 includes/meta-boxes.php:391
+#: includes/meta-boxes.php:478 includes/meta-boxes.php:577
+#: includes/meta-boxes.php:593 includes/meta-boxes.php:703
+#: includes/meta-boxes.php:1283 includes/meta-boxes.php:1361
+#: g5plus-framework/xmenu/inc/global.php:4
+#: g5plus-framework/xmenu/inc/global.php:396
+#: g5plus-framework/meta-box/inc/fields/select.php:91
+msgid "None"
+msgstr ""
+
+#: includes/options-functions.php:148
+msgid "Change Image"
+msgstr ""
+
+#: includes/options-functions.php:149
+msgid "Flip Back"
+msgstr ""
+
+#: includes/options-functions.php:160 g5plus-framework/xmenu/inc/global.php:408
+#: g5plus-framework/meta-box/inc/fields/padding.php:56
+msgid "Left"
+msgstr ""
+
+#: includes/options-functions.php:173
+msgid "Customize"
+msgstr ""
+
+#: includes/options-functions.php:176
+msgid "Inherit"
+msgstr ""
+
+#: includes/options-functions.php:192
+msgid "Twitter"
+msgstr ""
+
+#: includes/options-functions.php:193
+msgid "Your Twitter"
+msgstr ""
+
+#: includes/options-functions.php:201
+msgid "Facebook"
+msgstr ""
+
+#: includes/options-functions.php:202
+msgid "Your facebook page/profile url"
+msgstr ""
+
+#: includes/options-functions.php:210
+msgid "Dribbble"
+msgstr ""
+
+#: includes/options-functions.php:211
+msgid "Your Dribbble"
+msgstr ""
+
+#: includes/options-functions.php:219
+msgid "Vimeo"
+msgstr ""
+
+#: includes/options-functions.php:220
+msgid "Your Vimeo"
+msgstr ""
+
+#: includes/options-functions.php:228
+msgid "Tumblr"
+msgstr ""
+
+#: includes/options-functions.php:229
+msgid "Your Tumblr"
+msgstr ""
+
+#: includes/options-functions.php:237
+msgid "Skype"
+msgstr ""
+
+#: includes/options-functions.php:238
+msgid "Your Skype username"
+msgstr ""
+
+#: includes/options-functions.php:246
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/options-functions.php:247
+msgid "Your LinkedIn page/profile url"
+msgstr ""
+
+#: includes/options-functions.php:255
+msgid "Google+"
+msgstr ""
+
+#: includes/options-functions.php:256
+msgid "Your Google+ page/profile URL"
+msgstr ""
+
+#: includes/options-functions.php:264
+msgid "Flickr"
+msgstr ""
+
+#: includes/options-functions.php:265
+msgid "Your Flickr page url"
+msgstr ""
+
+#: includes/options-functions.php:273
+msgid "YouTube"
+msgstr ""
+
+#: includes/options-functions.php:274
+msgid "Your YouTube URL"
+msgstr ""
+
+#: includes/options-functions.php:282
+msgid "Pinterest"
+msgstr ""
+
+#: includes/options-functions.php:283
+msgid "Your Pinterest"
+msgstr ""
+
+#: includes/options-functions.php:291
+msgid "Foursquare"
+msgstr ""
+
+#: includes/options-functions.php:292
+msgid "Your Foursqaure URL"
+msgstr ""
+
+#: includes/options-functions.php:300
+msgid "Instagram"
+msgstr ""
+
+#: includes/options-functions.php:301
+msgid "Your Instagram"
+msgstr ""
+
+#: includes/options-functions.php:309
+msgid "GitHub"
+msgstr ""
+
+#: includes/options-functions.php:310
+msgid "Your GitHub URL"
+msgstr ""
+
+#: includes/options-functions.php:318
+msgid "Xing"
+msgstr ""
+
+#: includes/options-functions.php:319
+msgid "Your Xing URL"
+msgstr ""
+
+#: includes/options-functions.php:327
+msgid "Behance"
+msgstr ""
+
+#: includes/options-functions.php:328
+msgid "Your Behance URL"
+msgstr ""
+
+#: includes/options-functions.php:336
+msgid "Deviantart"
+msgstr ""
+
+#: includes/options-functions.php:337
+msgid "Your Deviantart URL"
+msgstr ""
+
+#: includes/options-functions.php:345
+msgid "SoundCloud"
+msgstr ""
+
+#: includes/options-functions.php:346
+msgid "Your SoundCloud URL"
+msgstr ""
+
+#: includes/options-functions.php:354
+msgid "Yelp"
+msgstr ""
+
+#: includes/options-functions.php:355
+msgid "Your Yelp URL"
+msgstr ""
+
+#: includes/options-functions.php:363
+msgid "RSS Feed"
+msgstr ""
+
+#: includes/options-functions.php:364
+msgid "Your RSS Feed URL"
+msgstr ""
+
+#: includes/options-functions.php:372
+msgid "VK"
+msgstr ""
+
+#: includes/options-functions.php:373
+msgid "Your VK URL"
+msgstr ""
+
+#: includes/options-functions.php:381
+msgid "Email address"
+msgstr ""
+
+#: includes/options-functions.php:382
+msgid "Your email address"
+msgstr ""
+
+#: includes/options-functions.php:397
+msgid "Classic"
+msgstr ""
+
+#: includes/options-functions.php:398
+msgid "Classic Without Border"
+msgstr ""
+
+#: includes/options-functions.php:399
+msgid "Border Round"
+msgstr ""
+
+#: includes/options-functions.php:400
+msgid "Border Round Background"
+msgstr ""
+
+#: includes/options-functions.php:401
+msgid "Border"
+msgstr ""
+
+#: includes/options-functions.php:402
+msgid "Border Background"
+msgstr ""
+
+#: includes/options-functions.php:434
+msgid "No Banner"
+msgstr ""
+
+#: includes/options-functions.php:435 g5plus-framework/xmenu/inc/global.php:236
+#: g5plus-framework/xmenu/inc/global.php:240
+msgid "Image"
+msgstr ""
+
+#: includes/options-functions.php:436
+msgid "Video"
+msgstr ""
+
+#: includes/options-functions.php:452
+msgid "Select Slider"
+msgstr ""
+
+#: includes/options-functions.php:473
+msgid "Button"
+msgstr ""
+
+#: includes/options-functions.php:474
+msgid "Box"
+msgstr ""
+
+#: includes/options-functions.php:475
+msgid "Box Small"
+msgstr ""
+
+#: includes/options-functions.php:476
+msgid "Product Category"
+msgstr ""
+
+#: includes/sidebar.php:6
+msgid "Main Sidebar"
+msgstr ""
+
+#: includes/sidebar.php:8
+msgid "Add widgets here to appear in your sidebar"
+msgstr ""
+
+#: includes/sidebar.php:16 includes/sidebar.php:18
+msgid "Top Drawer"
+msgstr ""
+
+#: includes/sidebar.php:25 includes/sidebar.php:27
+msgid "Top Bar Left"
+msgstr ""
+
+#: includes/sidebar.php:35 includes/sidebar.php:37
+msgid "Top Bar Right"
+msgstr ""
+
+#: includes/sidebar.php:45 includes/sidebar.php:47
+msgid "Footer 1"
+msgstr ""
+
+#: includes/sidebar.php:55 includes/sidebar.php:57
+msgid "Footer 2"
+msgstr ""
+
+#: includes/sidebar.php:65 includes/sidebar.php:67
+msgid "Footer 3"
+msgstr ""
+
+#: includes/sidebar.php:75 includes/sidebar.php:77
+msgid "Footer 4"
+msgstr ""
+
+#: includes/sidebar.php:85 includes/sidebar.php:87
+msgid "Bottom Bar Left"
+msgstr ""
+
+#: includes/sidebar.php:95 includes/sidebar.php:97
+msgid "Bottom Bar Right"
+msgstr ""
+
+#: includes/sidebar.php:106 includes/sidebar.php:108
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/sidebar.php:116 includes/sidebar.php:118
+msgid "Single Product"
+msgstr ""
+
+#: includes/sidebar.php:126
+msgid "Canvas Menu"
+msgstr ""
+
+#: includes/sidebar.php:128
+msgid "Canvas Menu Widget Area"
+msgstr ""
+
+#: includes/theme-setup.php:29
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/theme-setup.php:30
+msgid "Mobile Menu"
+msgstr ""
+
+#: includes/meta-boxes.php:30
+msgid "Page Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:35
+msgid "Layout Style"
+msgstr ""
+
+#: includes/meta-boxes.php:40
+msgid "Boxed"
+msgstr ""
+
+#: includes/meta-boxes.php:41
+msgid "Wide"
+msgstr ""
+
+#: includes/meta-boxes.php:47 includes/meta-boxes.php:1172
+#: g5plus-framework/core/widget-custom-class.php:8
+#: g5plus-framework/xmenu/inc/global.php:297
+#: g5plus-framework/xmenu/inc/global.php:301
+msgid "Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:55
+msgid "Sidebar Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:69 includes/meta-boxes.php:737
+#: includes/meta-boxes.php:771 includes/meta-boxes.php:819
+#: includes/meta-boxes.php:853 includes/meta-boxes.php:901
+#: includes/meta-boxes.php:935
+msgid "Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:72 includes/meta-boxes.php:274
+#: includes/meta-boxes.php:367 includes/meta-boxes.php:378
+#: includes/meta-boxes.php:455 includes/meta-boxes.php:466
+#: includes/meta-boxes.php:775 includes/meta-boxes.php:857
+#: includes/meta-boxes.php:939 includes/meta-boxes.php:1196
+#: includes/meta-boxes.php:1208 includes/meta-boxes.php:1220
+#: includes/meta-boxes.php:1232 includes/meta-boxes.php:1336
+#: includes/meta-boxes.php:1347
+msgid "Select Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:78
+msgid "Sidebar Width"
+msgstr ""
+
+#: includes/meta-boxes.php:88
+msgid "Sidebar Mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:98
+msgid "Canvas Sidebar Mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:110
+msgid "Remove Content Padding"
+msgstr ""
+
+#: includes/meta-boxes.php:118
+msgid "Content Padding"
+msgstr ""
+
+#: includes/meta-boxes.php:119
+msgid ""
+"Set content top/bottom padding. Do not include units (empty to set default). "
+"Allow values (0,5,10,15....100)"
+msgstr ""
+
+#: includes/meta-boxes.php:130
+msgid "Content Padding Mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:131
+msgid ""
+"Set content top/bottom padding mobile. Do not include units (empty to set "
+"default). Allow values (0,5,10,15....100)"
+msgstr ""
+
+#: includes/meta-boxes.php:143
+msgid "Page Class Extra"
+msgstr ""
+
+#: includes/meta-boxes.php:154
+msgid "Logo"
+msgstr ""
+
+#: includes/meta-boxes.php:159 includes/meta-boxes.php:326
+#: includes/meta-boxes.php:506
+msgid "Desktop Settings"
+msgstr ""
+
+#: includes/meta-boxes.php:166
+msgid "Header Logo"
+msgstr ""
+
+#: includes/meta-boxes.php:167
+msgid "Upload custom logo in header."
+msgstr ""
+
+#: includes/meta-boxes.php:173
+msgid "Header Logo Retina"
+msgstr ""
+
+#: includes/meta-boxes.php:174
+msgid "Upload custom logo retina in header."
+msgstr ""
+
+#: includes/meta-boxes.php:180
+msgid "Sticky Logo"
+msgstr ""
+
+#: includes/meta-boxes.php:181
+msgid "Upload sticky logo in header (empty to default)"
+msgstr ""
+
+#: includes/meta-boxes.php:187
+msgid "Sticky Logo Retina"
+msgstr ""
+
+#: includes/meta-boxes.php:188
+msgid "Upload sticky logo retina in header (empty to default)"
+msgstr ""
+
+#: includes/meta-boxes.php:194
+msgid "Logo max height"
+msgstr ""
+
+#: includes/meta-boxes.php:195 includes/meta-boxes.php:233
+msgid "Logo max height (px). Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:201
+msgid "Logo padding"
+msgstr ""
+
+#: includes/meta-boxes.php:202
+msgid "Logo padding top. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:211 includes/meta-boxes.php:415
+msgid "Mobile Settings"
+msgstr ""
+
+#: includes/meta-boxes.php:218
+msgid "Mobile Logo"
+msgstr ""
+
+#: includes/meta-boxes.php:219
+msgid "Upload mobile logo in header."
+msgstr ""
+
+#: includes/meta-boxes.php:225
+msgid "Mobile Logo Retina"
+msgstr ""
+
+#: includes/meta-boxes.php:226
+msgid "Upload mobile logo retina in header."
+msgstr ""
+
+#: includes/meta-boxes.php:232
+msgid "Mobile Logo Max Height"
+msgstr ""
+
+#: includes/meta-boxes.php:239
+msgid "Mobile logo padding"
+msgstr ""
+
+#: includes/meta-boxes.php:240
+msgid "Mobile logo padding top. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:253
+msgid "Top drawer"
+msgstr ""
+
+#: includes/meta-boxes.php:258
+msgid "Top Drawer Type"
+msgstr ""
+
+#: includes/meta-boxes.php:264 includes/meta-boxes.php:667
+msgid "Disable"
+msgstr ""
+
+#: includes/meta-boxes.php:265
+msgid "Always Show"
+msgstr ""
+
+#: includes/meta-boxes.php:266
+msgid "Toggle"
+msgstr ""
+
+#: includes/meta-boxes.php:268
+msgid "Top drawer type"
+msgstr ""
+
+#: includes/meta-boxes.php:271
+msgid "Top Drawer Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:280
+msgid "Top Drawer Wrapper Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:288 includes/meta-boxes.php:1165
+msgid "Container Fluid"
+msgstr ""
+
+#: includes/meta-boxes.php:294
+msgid "Top Drawer hide on mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:300
+msgid "Show on mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:301
+msgid "Hide on mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:307
+msgid "Top drawer padding"
+msgstr ""
+
+#: includes/meta-boxes.php:308
+msgid "Top drawer padding top. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:321
+msgid "Top Bar"
+msgstr ""
+
+#: includes/meta-boxes.php:332 includes/meta-boxes.php:421
+msgid "Show/Hide Top Bar"
+msgstr ""
+
+#: includes/meta-boxes.php:338 includes/meta-boxes.php:426
+#: includes/meta-boxes.php:678 includes/meta-boxes.php:691
+msgid "Show"
+msgstr ""
+
+#: includes/meta-boxes.php:339 includes/meta-boxes.php:427
+#: includes/meta-boxes.php:679 includes/meta-boxes.php:692
+msgid "Hide"
+msgstr ""
+
+#: includes/meta-boxes.php:341 includes/meta-boxes.php:430
+msgid "Show/Hide Top Bar."
+msgstr ""
+
+#: includes/meta-boxes.php:345 includes/meta-boxes.php:433
+msgid "Top Bar Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:363 includes/meta-boxes.php:451
+msgid "Top Left Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:374 includes/meta-boxes.php:462
+msgid "Top Right Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:385 includes/meta-boxes.php:472
+msgid "Top Bar Border"
+msgstr ""
+
+#: includes/meta-boxes.php:392 includes/meta-boxes.php:479
+#: includes/meta-boxes.php:578 includes/meta-boxes.php:594
+#: includes/meta-boxes.php:1284 includes/meta-boxes.php:1362
+msgid "Full Border"
+msgstr ""
+
+#: includes/meta-boxes.php:393 includes/meta-boxes.php:480
+#: includes/meta-boxes.php:579 includes/meta-boxes.php:595
+#: includes/meta-boxes.php:1285 includes/meta-boxes.php:1363
+msgid "Container Border"
+msgstr ""
+
+#: includes/meta-boxes.php:395 includes/meta-boxes.php:482
+msgid "Show Hide Top Bar."
+msgstr ""
+
+#: includes/meta-boxes.php:402
+msgid "Top bar padding"
+msgstr ""
+
+#: includes/meta-boxes.php:403
+msgid "Top bar padding top. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:494
+msgid "Header"
+msgstr ""
+
+#: includes/meta-boxes.php:499
+msgid "Header On/Off?"
+msgstr ""
+
+#: includes/meta-boxes.php:502
+msgid "Turn ON/Off Header"
+msgstr ""
+
+#: includes/meta-boxes.php:513
+msgid "Header Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:536
+msgid "Header Container Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:542
+msgid "Container Full"
+msgstr ""
+
+#: includes/meta-boxes.php:548
+msgid "Header Float"
+msgstr ""
+
+#: includes/meta-boxes.php:560
+msgid "Show/Hide Header Sticky"
+msgstr ""
+
+#: includes/meta-boxes.php:572
+msgid "Header border bottom"
+msgstr ""
+
+#: includes/meta-boxes.php:588
+msgid "Header above border bottom"
+msgstr ""
+
+#: includes/meta-boxes.php:604
+msgid "Header padding"
+msgstr ""
+
+#: includes/meta-boxes.php:605
+msgid "Header padding top. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:615
+msgid "Navigation height"
+msgstr ""
+
+#: includes/meta-boxes.php:617
+msgid "Set header navigation height (px). Do not include unit."
+msgstr ""
+
+#: includes/meta-boxes.php:627
+msgid "Page Header Mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:634
+msgid "Header Mobile Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:649
+msgid "Menu Drop Type"
+msgstr ""
+
+#: includes/meta-boxes.php:654
+msgid "Dropdown Menu"
+msgstr ""
+
+#: includes/meta-boxes.php:655
+msgid "Fly Menu"
+msgstr ""
+
+#: includes/meta-boxes.php:661
+msgid "Header mobile sticky"
+msgstr ""
+
+#: includes/meta-boxes.php:666
+msgid "Enable"
+msgstr ""
+
+#: includes/meta-boxes.php:672
+msgid "Mobile Header Search Box"
+msgstr ""
+
+#: includes/meta-boxes.php:685
+msgid "Mobile Header Shopping Cart"
+msgstr ""
+
+#: includes/meta-boxes.php:698
+msgid "Mobile header border bottom"
+msgstr ""
+
+#: includes/meta-boxes.php:704
+msgid "Bordered"
+msgstr ""
+
+#: includes/meta-boxes.php:714
+msgid "Header Customize"
+msgstr ""
+
+#: includes/meta-boxes.php:720 includes/meta-boxes.php:727
+msgid "Header Customize Left"
+msgstr ""
+
+#: includes/meta-boxes.php:731
+msgid "Select element for header customize left. Drag to change element order"
+msgstr ""
+
+#: includes/meta-boxes.php:733 includes/meta-boxes.php:743
+#: includes/meta-boxes.php:815 includes/meta-boxes.php:825
+#: includes/meta-boxes.php:897 includes/meta-boxes.php:907
+msgid "Email"
+msgstr ""
+
+#: includes/meta-boxes.php:734 includes/meta-boxes.php:753
+#: includes/meta-boxes.php:816 includes/meta-boxes.php:835
+#: includes/meta-boxes.php:898 includes/meta-boxes.php:917
+msgid "Phone"
+msgstr ""
+
+#: includes/meta-boxes.php:735 includes/meta-boxes.php:817
+#: includes/meta-boxes.php:899
+msgid "Shopping Cart"
+msgstr ""
+
+#: includes/meta-boxes.php:736 includes/meta-boxes.php:818
+#: includes/meta-boxes.php:900
+msgid "Search Button"
+msgstr ""
+
+#: includes/meta-boxes.php:738 includes/meta-boxes.php:820
+#: includes/meta-boxes.php:902
+msgid "Custom Text"
+msgstr ""
+
+#: includes/meta-boxes.php:747 includes/meta-boxes.php:829
+#: includes/meta-boxes.php:911
+msgid "Email Us"
+msgstr ""
+
+#: includes/meta-boxes.php:757 includes/meta-boxes.php:839
+#: includes/meta-boxes.php:921
+msgid "Call Us"
+msgstr ""
+
+#: includes/meta-boxes.php:763 includes/meta-boxes.php:845
+#: includes/meta-boxes.php:927
+msgid "Search Type"
+msgstr ""
+
+#: includes/meta-boxes.php:779
+msgid "Custom text content left"
+msgstr ""
+
+#: includes/meta-boxes.php:787 includes/meta-boxes.php:869
+#: includes/meta-boxes.php:951
+msgid "Navigation Item Spacing (px)"
+msgstr ""
+
+#: includes/meta-boxes.php:802 includes/meta-boxes.php:809
+msgid "Header Customize Right"
+msgstr ""
+
+#: includes/meta-boxes.php:813
+msgid "Select element for header customize right. Drag to change element order"
+msgstr ""
+
+#: includes/meta-boxes.php:861
+msgid "Custom text content right"
+msgstr ""
+
+#: includes/meta-boxes.php:884 includes/meta-boxes.php:891
+msgid "Header Customize Navigation"
+msgstr ""
+
+#: includes/meta-boxes.php:895
+msgid ""
+"Select element for header customize navigation. Drag to change element order"
+msgstr ""
+
+#: includes/meta-boxes.php:943
+msgid "Custom text content"
+msgstr ""
+
+#: includes/meta-boxes.php:969 templates/header/header-10.php:71
+#: templates/header/header-8.php:71
+msgid "Menu"
+msgstr ""
+
+#: includes/meta-boxes.php:974
+msgid "Page menu"
+msgstr ""
+
+#: includes/meta-boxes.php:978 includes/meta-boxes.php:989
+msgid "Select Menu"
+msgstr ""
+
+#: includes/meta-boxes.php:981
+msgid "Optionally you can choose to override the menu that is used on the page"
+msgstr ""
+
+#: includes/meta-boxes.php:985
+msgid "Page menu mobile"
+msgstr ""
+
+#: includes/meta-boxes.php:992
+msgid ""
+"Optionally you can choose to override the menu mobile that is used on the "
+"page"
+msgstr ""
+
+#: includes/meta-boxes.php:996
+msgid "Is One Page"
+msgstr ""
+
+#: includes/meta-boxes.php:1000
+msgid "Set page style is One Page"
+msgstr ""
+
+#: includes/meta-boxes.php:1023
+msgid "Page Title Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:1032
+msgid "Custom Page Title"
+msgstr ""
+
+#: includes/meta-boxes.php:1034 includes/meta-boxes.php:1057
+msgid "Enter a custom page title if you'd like."
+msgstr ""
+
+#: includes/meta-boxes.php:1044
+msgid "Custom Page Subtitle?"
+msgstr ""
+
+#: includes/meta-boxes.php:1055
+msgid "Custom Page Subtitle"
+msgstr ""
+
+#: includes/meta-boxes.php:1069 g5plus-framework/xmenu/inc/global.php:322
+#: g5plus-framework/xmenu/inc/global.php:616
+msgid "Padding"
+msgstr ""
+
+#: includes/meta-boxes.php:1070
+msgid "Enter a page title padding top value (not include unit)"
+msgstr ""
+
+#: includes/meta-boxes.php:1083
+msgid "Custom Background Image?"
+msgstr ""
+
+#: includes/meta-boxes.php:1096 includes/meta-boxes.php:1241
+#: g5plus-framework/xmenu/inc/global.php:482
+#: g5plus-framework/xmenu/inc/global.php:553
+msgid "Background Image"
+msgstr ""
+
+#: includes/meta-boxes.php:1097
+msgid "Background Image for page title."
+msgstr ""
+
+#: includes/meta-boxes.php:1108
+msgid "Page Title Parallax"
+msgstr ""
+
+#: includes/meta-boxes.php:1110
+msgid "Enable Page Title Parallax"
+msgstr ""
+
+#: includes/meta-boxes.php:1122
+msgid "Breadcrumbs Enable"
+msgstr ""
+
+#: includes/meta-boxes.php:1124
+msgid "Show/Hide Breadcrumbs"
+msgstr ""
+
+#: includes/meta-boxes.php:1140
+msgid "Footer"
+msgstr ""
+
+#: includes/meta-boxes.php:1145
+msgid "General Settings"
+msgstr ""
+
+#: includes/meta-boxes.php:1151
+msgid "Show/Hide Footer"
+msgstr ""
+
+#: includes/meta-boxes.php:1155
+msgid "Show/hide footer"
+msgstr ""
+
+#: includes/meta-boxes.php:1158
+msgid "Footer Container Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:1168
+msgid "Select Footer Wrapper Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:1189
+msgid "Select Footer Layout (Not set to default)."
+msgstr ""
+
+#: includes/meta-boxes.php:1193
+msgid "Sidebar 1"
+msgstr ""
+
+#: includes/meta-boxes.php:1205
+msgid "Sidebar 2"
+msgstr ""
+
+#: includes/meta-boxes.php:1217
+msgid "Sidebar 3"
+msgstr ""
+
+#: includes/meta-boxes.php:1229
+msgid "Sidebar 4"
+msgstr ""
+
+#: includes/meta-boxes.php:1242
+msgid "Set footer background image"
+msgstr ""
+
+#: includes/meta-boxes.php:1250
+msgid "Footer Parallax"
+msgstr ""
+
+#: includes/meta-boxes.php:1259
+msgid "Enable Footer Parallax"
+msgstr ""
+
+#: includes/meta-boxes.php:1264
+msgid "Collapse footer on mobile device"
+msgstr ""
+
+#: includes/meta-boxes.php:1273
+msgid "Enable collapse footer"
+msgstr ""
+
+#: includes/meta-boxes.php:1277
+msgid "Footer Border Top"
+msgstr ""
+
+#: includes/meta-boxes.php:1291
+msgid "Footer padding"
+msgstr ""
+
+#: includes/meta-boxes.php:1292
+msgid "Footer padding top. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:1303
+msgid "Bottom Bar Settings"
+msgstr ""
+
+#: includes/meta-boxes.php:1309
+msgid "Show/Hide Bottom Bar"
+msgstr ""
+
+#: includes/meta-boxes.php:1313
+msgid "Turn ON/OFF Bottom Bar."
+msgstr ""
+
+#: includes/meta-boxes.php:1316
+msgid "Bottom Bar Layout"
+msgstr ""
+
+#: includes/meta-boxes.php:1328
+msgid "Bottom bar layout."
+msgstr ""
+
+#: includes/meta-boxes.php:1333
+msgid "Bottom Bar Left Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:1344
+msgid "Bottom Bar Right Sidebar"
+msgstr ""
+
+#: includes/meta-boxes.php:1355
+msgid "Bottom Bar Border Top"
+msgstr ""
+
+#: includes/meta-boxes.php:1369
+msgid "Bottom bar padding"
+msgstr ""
+
+#: includes/meta-boxes.php:1370
+msgid "Set bottom bar padding. Do not include units (empty to set default)"
+msgstr ""
+
+#: includes/meta-boxes.php:1385
+msgid "Page Colors"
+msgstr ""
+
+#: includes/meta-boxes.php:1390
+msgid "Accent Color Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1397
+msgid "Accent color"
+msgstr ""
+
+#: includes/meta-boxes.php:1404
+msgid "Foreground Accent color"
+msgstr ""
+
+#: includes/meta-boxes.php:1413
+msgid "Top Drawer Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1420
+msgid "Top drawer background color"
+msgstr ""
+
+#: includes/meta-boxes.php:1427
+msgid "Top drawer text color"
+msgstr ""
+
+#: includes/meta-boxes.php:1436
+msgid "Top Bar Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1443
+msgid "Top bar background color"
+msgstr ""
+
+#: includes/meta-boxes.php:1450
+msgid "Top bar overlay"
+msgstr ""
+
+#: includes/meta-boxes.php:1452 includes/meta-boxes.php:1551
+msgid ""
+"Set the opacity level of the top bar background color (apply for header "
+"float)"
+msgstr ""
+
+#: includes/meta-boxes.php:1465
+msgid "Top bar text color"
+msgstr ""
+
+#: includes/meta-boxes.php:1472
+msgid "Top bar border color"
+msgstr ""
+
+#: includes/meta-boxes.php:1481
+msgid "Header Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1488
+msgid "Header background color"
+msgstr ""
+
+#: includes/meta-boxes.php:1495
+msgid "Header overlay"
+msgstr ""
+
+#: includes/meta-boxes.php:1497
+msgid ""
+"Set the opacity level of the header background color (apply for header float)"
+msgstr ""
+
+#: includes/meta-boxes.php:1510
+msgid "Header text color"
+msgstr ""
+
+#: includes/meta-boxes.php:1517
+msgid "Header border color"
+msgstr ""
+
+#: includes/meta-boxes.php:1524
+msgid "Header above border color"
+msgstr ""
+
+#: includes/meta-boxes.php:1535
+msgid "Navigation Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1542
+msgid "Navigation background color"
+msgstr ""
+
+#: includes/meta-boxes.php:1549
+msgid "Navigation overlay"
+msgstr ""
+
+#: includes/meta-boxes.php:1564
+msgid "Navigation text color"
+msgstr ""
+
+#: includes/meta-boxes.php:1571
+msgid "Navigation text hover color"
+msgstr ""
+
+#: includes/meta-boxes.php:1580
+msgid "Footer Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1587
+msgid "Footer background color"
+msgstr ""
+
+#: includes/meta-boxes.php:1594
+msgid "Footer text color"
+msgstr ""
+
+#: includes/meta-boxes.php:1601
+msgid "Footer widget title color"
+msgstr ""
+
+#: includes/meta-boxes.php:1608
+msgid "Footer border color"
+msgstr ""
+
+#: includes/meta-boxes.php:1617
+msgid "Bottom Bar Customize?"
+msgstr ""
+
+#: includes/meta-boxes.php:1624
+msgid "Bottom bar background color"
+msgstr ""
+
+#: includes/meta-boxes.php:1631
+msgid "Bottom bar text color"
+msgstr ""
+
+#: includes/meta-boxes.php:1638
+msgid "Bottom bar border color"
+msgstr ""
+
+#: includes/frontend-enqueue.php:105
+msgid "Compare"
+msgstr ""
+
+#: includes/frontend-enqueue.php:106
+msgid "Next"
+msgstr ""
+
+#: includes/frontend-enqueue.php:107
+msgid "Back"
+msgstr ""
+
+#: includes/register-require-plugin.php:27
+msgid "Orson Framework"
+msgstr ""
+
+#: includes/register-require-plugin.php:47
+msgid "Visual Composer"
+msgstr ""
+
+#: includes/register-require-plugin.php:57
+msgid "Envato WordPress Toolkit"
+msgstr ""
+
+#: includes/register-require-plugin.php:67
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/register-require-plugin.php:72
+msgid "WP Mail SMTP"
+msgstr ""
+
+#: includes/register-require-plugin.php:77
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/register-require-plugin.php:82
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: includes/register-require-plugin.php:87
+msgid "YITH Woocommerce Compare"
+msgstr ""
+
+#: includes/register-require-plugin.php:93
+msgid "YITH WooCommerce Ajax Navigation"
+msgstr ""
+
+#: includes/register-require-plugin.php:99
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: includes/register-require-plugin.php:104
+msgid "WP Instagram Widget"
+msgstr ""
+
+#: includes/register-require-plugin.php:109
+msgid "WP User Avatar"
+msgstr ""
+
+#: includes/register-require-plugin.php:138
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/register-require-plugin.php:139
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/register-require-plugin.php:140
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/register-require-plugin.php:141
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/register-require-plugin.php:142
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:143
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:144
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:145
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:146
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:147
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:148
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:149
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:150
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:151
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/register-require-plugin.php:152
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/register-require-plugin.php:153
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/register-require-plugin.php:154
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: templates/content-page.php:15 templates/single/content.php:20
+msgid "Pages:"
+msgstr ""
+
+#: templates/site-loading.php:18
+msgid "Logo Loading"
+msgstr ""
+
+#: templates/page-title.php:16 templates/breadcrumb.php:15
+msgid "Blog"
+msgstr ""
+
+#: templates/page-title.php:24
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/page-title.php:26
+msgid "Tags: "
+msgstr ""
+
+#: templates/page-title.php:30
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: templates/page-title.php:32
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: templates/page-title.php:34
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: templates/page-title.php:34
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: templates/page-title.php:36
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: templates/page-title.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: templates/page-title.php:38
+#, php-format
+msgid "Search Results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#: templates/page-title.php:40
+msgid "Asides"
+msgstr ""
+
+#: templates/page-title.php:42
+msgid "Galleries"
+msgstr ""
+
+#: templates/page-title.php:44
+msgid "Images"
+msgstr ""
+
+#: templates/page-title.php:46
+msgid "Videos"
+msgstr ""
+
+#: templates/page-title.php:48
+msgid "Quotes"
+msgstr ""
+
+#: templates/page-title.php:50
+msgid "Links"
+msgstr ""
+
+#: templates/page-title.php:52
+msgid "Statuses"
+msgstr ""
+
+#: templates/page-title.php:54
+msgid "Audios"
+msgstr ""
+
+#: templates/page-title.php:56
+msgid "Chats"
+msgstr ""
+
+#: templates/page-title.php:63
+msgid "Our Team"
+msgstr ""
+
+#: templates/page-title.php:67
+msgid "Portfolio"
+msgstr ""
+
+#: templates/page-title.php:70
+msgid "Archives"
+msgstr ""
+
+#: templates/social-share.php:19
+msgid "Share This Post"
+msgstr "Chia sẻ bài viết này:"
+
+#: templates/breadcrumb.php:14 g5plus-framework/core/breadcrumb.php:44
+#: g5plus-framework/core/breadcrumb.php:50
+msgid "Home"
+msgstr ""
+
+#: templates/paging/navigation.php:36
+msgid "<i class=\"fa fa-arrow-left\"></i> <span>Previous</span>"
+msgstr ""
+
+#: templates/paging/navigation.php:37
+msgid "<span>Next</span> <i class=\"fa fa-arrow-right\"></i>"
+msgstr ""
+
+#: templates/paging/load-more.php:14
+#: g5plus-framework/post-format-ui/post-format-ui.php:55
+msgid "Loading..."
+msgstr ""
+
+#: templates/single/post-nav.php:15
+msgctxt "Previous post link"
+msgid ""
+"<i class=\"post-navigation-icon fa fa-chevron-left\"></i> <div class=\"post-"
+"navigation-content\"><div class=\"post-navigation-label\">Previous Post</div>"
+" <div class=\"post-navigation-title\">%title </div> </div> "
+msgstr ""
+"<i class=\"post-navigation-icon fa fa-chevron-left\"></i> <div class=\"post-"
+"navigation-content\"><div class=\"post-navigation-label\">Bài trước</div> "
+"<div class=\"post-navigation-title\">%title </div> </div> "
+
+#: templates/single/post-nav.php:16
+msgctxt "Next post link"
+msgid ""
+"<i class=\"post-navigation-icon fa fa-chevron-right\"></i> <div class=\"post-"
+"navigation-content\"><div class=\"post-navigation-label\">Next Post</div> "
+"<div class=\"post-navigation-title\">%title</div></div> "
+msgstr ""
+"<i class=\"post-navigation-icon fa fa-chevron-right\"></i> <div class=\"post-"
+"navigation-content\"><div class=\"post-navigation-label\">Bài sau</div> <div "
+"class=\"post-navigation-title\">%title</div></div> "
+
+#: templates/single/comment.php:16 templates/archive/post-meta.php:23
+msgid "Edit"
+msgstr "Sửa"
+
+#: templates/single/comment.php:25
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/single/author-info.php:13
+msgid "Author"
+msgstr ""
+
+#: templates/single/related.php:67
+msgid "Related Posts"
+msgstr ""
+
+#: templates/single/content.php:29
+msgid "Tags"
+msgstr ""
+
+#: templates/header/header-4.php:41 templates/header/header-12.php:41
+msgid "All Categories"
+msgstr ""
+
+#: templates/header/header-10.php:33 templates/header/header-8.php:33
+msgid "Product Categories"
+msgstr ""
+
+#: templates/header/header-10.php:41 templates/header/header-8.php:41
+#: templates/header/customize-search-product-category.php:10
+#: g5plus-framework/core/base.php:259
+msgid "Select Category"
+msgstr ""
+
+#: templates/header/search-popup-ajax.php:3
+msgid "Type at least 3 characters to search"
+msgstr ""
+
+#: templates/header/search-popup-standard.php:16
+msgid "Enter your keyword"
+msgstr ""
+
+#: templates/header/search-popup-standard.php:18
+msgid "Type and hit enter..."
+msgstr ""
+
+#: templates/header/search-popup-standard.php:19
+msgid "Search"
+msgstr ""
+
+#: templates/archive/post-meta.php:13
+msgid "Posted by"
+msgstr "Đăng bởi"
+
+#: templates/archive/post-meta.php:16
+msgid "in"
+msgstr ""
+
+#: templates/archive/post-meta.php:20
+msgid "<i class=\"fa fa-comments\"></i> 0 comments"
+msgstr "0 bình luận"
+
+#: templates/archive/post-meta.php:20
+msgid "<i class=\"fa fa-comments\"></i> 1 comment"
+msgstr "1 bình luận"
+
+#: templates/archive/post-meta.php:20
+#, php-format
+msgid "<i class=\"fa fa-comments\"></i> % comments"
+msgstr "bình luận"
+
+#: templates/archive/content-none.php:12
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/archive/content-none.php:14
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/archive/content-none.php:17
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: g5plus-framework/core/action.php:54 g5plus-framework/core/action.php:116
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: g5plus-framework/core/action.php:59 g5plus-framework/core/action.php:125
+msgid "View More"
+msgstr ""
+
+#: g5plus-framework/core/generate-less.php:105
+#: g5plus-framework/core/generate-less.php:118
+#: g5plus-framework/core/generate-less.php:129
+#: g5plus-framework/core/generate-less.php:139
+#: g5plus-framework/core/generate-less.php:150
+#: g5plus-framework/core/generate-less.php:160
+msgid "Could not save file"
+msgstr ""
+
+#: g5plus-framework/core/widget-custom-class.php:17
+msgid "CSS Class"
+msgstr ""
+
+#: g5plus-framework/core/resize.php:43
+msgid "No image URL has been entered."
+msgstr ""
+
+#: g5plus-framework/core/resize.php:97
+msgid "Image is BMP. Please use either JPG or PNG."
+msgstr ""
+
+#: g5plus-framework/core/base.php:147 g5plus-framework/core/base.php:152
+msgid "We are currently in maintenance mode, please check back shortly."
+msgstr ""
+
+#: g5plus-framework/core/breadcrumb.php:117
+#: g5plus-framework/core/breadcrumb.php:120
+#: g5plus-framework/core/breadcrumb.php:123
+msgid "Archives for "
+msgstr ""
+
+#: g5plus-framework/core/breadcrumb.php:125
+msgid "Archives by: "
+msgstr ""
+
+#: g5plus-framework/core/breadcrumb.php:130
+msgid "Search results"
+msgstr ""
+
+#: g5plus-framework/core/breadcrumb.php:136
+msgid "Page Not Found"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/post-format-ui.php:57
+msgid "Pick Gallery Images"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/post-format-ui.php:58
+msgid "Add Image(s)"
+msgstr ""
+
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:379
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:379
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:426
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:426
+#: g5plus-framework/meta-box/inc/fields/file-input.php:43
+msgid "Remove"
+msgstr ""
+
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:392
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:392
+msgid "Add"
+msgstr ""
+
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:725
+msgid "Remove Image"
+msgstr ""
+
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:727
+#: g5plus-framework/tax-meta-class/Tax-meta-class.php:1742
+msgid "Upload Image"
+msgstr ""
+
+#: woocommerce/loop/sale-count-down.php:51
+msgid "Days"
+msgstr ""
+
+#: woocommerce/loop/sale-count-down.php:55
+msgid "Hours"
+msgstr ""
+
+#: woocommerce/loop/sale-count-down.php:59
+msgid "Mins"
+msgstr ""
+
+#: woocommerce/loop/sale-count-down.php:63
+msgid "Secs"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:24
+msgid "Sort By:"
+msgstr ""
+
+#: woocommerce/loop/page-size.php:21
+msgid "View:"
+msgstr ""
+
+#: woocommerce/loop/quick-view.php:12
+msgid "Quick view"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-video.php:4
+msgid "Video URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-gallery.php:3
+msgid "Gallery Images"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-gallery.php:22
+msgid "Pick Images"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-link.php:4
+#: g5plus-framework/meta-box/inc/fields/label-text.php:38
+#: g5plus-framework/options/inc/fields/label_value/field_label_value.php:51
+msgid "Text"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-link.php:8
+msgid "Url"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-quote.php:4
+msgid "Quote Content"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-quote.php:8
+msgid "Author Name"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-quote.php:12
+msgid "Author Url"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/format-audio.php:4
+msgid "Audio URL (oEmbed) or Embed Code"
+msgstr ""
+
+#: g5plus-framework/post-format-ui/views/tabs.php:9
+#: g5plus-framework/xmenu/inc/global.php:353
+#: g5plus-framework/xmenu/inc/global.php:631
+msgid "Standard"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/field.php:202
+msgid "+ Add more"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/validation.php:42
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/menu-item.php:12
+msgid "Save Changes"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/menu-item.php:22
+msgid "Reset"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/menu-item.php:44
+msgid "Type to search..."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/menu-item.php:203
+#: g5plus-framework/meta-box/inc/fields/sidebars.php:44
+msgid "--None--"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/menu-item.php:237
+msgid "Save menu config fail"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:5
+msgid "Slide Up"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:6
+msgid "Slide Down"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:7
+msgid "Slide Left"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:8
+msgid "Slide Right"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:9
+msgid "Sign Flip"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:16
+msgid "Basic"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:18
+#: g5plus-framework/xmenu/inc/global.php:364
+msgid "Automatic"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:23
+msgid "Halves"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:25
+msgid "1/2"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:29
+msgid "Thirds"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:31
+msgid "1/3"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:32
+msgid "2/3"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:36
+msgid "Quarters"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:38
+msgid "1/4"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:39
+msgid "3/4"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:43
+msgid "Fifths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:45
+msgid "1/5"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:46
+msgid "2/5"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:47
+msgid "3/5"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:48
+msgid "4/5"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:52
+msgid "Sixths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:54
+msgid "1/6"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:55
+msgid "5/6"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:59
+msgid "Sevenths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:61
+msgid "1/7"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:62
+msgid "2/7"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:63
+msgid "3/7"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:64
+msgid "4/7"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:65
+msgid "5/7"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:66
+msgid "6/7"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:70
+msgid "Eighths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:72
+msgid "1/8"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:73
+msgid "3/8"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:74
+msgid "5/8"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:75
+msgid "7/8"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:79
+msgid "Ninths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:81
+msgid "1/9"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:82
+msgid "2/9"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:83
+msgid "4/9"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:84
+msgid "5/9"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:85
+msgid "7/9"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:86
+msgid "8/9"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:90
+msgid "Tenths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:92
+msgid "1/10"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:93
+msgid "3/10"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:94
+msgid "7/10"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:95
+msgid "9/10"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:99
+msgid "Elevenths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:101
+msgid "1/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:102
+msgid "2/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:103
+msgid "3/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:104
+msgid "4/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:105
+msgid "5/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:106
+msgid "6/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:107
+msgid "7/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:108
+msgid "8/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:109
+msgid "9/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:110
+msgid "10/11"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:114
+msgid "Twelfths"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:116
+msgid "1/12"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:117
+msgid "5/12"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:118
+msgid "7/12"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:119
+msgid "11/12"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:131
+#: g5plus-framework/xmenu/inc/global.php:135
+msgid "General"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:139
+msgid "URL"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:144
+msgid "Navigation Label"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:149
+msgid "Title Attribute"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:154
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:160
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:165
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:170
+msgid "Description"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:175
+msgid "Other"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:179
+msgid "Disable Text"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:184
+msgid "Disable Menu Item"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:189
+msgid "Disable Link"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:194
+msgid "Display as a Sub Menu column header"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:199
+#: g5plus-framework/xmenu/inc/global.php:623
+msgid "Menu Feature Text"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:206
+#: g5plus-framework/xmenu/inc/global.php:210
+msgid "Icon"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:214
+msgid "Set Icon"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:219
+msgid "Icon Position"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:223
+msgid "Left of Menu Text"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:224
+msgid "Right of Menu Text"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:228
+msgid "Padding Icon and Text Menu"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:231
+msgid "Padding between Icon and Text Menu (px). Do not include units"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:244
+msgid "Image Url"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:249
+msgid "Image Size"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:255
+msgid "Image Dimensions"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:264
+msgid "Image Width"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:267
+#: g5plus-framework/xmenu/inc/global.php:273
+msgid ""
+"Image width attribute (px). Do not include units. Only valid if \"Image "
+"Dimension\" is set to \"Custom\" above"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:270
+msgid "Image Height"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:276
+msgid "Image Layout"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:280
+msgid "Image Only"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:281
+msgid "Image Left"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:282
+msgid "Image Right"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:283
+msgid "Image Above"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:284
+msgid "Image Below"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:288
+msgid "Use Feature Image"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:305
+msgid "Menu Item Width"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:311
+msgid "Item Content Alignment"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:316
+msgid "Text Left"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:317
+msgid "Text Center"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:318
+msgid "Text Right"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:325
+msgid "Set padding for menu item. Include the units."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:328
+msgid "Margin"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:331
+msgid "Set margin for menu item. Include the units."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:334
+msgid "New Row"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:341
+#: g5plus-framework/xmenu/inc/global.php:345
+#: g5plus-framework/xmenu/inc/global.php:539
+msgid "Sub Menu"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:349
+msgid "Sub Menu Type"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:354
+msgid "Multi Column"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:356
+msgid "Tab"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:360
+msgid "Sub Menu Position"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:365
+msgid "Left of Menu Parent"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:366
+msgid "Right of Menu Parent"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:367
+msgid "Center of Menu Parent"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:368
+msgid "Left of Menu Bar"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:369
+msgid "Right of Menu Bar"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:370
+#: g5plus-framework/xmenu/inc/global.php:782
+msgid "Full Size"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:374
+msgid "Sub Menu Width Custom"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:377
+msgid "Set custom Sub Menu Width. Include the units (px/em/%)."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:380
+msgid "Sub Menu Column Width Default"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:386
+msgid "Sub Menu Column Spacing Default"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:389
+msgid "Set sub menu column spacing default. Do not include unit."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:392
+msgid "Sub Menu List Style"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:397
+msgid "Disc"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:398
+msgid "Square"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:399
+msgid "Circle"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:403
+msgid "Tab Position"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:406
+msgid "Tab Position set to \"Sub Menu Type\" is \"TAB\"."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:409
+#: g5plus-framework/meta-box/inc/fields/padding.php:60
+msgid "Right"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:413
+msgid "Sub Menu Animation"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:421
+#: g5plus-framework/xmenu/inc/global.php:425
+#: g5plus-framework/xmenu/inc/global.php:429
+msgid "Custom Content"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:432
+msgid "Can contain HTML and shortcodes"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:438
+#: g5plus-framework/xmenu/inc/global.php:446
+msgid "Widget Area"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:442
+msgid "Select Widget Area"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:454
+msgid "Customize Style"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:458
+msgid "Menu Item"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:462
+#: g5plus-framework/xmenu/inc/global.php:543
+#: g5plus-framework/xmenu/inc/global.php:636
+msgid "Background Color"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:467
+#: g5plus-framework/xmenu/inc/global.php:548
+#: g5plus-framework/xmenu/inc/global.php:641
+msgid "Text Color"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:472
+msgid "Background Color [Active]"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:477
+msgid "Text Color [Active]"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:487
+#: g5plus-framework/xmenu/inc/global.php:558
+msgid "Background Image Repeat"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:499
+#: g5plus-framework/xmenu/inc/global.php:570
+msgid "Background Image Attachment"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:509
+#: g5plus-framework/xmenu/inc/global.php:580
+msgid "Background Image Position"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:526
+#: g5plus-framework/xmenu/inc/global.php:597
+msgid "Background Image Size"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:610
+msgid "Column Min Width"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:613
+msgid "Set min-width for Sub Menu Column (px). Not include the units."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:619
+msgid "Set padding for Sub Menu. Include the units."
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:627
+msgid "Feature Menu Type"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:632
+msgid "Not Float"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:646
+msgid "Position Top"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:652
+msgid "Position Left"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:660
+#: g5plus-framework/xmenu/inc/global.php:664
+#: g5plus-framework/xmenu/inc/global.php:700
+#: g5plus-framework/xmenu/inc/global.php:704
+msgid "Responsive"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:668
+#: g5plus-framework/xmenu/inc/global.php:708
+msgid "Hide item on mobile via CSS"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:673
+#: g5plus-framework/xmenu/inc/global.php:713
+msgid "Hide item on desktop via CSS"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:678
+#: g5plus-framework/xmenu/inc/global.php:718
+msgid "Hide sub menu on mobile via CSS"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:683
+msgid "Remove this item when mobile device is detected via wp_is_mobile()"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:688
+msgid "Remove this item when desktop device is NOT detected via wp_is_mobile()"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:693
+msgid "Remove sub menu when desktop device is NOT detected via wp_is_mobile()"
+msgstr ""
+
+#: g5plus-framework/xmenu/inc/global.php:723
+msgid "Hide sub menu on desktop via CSS"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/image.php:61
+#: g5plus-framework/meta-box/inc/fields/thickbox-image.php:53
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/image.php:62
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/image.php:124
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/image.php:125
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/select.php:91
+#: g5plus-framework/meta-box/inc/fields/file-input.php:41
+msgid "Select"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/select.php:91
+msgid "All"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/button.php:29
+msgid "Click me"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/checkbox.php:92
+msgid "Yes"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/checkbox.php:92
+msgid "No"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/map.php:49
+msgid "Find Address"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:18
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:19
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:20
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:21
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:22
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:23
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:24
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:27
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/media.php:28
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/taxonomy.php:47
+msgid "Select a term"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/taxonomy.php:51
+#: g5plus-framework/meta-box/inc/fields/post.php:39
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/autocomplete.php:14
+#: g5plus-framework/meta-box/inc/fields/autocomplete.php:75
+#: g5plus-framework/meta-box/inc/fields/autocomplete.php:92
+msgid "Delete"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/user.php:34
+msgid "Select an user"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:15
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:16
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:83
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:96
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:97
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:153
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file.php:154
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/file-input.php:18
+msgid "Select File"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/oembed.php:65
+msgid "Embed HTML not available."
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/oembed.php:84
+msgid "Preview"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/label-text.php:34
+#: g5plus-framework/options/inc/fields/label_value/field_label_value.php:47
+msgid "Label"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/section.php:40
+msgid "CUSTOMIZE ON"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/section.php:41
+msgid "CUSTOMIZE OFF"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/post.php:35
+msgid "Select a post"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/sidebars.php:32
+msgid "Select a sidebar"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/padding.php:48
+msgid "Top"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/padding.php:52
+msgid "Bottom"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/key-value.php:19
+msgid "Key"
+msgstr ""
+
+#: g5plus-framework/meta-box/inc/fields/key-value.php:25
+msgid "Value"
+msgstr ""
+
+#: g5plus-framework/option-extensions/extensions/widget_areas/class.redux_widget_areas.php:88
+#: g5plus-framework/option-extensions/extensions/widget_areas/class.redux_widget_areas.php:97
+msgid "Create Widget Area"
+msgstr ""
+
+#: g5plus-framework/option-extensions/extensions/widget_areas/class.redux_widget_areas.php:93
+#: g5plus-framework/option-extensions/extensions/widget_areas/class.redux_widget_areas.php:93
+msgid "Name"
+msgstr ""
+
+#: g5plus-framework/option-extensions/extensions/search/extension_search.php:97
+msgid "Type here to search for options"
+msgstr ""
+
+#. Name of the theme
+msgid "G5Plus Orson"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Orson for WordPress is a hugely flexible website builder with eCommerce "
+"baked in at its core, so that building your next online webstore will be a "
+"breeze. <a href=\"http://www.g5plus.net\">Visit site</a>"
+msgstr ""
+
+#. URI of the theme
+msgid "http://themes.g5plus.net/orson/"
+msgstr ""
+
+#. Author of the theme
+msgid "g5plus"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://g5plus.net/"
+msgstr ""
+
+#: templates/single/content-related.php:29
+#: templates/archive/content-masonry.php:20
+#: templates/archive/content-large-image.php:20
+#: templates/archive/content-medium-image.php:23
+msgid "Read more"
+msgstr "Đọc tiếp"
+
+#: templates/archive/thumbnail-no-image.php:12
+msgid "No Image"
+msgstr "Không có hình ảnh"
+
+#: searchform.php:12 templates/header/header-10.php:39
+#: templates/header/header-8.php:39
+#: templates/header/customize-search-product-category.php:8
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Tìm kiếm ..."
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Tìm kiếm:"
+
+#: woocommerce/cart/mini-cart.php:32
+msgid "Items"
+msgstr "Sản phẩm"

@@ -1,0 +1,61 @@
+.g5plus-product-category-box {
+  position: relative;
+  background-size: cover;
+}
+.g5plus-product-category-box .product-category-box-content {
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  right: 30px;
+  padding: 45px 38px 25px 38px;
+  z-index: 1;
+}
+.g5plus-product-category-box .product-category-box-content .widget-title {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+.g5plus-product-category-box .product-category-box-content p {
+  margin-bottom: 12px;
+  line-height: 19.6px;
+}
+.g5plus-product-category-box:before {
+  content: '';
+  display: inline-block;
+  padding-top: 133.4%;
+}
+.g5plus-product-category-box:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  background-color: rgba(17, 17, 17, 0.3);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.g5plus-product-category-box:hover:after {
+  opacity: 1;
+}
+.g5plus-product-category-box.pcb-image {
+  font-size: 0;
+}
+.g5plus-product-category-box.pcb-image .product-category-box-content {
+  padding: 20px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.g5plus-product-category-box.pcb-image:before {
+  padding-top: 100%;
+}
+@media (max-width: 768px) {
+  .g5plus-product-category-box .product-category-box-content {
+    padding: 18px 15px 10px 15px;
+  }
+}

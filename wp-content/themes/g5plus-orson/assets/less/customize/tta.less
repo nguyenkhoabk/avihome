@@ -1,0 +1,164 @@
+.vc_tta-color-primary.vc_tta {
+	.vc_tta-panel {
+		.vc_tta-panel-heading {
+			border-color: @accent_color;
+			background-color: @accent_color;
+		}
+	}
+
+	&.vc_tta-style-flat {
+		.vc_tta-panel {
+			&.vc_active {
+				.vc_tta-panel-heading {
+					border-color: @accent_color;
+					background-color: @accent_color;
+				}
+			}
+
+			.vc_tta-panel-body {
+				background-color: @accent_color;
+				border-color: @accent_color;
+				&:after,
+				&:before {
+					border-color: @accent_color;
+				}
+			}
+		}
+	}
+
+	&.vc_tta-style-outline {
+		.vc_tta-panel {
+			.vc_tta-panel-heading {
+				&:focus,
+				&:hover {
+					background-color: @accent_color;
+					border-color: @accent_color;
+				}
+				.vc_tta-controls-icon {
+					&:after,
+					&:before {
+						border-color: @accent_color;
+					}
+				}
+			}
+
+			.vc_tta-panel-title > a {
+				color: @accent_color;
+			}
+
+			&.vc_active {
+				.vc_tta-panel-heading {
+					border-color: @accent_color;
+					background-color: @accent_color;
+				}
+			}
+
+			.vc_tta-panel-body {
+				border-color: @accent_color;
+				&:after,
+				&:before {
+					border-color: @accent_color;
+				}
+			}
+		}
+	}
+}
+.vc_tta-no-fill-color {
+	&.vc_tta-color-grey {
+		.vc_tta-panel .vc_tta-panel-heading {
+			&:focus,
+			&:hover {
+				background-color: @accent_color;
+				border-color: @accent_color;
+			}
+		}
+		.vc_tta-panel.vc_active {
+			.vc_tta-panel-heading {
+				background-color: @accent_color;
+				border-color: @accent_color;
+			}
+		}
+	}
+	&.vc_tta-color-white {
+		.vc_tta-panel .vc_tta-panel-heading {
+			&:focus,
+			&:hover {
+				background-color: @accent_color;
+				border-color: @accent_color;
+			}
+		}
+		.vc_tta-panel.vc_active {
+			.vc_tta-panel-heading {
+				background-color: @accent_color;
+				border-color: @accent_color;
+			}
+		}
+	}
+}
+.vc_tta-tabs.vc_tta-style-classic {
+	&.vc_tta-o-no-fill {
+		.vc_tta-tab.vc_active > a {
+			background-color: @accent_color;
+			color: @foreground_accent_color;
+		}
+
+		.vc_tta-panel.vc_active .vc_tta-panel-heading {
+			background-color: @accent_color;
+		}
+	}
+}
+.vc_tta-tabs.vc_tta-style-default {
+	.vc_tta-panel {
+		&.vc_active {
+			.vc_tta-panel-title > a {
+				&:before {
+					background-color: @accent_color;
+				}
+			}
+		}
+	}
+
+	.vc_tta-tab {
+		&.vc_active {
+			> a {
+				&:before {
+					background-color: @accent_color;
+				}
+			}
+		}
+	}
+}
+.vc_tta-tabs.vc_tta-style-no_border {
+	.vc_tta-panel {
+		.vc_tta-panel-heading {
+			&:focus,
+			&:hover {
+				.vc_tta-panel-title > a {
+					color: @accent_color;
+				}
+			}
+		}
+
+		&.vc_active {
+			.vc_tta-panel-title > a {
+				color: @accent_color;
+			}
+		}
+	}
+
+
+	.vc_tta-tab {
+		> a {
+			&:focus,
+			&:hover {
+				color: @accent_color;
+			}
+		}
+
+		&.vc_active {
+			> a {
+				color: @accent_color;
+			}
+		}
+	}
+}

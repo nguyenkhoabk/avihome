@@ -1,0 +1,59 @@
+.g5plus-sale-box{
+	border-style: solid;
+	border-width: 1px;
+	.border-radius(4px);
+	position: relative;
+	padding: 28px;
+	.sale-number{
+		display: table-cell;
+		vertical-align: middle;
+		.sale-number-inner{
+			font-weight: bold;
+			font-size: 50px;
+		}
+	}
+	.sale-info{
+		display: table-cell;
+		vertical-align: middle;
+		padding-left: 25px;
+		.sale-title{
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 1.2;
+			letter-spacing: -0.03em;
+			margin-bottom: 8px;
+		}
+		.sale-description{
+			font-size: 13px;
+			line-height: 1.8;
+		}
+	}
+	.sale-featured{
+		position: absolute;
+		top: 9px;
+		right: -3px;
+		padding: 0 10px;
+		background-color: #EF7E7E;
+		.border-radius(4px 0 0 4px);
+		.sale-featured-inner{
+			font-size: 13px;
+			font-weight: 500;
+			color: #fff;
+			line-height: 26px;
+		}
+	}
+}
+@media (max-width: 599px) {
+	.g5plus-sale-box{
+		.sale-number{
+			display: block;
+			text-align: center;
+		}
+		.sale-info{
+			display: block;
+			text-align: center;
+			padding-left: 0;
+		}
+
+	}
+}

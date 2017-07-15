@@ -1,0 +1,123 @@
+.g5plus-countdown{
+	.product-deal-countdown-inner{
+		.countdown-section{
+			margin-right: 20px;
+			position: relative;
+			text-align: center;
+			.countdown-amount{
+				font-size: 24px;
+				font-weight: bold;
+				line-height: 47px;
+				width: 70px;
+				height: 70px;
+				.border-radius(3px);
+				background-color: #fff;
+			}
+			.countdown-period{
+				font-size: 13px;
+				font-weight: bold;
+				position: absolute;
+				bottom: 16px;
+				left: 0;
+				right: 0;
+			}
+		}
+		.countdown-section:last-child{
+			margin-right: 0;
+		}
+	}
+	&.s_large{
+		.product-deal-countdown-inner{
+			.countdown-section{
+				margin-right: 10px;
+				position: relative;
+				text-align: center;
+				.countdown-amount{
+					font-size: 50px;
+					font-weight: bold;
+					line-height: 100px;
+					width: 250px;
+					height: 130px;
+					.border-radius(4px);
+					background-color: #fff;
+					border: solid 1px #ccc;
+				}
+				.countdown-period{
+					font-size: 15px;
+					font-weight: normal;
+					position: absolute;
+					bottom: 31px;
+					left: 0;
+					right: 0;
+				}
+			}
+			.countdown-section:last-child{
+				margin-right: 0;
+			}
+		}
+	}
+	&.cl_primary{
+		.product-deal-countdown-inner{
+			.countdown-section{
+				.countdown-amount{
+					color: #fff;
+				}
+				.countdown-period{
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 991px ) and (max-width: 1200px ) {
+	.g5plus-countdown .product-deal-countdown-inner .countdown-section{
+		margin-right: 5px;
+	}
+}
+@media (max-width: 1200px ) {
+	.g5plus-countdown {
+		&.s_large .product-deal-countdown-inner {
+			.countdown-section {
+				margin-bottom: 10px;
+			}
+			.countdown-section:last-child {
+				margin-right: 10px;
+			}
+		}
+	}
+}
+@media (max-width: 993px ) {
+	.g5plus-countdown.s_large .product-deal-countdown-inner{
+		.countdown-section:last-child {
+			margin-right: 10px;
+		}
+	}
+}
+@media (max-width: 510px) {
+	.g5plus-countdown.s_large .product-deal-countdown-inner	.countdown-section,
+	.g5plus-countdown.s_large .product-deal-countdown-inner .countdown-section:last-child
+	{
+		margin-right: 0;
+	}
+}
+@media (max-width: 360px) {
+	.g5plus-countdown .product-deal-countdown-inner .countdown-section{
+		margin-right: 5px;
+	}
+}
+@media (max-width: 310px) {
+	.g5plus-countdown{
+		.product-deal-countdown-inner{
+			.countdown-section{
+				margin-bottom: 5px;
+			}
+			.countdown-section:first-child{
+				margin-right: 5px;
+			}
+			.countdown-section:last-child{
+				margin-right: 5px;
+			}
+		}
+	}
+}

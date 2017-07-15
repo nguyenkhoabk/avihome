@@ -1,0 +1,53 @@
+//==============================================================================
+// DESKTOP MENU
+//==============================================================================
+@media screen and (min-width: (@responsive_breakpoint + 1px)){
+	// X-NAV-MENU
+	//==========================================================================
+	.x-nav-menu {
+		// MENU ITEM NAV
+		> .x-menu-item {
+			> .x-menu-a-text {
+				color: @navigation_text_color;
+			}
+		}
+		> li.current-menu-ancestor > a.x-menu-a-text,
+		> li.current-menu-parent > a.x-menu-a-text,
+		> li.current-menu-item > a.x-menu-a-text,
+		> li.menu-current > a.x-menu-a-text,
+		> li > a.x-menu-a-text:hover,
+		> li.x-menu-item:hover > a {
+			color: @navigation_text_color_hover!important;
+		}
+	}
+}
+
+.header-nav-wrapper {
+	background-color: @navigation_bg_color;
+	color: @navigation_text_color;
+}
+// Header Customize
+
+.header-customize-nav {
+	color: @navigation_text_color;
+
+	a {
+		color: @navigation_text_color;
+		&:hover {
+			color: @navigation_text_color_hover;
+		}
+	}
+}
+
+.header-6 .is-sticky, .header-10 .is-sticky {
+	.header-nav-wrapper {
+		background-color: @navigation_bg_color;
+	}
+}
+.header-6 {
+	.header-nav-wrapper {
+		nav.primary-menu {
+			background-color: @navigation_bg_color;
+		}
+	}
+}

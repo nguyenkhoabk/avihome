@@ -1,0 +1,92 @@
+.g5plus-product-deals .product-item-inner {
+  display: table;
+  width: 100%;
+}
+.g5plus-product-deals .product-thumb,
+.g5plus-product-deals .product-info {
+  display: table-cell;
+  vertical-align: middle;
+}
+.g5plus-product-deals .product-thumb {
+  width: 245px;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+.g5plus-product-deals .product-thumb img {
+  border: none;
+}
+.g5plus-product-deals .product-item-wrap .product-deal-countdown {
+  position: relative;
+  background-color: transparent;
+  padding: 0;
+  margin-top: 20px;
+}
+.g5plus-product-deals.woocommerce a.added_to_cart,
+.g5plus-product-deals.woocommerce a.add_to_cart_button,
+.g5plus-product-deals.woocommerce a.product_type_simple,
+.g5plus-product-deals.woocommerce a.product_type_external,
+.g5plus-product-deals.woocommerce a.product_type_grouped {
+  margin-top: 17px;
+}
+.g5plus-product-deals .badge {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  position: absolute;
+  left: 10px;
+  top: -1px;
+}
+.g5plus-product-deals.layout-border-wrap {
+  position: relative;
+}
+.g5plus-product-deals.layout-border-wrap .widget-title {
+  margin-bottom: 0;
+}
+.g5plus-product-deals.layout-border-wrap .widget-title span {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.g5plus-product-deals.layout-border-wrap .owl-nav-top > .owl-nav {
+  top: -30px;
+}
+.g5plus-product-deals.layout-border-wrap .product-listing {
+  margin-bottom: -30px;
+  padding: 20px 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.g5plus-product-deals.layout-border-wrap .product-slider {
+  margin-bottom: 0;
+}
+.g5plus-product-deals.layout-border-wrap .product-listing.woocommerce .product-item-wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+.g5plus-product-deals.has-badge {
+  padding-top: 15px;
+}
+.g5plus-product-deals.layout-border-inner .product-item-inner {
+  padding: 20px 0;
+}
+.g5plus-product-deals.product-item-vertical .product-item-inner {
+  display: block;
+  padding: 0 20px;
+}
+.g5plus-product-deals.product-item-vertical .product-thumb {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.g5plus-product-deals.product-item-vertical .product-info {
+  display: block;
+}
+.g5plus-product-deals.product-item-vertical.layout-border-inner .product-item-inner {
+  padding: 20px;
+}

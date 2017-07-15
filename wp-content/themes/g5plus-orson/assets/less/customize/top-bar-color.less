@@ -1,0 +1,33 @@
+.top-bar-wrapper a:hover when (@top_bar_bg_color = @accent_color) {
+	color: #212121;
+}
+.top-bar-wrapper {
+	background-color: @top_bar_bg_color;
+	color: @top_bar_text_color;
+	&.full-border {
+		border-bottom: solid 1px @top_bar_border_color;
+	}
+	&.container-border {
+		.top-bar-inner {
+			border-bottom: solid 1px @top_bar_border_color;
+		}
+	}
+
+	.widget + .widget:before,
+	.menu > li + li:before {
+		border-left: solid 1px @top_bar_border_color;
+	}
+	.search-form-small .search-form {
+		.search-field {
+			border-color: @top_bar_border_color;
+		}
+	}
+}
+@media screen and (max-width: @responsive_breakpoint){
+	.top-bar-wrapper {
+		.widget + .widget:before,
+		.menu > li + li:before {
+			border-left: solid 1px @top_bar_mobile_border_color;
+		}
+	}
+}

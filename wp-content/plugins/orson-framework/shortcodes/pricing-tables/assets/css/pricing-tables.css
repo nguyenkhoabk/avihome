@@ -1,0 +1,109 @@
+.g5plus-pricing-tables {
+  border-style: solid;
+  border-width: 1px;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  text-align: center;
+  position: relative;
+}
+.g5plus-pricing-tables .pricing-recommend {
+  position: absolute;
+  right: -1px;
+  top: -20px;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  width: 86px;
+  height: 25px;
+}
+.g5plus-pricing-tables .pricing-recommend span {
+  font-weight: 500;
+  font-size: 11px;
+  color: #fff;
+  line-height: 1.8;
+  display: block;
+}
+.g5plus-pricing-tables .pricing-name {
+  -webkit-border-radius: 2px 2px 5px 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 2px 2px 5px 5px;
+  -moz-background-clip: padding;
+  border-radius: 2px 2px 5px 5px;
+  background-clip: padding-box;
+  padding-top: 40px;
+  padding-bottom: 85px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.g5plus-pricing-tables .pricing-name h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.g5plus-pricing-tables .pricing-price {
+  width: 115px;
+  height: 115px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  background: #fff;
+  position: absolute;
+  top: 91px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.g5plus-pricing-tables .pricing-price span {
+  line-height: 113px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.g5plus-pricing-tables .pricing-features {
+  margin-top: 235px;
+}
+.g5plus-pricing-tables .pricing-features ul {
+  padding: 0 19px;
+  margin: 31px 0;
+}
+.g5plus-pricing-tables .pricing-features ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  list-style: none;
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding-right: 12px;
+  padding: 10px 0;
+}
+.g5plus-pricing-tables .pricing-features ul li:last-child {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.g5plus-pricing-tables .pricing-features ul li:before {
+  content: "\f058";
+  display: inline-block;
+  line-height: 19px;
+  float: left;
+  text-align: left;
+  font-weight: 400;
+  font-family: FontAwesome;
+  font-size: 14px;
+}
+.g5plus-pricing-tables .pricing-action {
+  margin-bottom: 31px;
+}
+.g5plus-pricing-tables.pricing-recommend .pricing-name h4 {
+  color: #fff;
+}

@@ -1,0 +1,19 @@
+.g5plus-counter .ct_content .ct_value,
+.g5plus-counter .ct_content .ct_unit {
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: -0.03em;
+  line-height: 1em;
+}
+.g5plus-counter .ct_content .ct_title {
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: -0.03em;
+  padding-top: 2px;
+}
+.g5plus-counter.light .ct_content {
+  color: #fff;
+}
+.g5plus-counter.dark .ct_content {
+  color: #222;
+}

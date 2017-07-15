@@ -1,0 +1,1779 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>ORSON - DOCUMENTATIONS</title>
+	<link rel="stylesheet" href="css/prism.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/prism.js"></script>
+	<script src="js/clipboard.min.js"></script>
+	<script src="js/perfectscroll.min.js"></script>
+	<script src="js/script.js"></script>
+	<style>
+		h7 {
+			background: none repeat scroll 0 0 #d8d8d8;
+			border-radius: 8px;
+			color: #019cf5;
+			font-size: 12px;
+			font-style: italic;
+			font-weight: 700;
+			margin: 18px 0;
+			padding: 5px 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="wrapper-left">
+			<div class="logo">
+				<img src="images/logo.png" alt=""/>
+			</div>
+			<div class="nav-wrapper">
+				<nav>
+					<ul>
+						<li><a href="#introduction">Introduction</a></li>
+						<li><a href="#files-included">Files Included</a></li>
+						<li><a href="#code-navigations">Code Navigations</a></li>
+						<li>
+							<a href="#installation">Installation</a>
+							<ul>
+								<li><a href="#system-requires">System Requires</a></li>
+								<li><a href="#download-theme">Download Theme</a></li>
+								<li><a href="#theme-installation">Theme Installation</a></li>
+								<li><a href="#plugin-installation">Plugins Installation</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#theme-setting-up">Theme Setting Up</a>
+							<ul>
+								<li><a href="#auto-setting-up">Auto Setting(One Click Install Demo Data)</a></li>
+								<li>
+									<a href="#manual-setting-up">Manual Setting Up</a>
+									<ul>
+										<li><a href="#create-new-page">Create Page</a></li>
+										<li><a href="#building-homepage">Build HomePage</a></li>
+										<li><a href="#one-page">Build OnePage</a></li>
+										<li><a href="#build-an-example">Build An Example HomePage</a></li>										
+										<li><a href="#import-slider">Import Sliders</a></li>
+										<li><a href="#import-demo-content">Import Demo Content(via xml file)</a></li>
+										<li><a href="#sidebar-widget">Sidebar & Widgets</a></li>
+										<li><a href="#contact-form">Contact Form</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#configurations">Configurations</a>
+							<ul>
+								<li><a href="#general-options">General Options</a></li>
+								<li>
+									<a href="#theme-options">Theme Options</a>
+									<ul>
+										<li><a href="#config-options-general-settings">General Settings</a></li>
+										<li><a href="#layout-options">Layout Options</a></li>
+										<li><a href="#page-title">Page Title</a></li>
+										<li><a href="#blog-single-blog">Blog & Single Blog</a></li> 
+										<li><a href="#logo">Logo Settings</a></li>
+										<li><a href="#top-drawer">Top Drawer</a></li>
+										<li><a href="#top-bar">Top Bar</a></li>
+										<li><a href="#header">Header</a></li>
+										<li><a href="#header-customize">Header Customize</a></li>
+										<li><a href="#footer">Footer Settings</a></li>
+										<li><a href="#theme-color">Theme Color</a></li>
+										<li><a href="#custom-font">Custom Font</a></li>
+										<li><a href="#font-options">Font Options</a></li>
+										<li><a href="#social-profiles">Social Profiles</a></li>
+										<li><a href="#woocommerce">Woocommerce</a></li>
+										<li><a href="#custom-post-type">Custom PostType</a></li>
+										<li><a href="#resources-options">Resources Options</a></li>
+										<li><a href="#custom-css-script">Custom Css & Script</a></li>
+										<li><a href="#import-export">Import/Export</a></li>										
+									</ul>
+								</li>
+								<li>
+									<a href="#meta-options">Meta Options</a>										
+									<ul>
+										<li><a href="#meta-page-layout">Page Layout</a></li>
+										<li><a href="#meta-logo">Logo</a></li>
+										<li><a href="#meta-top-drawer">Top Drawer</a></li>
+										<li><a href="#meta-top-bar">Top Bar</a></li>
+										<li><a href="#meta-header">Page Header</a></li>
+										<li><a href="#meta-header-customize">Page Header Customize</a></li>
+										
+										<li><a href="#meta-menu">Menu</a></li>
+										<li><a href="#meta-page-title">Page Title</a></li>
+										<li><a href="#meta-footer">Page Footer</a></li>
+										<li><a href="#meta-color">Page Color</a></li>
+									</ul>
+								</li>
+								<li><a href="#woocommerce-settings">WooCommerce Settings</a></li>
+							</ul>
+						</li>
+						<li><a href="#mega-menu">Menu Setting</a></li>
+						<li>
+							<a href="#pages-setting-up">Pages Setting Up</a>
+							<ul>
+								<li><a href="#home-page">Home Page</a></li>								
+							</ul>
+						</li>						
+						<li><a href="#element">Page/ShortCodes Elements</a>
+							<ul>
+								<li><a href="#row-column">Config Row and Column</a></li>
+								<li><a href="#elements">Page Element</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#custom-posttype">Custom PostType</a>
+							<ul>
+                                <li><a href="#add_new_post_type">Create New</a></li>
+                                <li><a href="#settting_post_type">Settings</a></li>
+                            </ul>
+						</li>
+						<li><a href="#contact-form-settings">Contact form 7</a></li>
+						<li><a href="#mailchimp-setting">MailChimp</a></li>
+						<li><a href="#update-theme">Update Theme</a></li>
+						<li><a href="#update-plugins">Update Plugins</a></li>
+						<li><a href="#thank-you">Thank You</a></li>
+					</ul>					
+				</nav>
+			</div>
+			<footer>
+				Copyright G5Theme 2016
+			</footer>
+		</div>
+		<div class="wrapper-right">
+			<section id="introduction">
+			<h1>ORSON - Shop WordPress WooCommerce Theme</h1>
+			<h2>Wordpress Version</h2>
+			<ul>
+			<li>Created: 01/04/2016</li>
+			<li>Latest update: 23/07/2016</li>
+			<li>By: G5Theme</li>
+			<li><a href="http://www.themeforest.net/user/G5Theme">http://www.themeforest.net/user/G5Theme</a></li>
+			<li>Email: <a href="mailto:g5plus@outlook.com">g5plus@outlook.com</a></li>
+			<li>HelpDesk: <a href="http://support.g5plus.net">http://support.g5plus.net</a></li>
+			</ul>
+			<p class="thank-you">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this documentation, please feel free to us via email. Thanks so much!</p>
+			</section>
+		
+			<section id="files-included">
+				<h2>Files Included</h2>
+				<div class="content">
+					<ul class="files-included">
+						<li>
+							The theme zip file <i>ORSON.zip</i>(included Visual Composer and Revolution Slider plugins)</li>
+						<li>
+							Child theme for easier customize in <i>ORSON-child.zip</i></li>
+						<li>
+							Document in <i>Documentation.zip</i></li>	
+						<li>
+							Link download psd ORSON in <i>psd-include.txt</i></li>	
+					</ul>
+					<h4>Struct look like:</h4>
+					<p><img src="images/main-download-review.png" alt="dashboard" class="img-left"></p>
+					
+				</div>
+			</section>
+		
+			<!-- SECTION CODE NAVIGATION DEFINE -->
+			<section id="code-navigations">
+				<h2>Code navigation</h2>
+				<div class="content">
+                    <p><img src="images/code_navigation.jpg" alt="" class="img-left"/></p>
+                    <p>
+                        ORSON split into 10 folders. Meaning each folder please see explain below:
+                    </p>
+                    <ul class="display-table">
+                        <li>admin: Store css and js files for display screen on admin area</li>
+                        <li>assets: Store less, js, resource default and another plugin for theme. Besides include file for demo data.
+                            <ul>
+                                <li>
+                                    cache: store json file to install widget, menu and another options for theme
+                                </li>
+                                <li>
+                                    data-demo: store demo data by xml form for each theme topic (ex: simple, construction, fitness,...)
+                                </li>
+                            </ul>
+                        </li>
+                        <li>g5plus-framework: This is core framework of theme.
+                            <ul>
+                                <li>
+                                    core: This folder store core file to add action for header, footer, woocommer, function breadcrumb, filter for search.
+                                </li>
+                                <li>
+                                    install-demo: store files to process install demo data
+                                </li>
+                                <li>
+                                    less: this is less library for php, it us when click 'Save & Generate CSS' on theme option
+                                </li>
+                                <li>
+                                    meta-box: this is library for create custom field on post
+                                </li>
+                                <li>
+                                    option-extensions: store field defined for Redux Theme Option Framework
+                                </li>
+                                <li>
+                                    options: core Redux Theme Option Framework
+                                </li>
+                                <li>
+                                    tax-meta-class: the library to create custom field for taxonomy
+                                </li>
+                                <li>
+                                    tgm-plugin-activation: automatic plugin installation and activation library
+                                </li>
+                                <li>
+                                    xmenu: store core mega menu build in
+                                </li>
+                            </ul>
+                        </li>
+                        <li>html-template: store form template for Contact Form or MailChimp. You can copy this template and paste to Contact Form or Mail chimp when create form</li>
+                        <li>includes: store define field for Theme Option, functions process when switch theme, function generate custom css when change color or setting in theme option, filter for header customize, search</li>
+                        <li>language: store .pot for translate to another language</li>
+                        <li>templates: store templates for header, footer, archive, comments, breadcrumb</li>
+                        <li>theme-plugins: store plugins that use on theme</li>
+                        <li>woocommerce: store template that override for woocommerce</li>
+                    </ul>
+
+				</div>
+			</section>
+		
+			<section id="system-requires">
+				<h2>System Requires</h2>
+				<div class="content">
+					<p>To use ORSON, you must be running <strong>WordPress 3.9</strong> or higher, <strong>PHP5.4</strong> or higher, and <strong>MySQL 5</strong> or higher. We have tested it with Mac, Windows and Linux. Below is a list of items you should ensure your host can comply with.</p>
+					<h4><strong>Recommended PHP Configuration Limits</strong></h4>
+					<p>Many issues that you may run into such as: white screen, demo content fails when importing, empty page content and other similar issues are all related to low PHP configuration limits. The solution is to increase the PHP limits. You can do this on your own, or contact your web host and ask them to increase those limits to a minimum as follows:</p>
+					<ul>
+						<li>max_input_vars = 3000</li>
+						<li>memory_limit = 128M</li>
+						<li>max_execution_time = 300</li>
+						<li>max_input_time = 300</li>
+						<li>upload_max_filesize = 64M</li>
+						<li>post_max_size = 64M</li>
+					</ul>
+				</div>
+			</section>
+			
+			<section id="download-theme">
+				<h2>Download ORSON Theme</h2>
+				<div class="content">
+					<p>Get the <strong>ORSON</strong> Theme installation package from your account(after login on Themeforest.net) at <a href="http://themeforest.net/downloads">downloads page</a> and save it to your computer. </p>
+					<p><img src="images/Downloads.png" alt="dashboard" class="img-center"></p>
+				</div>
+			</section>
+		
+			<section id="theme-installation">
+				<h2>Install ORSON Theme</h2>
+				<div class="content">
+					<h4>Installation via Wordpress</h4>
+					<p><span class="step">Step 1</span> - Login to your Wordpress Dashboard</p>
+					<p><span class="step">Step 2</span> - Go to Appearance > Themes. Click the Add New button or Add new theme link. (check screenshot below)</p>
+					<p><span class="step">Step 3</span> - Click on the Upload Theme button. Locate "ORSON.zip" and click Install Now.</p>	
+					<p><span class="step">Step 4</span> - Click on the Activate button to activate ORSON. Congratulations, you have now activated ORSON! You can now proceed with ORSON's Plugin Installation.</p>
+
+					<p><img src="images/01-dashboard.jpg" alt="dashboard" class="img-center"></p>
+					<p><img src="images/01-install.gif" alt="install" class="img-center"></p>
+					<p><img src="images/02-install.jpg" alt="install" class="img-center"></p>
+					
+					<h4>Installation via FTP</h4>
+					<p><span class="step">Step 1</span> - Log into your Hosting server using an FTP client (like FileZilla or WinSCP).</p>
+					<p><span class="step">Step 2</span> - Locate "ORSON.zip" that you found in your ThemeForest Package and unzip it somewhere on your hard drive. Once it is unzipped it will look like a folder named ORSON with all theme files in it.</p>
+					<p><span class="step">Step 3</span> - Locate your Wordpress installation and upload the theme directory ORSON (you unzipped in the previous step) into ../wp-content/themes/ in your Wordpress installation.</p>
+					<p><span class="step">Step 4</span> - Click on the Activate button to activate ORSON. Congratulations, you have now activated ORSON! You can now proceed with ORSON's Plugin Installation.</p>		
+				</div>
+			</section>
+		
+			<section id="plugin-installation">
+				<h2>Install ORSON Required Plugins</h2>
+				<div class="content">
+					<p>All plugins required have been zipped/already into your download package, so you only need to do is click on the "<strong>Begin installing plugins</strong>".</p>
+					<p>You should be navigated to the <strong>Install Required Plugin</strong> page, which shows a plugin list similar to this:</p>
+					<img class="img-center" src="images/01-install-plugins-list.jpg"  alt="install plugins">
+					<p>Next, Click on the checkbox beside "<strong>Plugin</strong>" label to select all plugins in the list.</p>
+					<img class="img-center" src="images/01-install-required-plugins-checkalllist.jpg"  alt="install check list">
+					<p>Then choose "<strong>Install</strong>" from the drop-down list at the top and then click "<strong>Apply</strong>". </p>
+					<img class="img-center" src="images/01-install-required-plugins-action.jpg"  alt="install action">
+					<p>The installing process status will be shown in your browser. It may takes a few minutes, so please be patient. After sucessfull, your screen like that</p>
+					<img class="img-center" src="images/01-installing-plugins.jpg" alt="install plugins">
+					<p>When the notice "<strong>All installations have been completed</strong>" appears, click on the "<strong>Return to Required Plugins Installer</strong>" link to turn back to the plugin list.</p>
+					<img class="img-center" src="images/01-installing-plugins-sucessfull.gif" alt="install plugins">
+					<p>Next, click on the box beside the Plugin label again to select all plugins and choose <strong>Activate</strong> this time as image below.</p>
+					<p><img class="img-center" src="images/01-active-all-plugins.gif" alt="active all required plugins"></p>					
+				</div>
+			</section>
+		
+			<section id="auto-setting-up">
+				<h2>One Click Install Demo Data</h2>
+				<div class="content">
+					<p>With ORSON, you can build a functioning website just by clicking a button and install our demo data or click <a href="#create-new-page" class="data-ref"><strong>5.2.1 Create A New Page</strong></a> to step by step. Your ORSON installation will
+					be set up with what we have on our demo website, and you can use it as a template to develop your own website.</p>
+					<p>Go to <strong>Appearance >> Install Demo Data menu</strong></p>
+					<p><img class="img-center" src="images/install-demo-data-01.jpg" alt="Import Demo Content in One Click"></p>
+					<h6>Then choose "Install" demo data you want:</h6>
+					<p><img class="img-center" src="images/install-demo-data-02.jpg" alt="Import Demo Content in One Click02"></p>
+					<p><img class="img-center" src="images/install-demo-data-03.jpg" alt="Import Demo Content in One Click02"></p>
+					
+					<p> The progressing would be displayed on import status bars so you will know when it is finished and your data is ready.</p>
+					<p><img class="img-center" src="images/setting-demodataprogress.jpg" alt="Import Status Bars"></p>
+
+					<p><strong>DONE. Now, you can visit your website to view demo.</strong></p>
+				</div>
+			</section>
+						
+			<section id="create-new-page">
+				<h2>Creat a new page</h2>
+				<div class="content">
+					<p>You can create any number of pages with content. Our theme includes several page templates to choose from, and you will need to choose the page template that suits your needs. All of this is done in the pages section of your WordPress admin.</p>
+					<p>If you <strong>DID NOT One Click Install Demo Data</strong>, you will need to <strong>MANUALLY CREATE</strong> your Home and other pages. Here’s how to build it:</p>
+
+					<p><strong>Step 1</strong> – Navigate to Pages in your admin sidebar and click Add New option.</p>
+					<p><img src="images/create-a-new-page-01.jpg"></p>
+					<p><strong>Step 2</strong> – Input a new name for your page, and click "BACKEND EDITOR"(must installed <strong><a href="http://codecanyon.net/item/visual-composer-for-wordpress/242431">Visual Composer</a></strong> plugins).</p>
+					<p><img src="images/create-a-new-page-02.jpg"></p>
+					<p><strong>Step 2.1</strong> – Don't click "BACKEND EDITOR": only input content to area 3 then go to <strong>Step 3</strong></p>
+					<p><strong>Step 2.2</strong> – Click "BACKEND EDITOR": screen see below</p>
+					<p><img src="images/create-a-new-page-03.jpg"></p>
+					<p><strong>Step 3</strong> – Set your Parent page. It’s usually set to No Parent.</p>
+					<p><strong>Step 4</strong> – Set your page template from the Template dropdown list.</p>
+					<p><strong>Step 5</strong> – Content for your page goes in the editing field, use the <strong>Visual</strong> or <strong>Text</strong> editor. Page content is mainly built using Shortcodes. See the Shortcodes section for how to use them. You can also use our demo content, see the corresponding section of this document for the demo code of each page.<br></p>
+					<p>Next, you can publish this page and set it as your frontpage(<a title="Settings a static page as Home" class="data-ref"  href="#home-page">8.1. Settings a static page as Home</a>) in the Wordpress Settings panel.</p>
+				</div>
+			</section>
+			
+			<section id="building-homepage">
+				<h2>Building Hompage</h2>
+				<div class="document-content">
+					<h4>Building your Home page:</h4>
+					<p>Now you can start fiddling with <strong>Visual Composer</strong> to build your home page with any design that you like.</p>
+					<p>In case you don't have time for experience with it, you can switch to "<strong>Classic Mode</strong>" and use one of the shortcode sets provided below to build your frontshop based on one of the pre-made home page we offer.</p>
+					<p>To create a page similar to Homepage in our the demo, choose the Classic Mode and switch to the Text tab, then paste this code into the content of your page:</p>
+
+					<h7>Shortcode set for Home 1</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column el_class="col-md-push-3 mg-top-20 sm-mg-top-0 mg-bottom-20" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-430"][/vc_column][vc_column el_class="col-md-pull-9 mg-bottom-20" offset="vc_col-md-3"][g5plus_widget_product_categories widget_layout="widget-border-round" dropdown="0" show_children_only="0" css=".vc_custom_1463964193231{padding-bottom: 77px !important;}"][/vc_column][/vc_row][vc_row el_class="mg-bottom-45 sm-mg-bottom-25"][vc_column width="1/2"][g5plus_banner banner_image="1563" el_class="mg-bottom-20"][/vc_column][vc_column width="1/2"][g5plus_banner banner_image="1564" el_class="mg-bottom-20"][g5plus_banner banner_image="1565" el_class="mg-bottom-20"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column][g5plus_heading title="New Arrivals" style="style_02" size="lg" align="center" el_class="mg-bottom-50 sm-mg-bottom-30"][g5plus_products category="new-collection" number="6" columns="4" rows="1" arrows_position="center" arrows_style="round" product_catalog_style="center" product_category_enable="true" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" content_placement="middle" css=".vc_custom_1463966079741{background-image: url(http://localhost/orson/wp-content/uploads/2016/05/bg_mailchimp1.jpg?id=756) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="mg-bottom-70 sm-mg-bottom-50"][vc_column width="5/12" offset="vc_col-lg-offset-5 vc_col-md-offset-5 vc_col-sm-offset-5" css=".vc_custom_1463819470864{padding-top: 102px !important;padding-bottom: 106px !important;padding-left: 30px !important;}"][g5plus_heading title="NEWSLETTER" style="style_02" size="lg" el_class="mg-bottom-20"][vc_column_text el_class="pd-bottom-15"]Enjoy our newsletter to stay updated with the latest news and special sales. Let’s your email address here![/vc_column_text][vc_column_text el_class="mc-style1"][mc4wp_form][/vc_column_text][/vc_column][/vc_row][vc_row el_class="mg-bottom-65 sm-mg-bottom-45"][vc_column][g5plus_slider_container arrows="" infinite="" items="3" itemsdesktop="3" itemsdesktopsmall="2" itemstablet="2" itemstabletsmall="1"][g5plus_product_category_box image="783" title_bt="SHOP NOW" link="url:http%3A%2F%2Flocalhost%2Forson%2Fproduct-category%2Fwomen%2F|title:Shop%20Now|target:%20_blank" title="WOMAN CATEGORY" description="Vestibulum non odio at tortor facilisis cursus eu ut turpis. Ut vehicula cursus elit. Nunc lacinia arcu."][g5plus_product_category_box image="784" title_bt="SHOP NOW" link="url:http%3A%2F%2Flocalhost%2Forson%2Fproduct-category%2Fmen%2F|title:Shop%20Now|target:%20_blank" title="MAN CATEGORY" description="Vestibulum non odio at tortor facilisis cursus eu ut turpis. Ut vehicula cursus elit. Nunc lacinia arcu."][g5plus_product_category_box image="785" title_bt="SHOP NOW" link="url:http%3A%2F%2Flocalhost%2Forson%2Fproduct-category%2Faccessories%2F|title:Shop%20Now|target:%20_blank" title="KID CATEGORY" description="Vestibulum non odio at tortor facilisis cursus eu ut turpis. Ut vehicula cursus elit. Nunc lacinia arcu."][/g5plus_slider_container][/vc_column][/vc_row][vc_row el_class="mg-bottom-50 sm-mg-bottom-0"][vc_column][g5plus_heading title="Sale Products" style="style_02" size="lg" align="center" el_class="mg-bottom-50 sm-mg-bottom-30"][g5plus_products show="sale" number="8" columns="5" rows="1" arrows_position="center" arrows_style="round" product_category_enable="" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1463966252599{background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-03.jpg?id=333) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="mg-bottom-65 sm-mg-bottom-45"][vc_column css=".vc_custom_1462590191529{padding-top: 45px !important;}" el_class="mg-top-100 sm-mg-top-85 mg-bottom-85 sm-mg-bottom-55 pd-right-60 md-pd-right-0" offset="vc_col-md-7"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22avatar%22%3A%22321%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ne%20eirmod%20copiosae%20neglegentur%20mea%2C%20virtute%20impedit%20fastidii%20quo%20ad%20ne.%22%2C%22avatar%22%3A%22323%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20vim%20adipisci%20aliquando%2C%20augue%20perpetua%20quaerendum%20ex%20ius%2C%20duo%20id.%22%2C%22avatar%22%3A%22322%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_style="style3" arrows_style="round" arrows="true" autoplaytimeout="5000" nav="yes"][/vc_column][vc_column width="5/12" css=".vc_custom_1462506671861{margin-left: 20px !important;background-image: url(http://localhost/orson/wp-content/uploads/2016/05/customer-05.png?id=320) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}" offset="vc_hidden-sm vc_hidden-xs"][vc_empty_space height="470px"][/vc_column][/vc_row][vc_row el_class="mg-bottom-65 sm-mg-bottom-45"][vc_column][g5plus_heading title="Blog Updates" style="style_02" size="lg" align="center" el_class="mg-bottom-50 sm-mg-bottom-30"][g5plus_posts layout="style_05" source="recent" number="5" columns="3" arrows="" is_slider="true"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes"][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="dark" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461833712582{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #bddcda !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="dark" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461833728567{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #f4dee1 !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="dark" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461833745754{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #f7eed1 !important;}"][/vc_column][/vc_row]
+                    </textarea></p>					
+					<h7>Shortcode set for Home 2</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column el_class="col-md-push-3" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-505" el_class="mg-bottom-20 mg-top-30 sm-mg-top-0"][vc_row_inner gap="15" el_class="mg-bottom-35"][vc_column_inner width="1/2"][g5plus_banner hover_effect="suprema-effect" banner_image="1659" el_class="mg-bottom-20"][/vc_column_inner][vc_column_inner width="1/2"][g5plus_banner hover_effect="suprema-effect" banner_image="1660" el_class="mg-bottom-20"][/vc_column_inner][/vc_row_inner][g5plus_products title="New Arrivals" title_style="style_02" show="new-in" category="new-collection" number="6" columns="4" rows="1" arrows_style="round" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true" el_class="mg-bottom-50"][vc_row_inner gap="15" el_class="mg-bottom-45"][vc_column_inner el_class="sm-mg-bottom-15" offset="vc_col-md-4"][g5plus_icon_box color_scheme="dark" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_align="center" custom_icon_color="#33a752" css=".vc_custom_1461834419322{padding-top: 20.5px !important;padding-bottom: 20.5px !important;background-color: #bcdcda !important;border-radius: 4px !important;}"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-15" offset="vc_col-md-4"][g5plus_icon_box color_scheme="dark" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_align="center" css=".vc_custom_1461834432476{padding-top: 20.5px !important;padding-bottom: 20.5px !important;background-color: #f5dee1 !important;border-radius: 4px !important;}"][/vc_column_inner][vc_column_inner offset="vc_col-md-4"][g5plus_icon_box color_scheme="dark" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_align="center" custom_icon_color="#4185f3" css=".vc_custom_1461834445468{padding-top: 20.5px !important;padding-bottom: 20.5px !important;background-color: #f7eed0 !important;border-radius: 4px !important;}"][/vc_column_inner][/vc_row_inner][g5plus_products title="Sale Products" title_style="style_02" show="sale" number="6" columns="4" rows="1" arrows_style="round" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true" el_class="mg-bottom-40"][g5plus_banner banner_image="1712" el_class="mg-bottom-40"][g5plus_partner_carousel title="OUR CLIENTS" title_style="style_02" layout_style="bordered" images="730,731,733,732,734,735" custom_links_target="" arrows_style="round" partner_size="" is_slider="true"][/vc_column][vc_column el_class="col-md-pull-9 sm-mg-top-50" offset="vc_col-md-3"][g5plus_widget_product_categories widget_layout="widget-border-round" title="All Categories" dropdown="0" show_children_only="0" el_class="mg-bottom-20 sm-mg-bottom-30 mg-top-30 sm-mg-top-0" css=".vc_custom_1464142790383{padding-bottom: 83px !important;}"][g5plus_widget_text_block widget_layout="widget-border-round-background" title="SUBSCRIBE US!" text="Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.
+					`{`mc4wp_form`}`" el_class="mc-style4 mc-other mg-bottom-50 sm-mg-bottom-30"][g5plus_heading title="Featured" style="style_01" el_class="mg-bottom-20"][g5plus_product_sidebar show="featured" number="3" el_class="mg-bottom-45 sm-mg-bottom-25"][g5plus_heading title="Testimonials" style="style_01" el_class="mg-bottom-20"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22avatar%22%3A%22321%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22avatar%22%3A%22323%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22avatar%22%3A%22322%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_type="st1_type2" arrows_style="round" arrows="true" autoplaytimeout="5000" nav="yes" el_class="mg-bottom-50 sm-mg-bottom-30"][g5plus_heading title="News" style="style_01" el_class="mg-bottom-20"][g5plus_posts layout="style_05" source="recent" number="3" columns="1" arrows_position="bottom" arrows_style="round" is_slider="true"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 3</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column][rev_slider_vc alias="fullscreen"][/vc_column][/vc_row][vc_row el_class="mg-top-30 mg-bottom-30"][vc_column width="2/3"][g5plus_banner hover_effect="layla-effect" banner_image="1643"][/vc_column][vc_column width="1/3" offset="vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1644"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" el_class="mg-bottom-65 sm-mg-bottom-45"][vc_column][vc_separator color="custom" accent_color="#eeeeee"][/vc_column][/vc_row][vc_row el_class="mg-bottom-20"][vc_column][g5plus_heading title="New Arrivals" style="style_02" size="lg" align="center" el_class="mg-bottom-50 sm-mg-bottom-30"][g5plus_products show="new-in" category="new-collection" number="6" columns="4" rows="1" arrows_position="center" arrows_style="round" product_catalog_style="center" product_category_enable="true" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" content_placement="middle" css=".vc_custom_1464056817618{background-color: #e2e0e1 !important;}"][vc_column width="1/2" el_class="xs-mg-bottom-30"][vc_single_image image="1850" img_size="full" alignment="center"][/vc_column][vc_column width="1/2" el_class="xs-mg-bottom-30" offset="vc_col-md-offset-2 vc_col-md-4"][vc_single_image image="1856" img_size="full" alignment="center"][vc_column_text css=".vc_custom_1464059662216{margin-top: 25px !important;}"]
+					<h2 style="text-align: center; margin-bottom: 5px;"><strong><span style="color: #212121;">Men's Line Shirt</span></strong></h2>
+					<p class="fs-18" style="text-align: center;"><span style="color: #666666;">Our Products Are Best</span></p>
+					[/vc_column_text][g5plus_countdown time="2016/12/24 00:00" css=".vc_custom_1464082458402{margin-top: 35px !important;}"][g5plus_button title="FIND OUT NOW" size="btn-md" align="center" link="url:%23|title:FIND%20OUT%20NOW|" css=".vc_custom_1464055717819{margin-top: 40px !important;}"][/vc_column][/vc_row][vc_row el_class="mg-top-65 mg-bottom-25 sm-mg-top-45"][vc_column][g5plus_heading title="Features" style="style_02" size="lg" align="center" el_class="mg-bottom-40"][vc_tta_tabs style="no_border" spacing="35" gap="35" alignment="center" active_section="1"][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="Women" tab_id="women" add_icon="true"][g5plus_products show="featured" category="women" number="6" columns="3" rows="1" arrows_position="center" arrows_style="round" product_catalog_style="center" product_category_enable="true" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="Men" tab_id="men" add_icon="true"][g5plus_products show="featured" category="men" number="6" columns="3" rows="1" arrows_position="center" arrows_style="round" product_catalog_style="center" product_category_enable="true" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="ACCESSORIES" tab_id="accessories" add_icon="true"][g5plus_products category="accessories" number="6" columns="3" rows="1" arrows_position="center" arrows_style="round" product_catalog_style="center" product_category_enable="true" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][/vc_tta_tabs][/vc_column][/vc_row][vc_row el_class="mg-bottom-100 sm-mg-bottom-40"][vc_column][g5plus_partner_carousel size="size_02" images="724,725,726,727,728" custom_links_target="" arrows_position="center" arrows_style="classic" is_slider="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" parallax="content-moving" overlay_mode="color" overlay_color="rgba(0,0,0,0.85)" css=".vc_custom_1463975946240{background-image: url(http://localhost/orson/wp-content/uploads/2016/05/product_category_background.jpg?id=786) !important;}" el_class="mg-bottom-70 sm-mg-bottom-50"][vc_column][g5plus_heading title="SHOP BY CATEGORIES" style="style_02" size="lg" align="center" color_scheme="light" css=".vc_custom_1463213236796{margin-top: 65px !important;margin-bottom: 50px !important;}"][g5plus_slider_container arrows="" infinite="" items="3" itemsdesktop="3" itemsdesktopsmall="2" itemstablet="2" itemstabletsmall="1"][g5plus_product_category_box image="783" title_bt="SHOP NOW" link="url:%23|title:Shop%20Now|" title="WOMAN CATEGORY" description="Vestibulum non odio at tortor facilisis cursus eu ut turpis. Ut vehicula cursus elit. Nunc lacinia arcu."][g5plus_product_category_box image="784" title_bt="SHOP NOW" link="url:%23|title:Shop%20Now|" title="MAN CATEGORY" description="Vestibulum non odio at tortor facilisis cursus eu ut turpis. Ut vehicula cursus elit. Nunc lacinia arcu."][g5plus_product_category_box image="785" title_bt="SHOP NOW" link="url:%23|title:Shop%20Now|" title="KID CATEGORY" description="Vestibulum non odio at tortor facilisis cursus eu ut turpis. Ut vehicula cursus elit. Nunc lacinia arcu."][/g5plus_slider_container][/vc_column][/vc_row][vc_row el_class="mg-bottom-65 sm-mg-bottom-45"][vc_column][g5plus_heading title="Blog Updates" style="style_02" size="lg" align="center" el_class="mg-bottom-50 sm-mg-bottom-30"][g5plus_posts layout="style_05" source="recent" number="5" columns="3" arrows="" is_slider="true"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes"][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="square_outline" align="center" color_scheme="dark" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" icon_color="#e87b4c" css=".vc_custom_1461834825612{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="square_outline" align="center" color_scheme="dark" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" custom_icon_color="#33a752" icon_color="#e87b4c" css=".vc_custom_1461834839198{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="square_outline" align="center" color_scheme="dark" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#33a752" icon_color="#e87b4c" css=".vc_custom_1461834911326{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 4</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column el_class="col-md-push-3" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-430" el_class="mg-top-20 mg-bottom-15 sm-mg-top-0"][vc_row_inner gap="15" el_class="mg-bottom-45"][vc_column_inner el_class="xs-mg-bottom-15" width="1/2" offset="vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1593"][/vc_column_inner][vc_column_inner width="1/2" offset="vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1594"][/vc_column_inner][/vc_row_inner][vc_row_inner el_class="mg-bottom-30"][vc_column_inner][g5plus_products title="New Arrivals" title_style="style_01" category="new-collection" number="6" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true"][/vc_column_inner][/vc_row_inner][vc_row_inner gap="15" el_class="mg-bottom-30"][vc_column_inner el_class="sm-mg-bottom-15" offset="vc_col-md-4"][g5plus_icon_box layout="round" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_align="center" custom_icon_color="#33a752" icon_color="#33a752"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-15" offset="vc_col-md-4"][g5plus_icon_box layout="round" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_align="center" icon_color="#ea4334"][/vc_column_inner][vc_column_inner offset="vc_col-md-4"][g5plus_icon_box layout="round" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_align="center" custom_icon_color="#4185f3" icon_color="#4185f3"][/vc_column_inner][/vc_row_inner][vc_row_inner el_class="mg-bottom-30"][vc_column_inner el_class="sm-mg-bottom-20" width="1/3"][g5plus_product_sidebar title="Featured" show="featured" category="essentials,clothing" number="3"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-20" width="1/3"][g5plus_product_sidebar title="Top Rated" show="top-rated" category="accessories" number="3"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-20" width="1/3"][g5plus_product_sidebar title="On Sale" show="sale" category="clothing" number="3"][/vc_column_inner][/vc_row_inner][g5plus_banner hover_effect="bubba-effect" banner_image="1728" el_class="mg-bottom-30"][g5plus_products title="Accessories" title_style="style_01" category="accessories" number="6" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true" el_class="mg-bottom-35"][g5plus_partner_carousel title="OUR CLIENTS" title_style="style_01" layout_style="bordered" images="730,731,733,732,734,735" custom_links_target="" arrows_style="classic" itemstabletsmall="2" partner_size="" is_slider="true" el_class="sm-mg-bottom-50"][/vc_column][vc_column el_class="col-md-pull-9" offset="vc_col-md-3"][g5plus_widget_product_categories widget_layout="widget-border-round" dropdown="0" show_children_only="0" el_class="mg-bottom-20"][g5plus_widget_text_block widget_layout="widget-border-background" title="SUBSCRIBE US!" text="Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.
+					`{`mc4wp_form`}`" el_class="mc-style4 mg-bottom-20"][g5plus_slider_container arrows_position="bottom" arrows_style="classic" items="1" gap="0" el_class="mg-bottom-30"][g5plus_banner banner_image="1331"][g5plus_banner banner_image="1331"][g5plus_banner banner_image="1331"][/g5plus_slider_container][vc_row_inner el_class="mg-bottom-35"][vc_column_inner][g5plus_heading title="OUR SERVICES" style="style_01"][g5plus_icon_box size="sm" title="DEDICATED SERVICE" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-shopbag" read_more="Get In Touch" custom_icon_color="#33a752" css=".vc_custom_1461831019718{margin-bottom: 20px !important;border-bottom-width: 1px !important;padding-bottom: 20px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="FREE RETURNS" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-repeat" read_more="Return Policy" css=".vc_custom_1461831037189{margin-bottom: 20px !important;border-bottom-width: 1px !important;padding-bottom: 20px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="INTERNATIONAL SHIPPING" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-world" read_more="Read more" custom_icon_color="#4185f3" css=".vc_custom_1463985783166{border-bottom-width: 1px !important;padding-bottom: 20px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][/vc_column_inner][/vc_row_inner][g5plus_heading title="Testimonials" style="style_01"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20eget%20risus%20porta%2C%20tincidunt%20turpis%20at%2C%20interdum%20tortor.%20Suspendisse%20potenti.%20Lorem%20ipsum%20dolor%20sit%20amet.%22%2C%22avatar%22%3A%22324%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20id%20unum%20autem%20voluptaria%20cum%2C%20quot%20assentior%20definiebas%20eum%20ut.%20Aliquip%20convenire%20instructior%20cu%20eam.%20Dicant%20mnesarchum%20in%20per%2C%20vim%20no%20posse%20facer%20soluta%20qui.%22%2C%22avatar%22%3A%22323%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20errem%20doctus%20invidunt%20ex%20usu%2C%20te%20ius%20tation%20delenit%20invidunt.%20Vitae%20epicurei%20conclusionemque%20ei%20eum.%20Ut%20novum%20paulo%20tritani.%22%2C%22avatar%22%3A%22322%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_type="st1_type2" arrows_style="classic" arrows="true" autoplaytimeout="5000" nav="yes" el_class="mg-bottom-30"][g5plus_widget_posts widget_layout="widget-classic" title="Recent Posts" source="recent" number="3"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 5</h7>
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-20 mg-top-20 sm-mg-top-0"][vc_column el_class="col-md-push-3 sm-mg-bottom-20" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-505"][/vc_column][vc_column el_class="col-md-pull-9" offset="vc_col-md-3"][g5plus_widget_nav_menu widget_layout="widget-border-round" title="Top Categories" nav_menu="Top Categories" el_class="mg-bottom-20"][g5plus_widget_nav_menu widget_layout="widget-border-round" title="Trending" nav_menu="Trending"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" el_class="mg-bottom-20"][vc_column][vc_separator color="custom" accent_color="#dddddd"][/vc_column][/vc_row][vc_row equal_height="yes" el_class="mg-bottom-35"][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461830074386{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#33a752"][/vc_column][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" css=".vc_custom_1461830082653{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#ea4334"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="round" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#4185f3" css=".vc_custom_1461830091364{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#4185f3"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column][g5plus_products title="New Arrivals" title_style="style_01" show="new-in" category="new-collection" number="8" columns="5" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1532"][/vc_column][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1533"][/vc_column][vc_column width="1/2" el_class="xs-mg-bottom-20" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1534"][/vc_column][vc_column width="1/2" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1535"][/vc_column][/vc_row][vc_row gap="15"][vc_column el_class="mg-bottom-40" offset="vc_col-lg-6"][g5plus_products title="On Sale" title_style="style_01" show="sale" category="headphones" number="6" columns="3" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true"][/vc_column][vc_column offset="vc_col-lg-6" el_class="mg-bottom-40"][g5plus_products title="Top Rated" title_style="style_01" show="top-rated" category="headphones" number="6" columns="3" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" equal_height="yes" css=".vc_custom_1463994221417{padding-top: 37.5px !important;padding-bottom: 37.5px !important;background-color: #eeeeee !important;}" el_class="mg-bottom-35"][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box title="DEDICATED SERVICE" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-shopbag" read_more="Get In Touch" custom_icon_color="#33a752"][/vc_column][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box title="FREE RETURNS" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-repeat" read_more="Return Policy"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box title="INTERNATIONAL SHIPPING" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-world" read_more="Read more" custom_icon_color="#4185f3"][/vc_column][/vc_row][vc_row][vc_column][g5plus_partner_carousel title="OUR CLIENTS" title_style="style_01" layout_style="bordered" images="730,731,733,732,734,735" custom_links_target="" arrows_style="classic" itemstabletsmall="2" partner_size="" is_slider="true"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 6</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column][rev_slider_vc alias="slider-fullwidth" el_class="mg-bottom-20"][/vc_column][/vc_row][vc_row equal_height="yes" el_class="mg-bottom-20"][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461830074386{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#33a752"][/vc_column][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" css=".vc_custom_1461830082653{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#ea4334"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="round" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#4185f3" css=".vc_custom_1461830091364{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#4185f3"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column width="1/2" el_class="xs-mg-bottom-20" offset="vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1538"][/vc_column][vc_column width="1/2" offset="vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1539"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column][vc_tta_tabs style="default" spacing="20" gap="20" active_section="1"][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="NEW ARRIVALS" tab_id="new-arrivals" add_icon="true"][g5plus_products show="new-in" category="new-collection" number="8" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="ON SALE" tab_id="on-sale" add_icon="true"][g5plus_products show="sale" number="8" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="FEATURES" tab_id="features" add_icon="true"][g5plus_products show="featured" number="8" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][/vc_tta_tabs][/vc_column][/vc_row][vc_row full_width="stretch_row" content_placement="middle" overlay_mode="color" overlay_color="rgba(0,0,0,0.5)" css=".vc_custom_1463999048838{padding-top: 64px !important;padding-bottom: 83px !important;background-image: url(http://localhost/orson/wp-content/uploads/2016/05/bg_mailchimp_homepage_part1_03.jpg?id=1811) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="mg-bottom-40"][vc_column el_class="text-center"][vc_column_text]
+					<p style="font-size: 42px; font-weight: 300; color: #fff;">Welcome you to <span style="color: #33a652;">Orson</span> Store!</p>
+					[/vc_column_text][vc_column_text el_class="text-center" css=".vc_custom_1463022024563{padding-top: 23px !important;}"]
+					<p style="max-width: 530px; display: inline-block;"><span style="color: #bababa;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet arcu id enim feugiat posuere quis non lorem. Pellentesque tristique bibendum elit,</span></p>
+					[/vc_column_text][vc_column_text el_class="mc-style3" css=".vc_custom_1463997701298{padding-top: 23px !important;}"][mc4wp_form][/vc_column_text][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column offset="vc_col-md-6" el_class="sm-mg-bottom-20"][g5plus_product_categories_box layout="horizontal" image="1817" title="WOMAN CATEGORY" description="Aliquam quis tincidunt quam. Aliquam et ligula eu est luctus malesuada. Aliquam varius dui eget." badge="HOT" category="bags, men, women, headphones"][/vc_column][vc_column offset="vc_col-md-6"][g5plus_product_categories_box layout="horizontal" image="1818" title="MAN CATEGORY" description="Aliquam quis tincidunt quam. Aliquam et ligula eu est luctus malesuada. Aliquam varius dui eget." badge="HOT" category="bags, men, women, headphones"][/vc_column][/vc_row][vc_row el_class="mg-bottom-25"][vc_column width="1/3"][g5plus_posts title="From The Blog" title_style="style_01" source="recent" number="1" columns="1"][/vc_column][vc_column width="1/3" el_class="sm-mg-bottom-20"][g5plus_heading title="OUR SERVICES" style="style_01"][g5plus_icon_box size="sm" title="DEDICATED SERVICE" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-shopbag" read_more="Get In Touch" custom_icon_color="#33a752" css=".vc_custom_1464052027324{margin-bottom: 20px !important;border-bottom-width: 1px !important;padding-bottom: 13px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="FREE RETURNS" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-repeat" read_more="Return Policy" css=".vc_custom_1464052036271{margin-bottom: 20px !important;border-bottom-width: 1px !important;padding-bottom: 13px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="INTERNATIONAL SHIPPING" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-world" read_more="Read more" custom_icon_color="#4185f3"][/vc_column][vc_column width="1/3"][g5plus_heading title="Reviews" style="style_01"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ne%20eirmod%20copiosae%20neglegentur%20mea%2C%20virtute%20impedit%20fastidii%20quo%20ad%20ne.%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20vim%20adipisci%20aliquando%2C%20augue%20perpetua%20quaerendum%20ex%20ius%2C%20duo%20id.%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" arrows="true" autoplaytimeout="5000" nav="yes"][/vc_column][/vc_row][vc_row el_class="mg-bottom-30"][vc_column][vc_separator color="custom" accent_color="#dddddd"][/vc_column][/vc_row][vc_row][vc_column][g5plus_partner_carousel layout_style="bordered" size="size_02" images="724,725,726,727,728,729" custom_links_target="" arrows_position="center" arrows_style="square" is_slider="true"][/vc_column][/vc_row]
+					</textarea></p>
+					
+					<h7>Shortcode set for Home 7</h7>					
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-20"][vc_column el_class="col-md-push-3 sm-mg-bottom-20" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-505"][/vc_column][vc_column el_class="col-md-pull-9" offset="vc_col-md-3"][g5plus_widget_nav_menu widget_layout="widget-border-round" title="Top Categories" nav_menu="Top Categories" el_class="mg-bottom-20"][g5plus_widget_nav_menu widget_layout="widget-border-round" title="Trending" nav_menu="Trending"][/vc_column][/vc_row][vc_row equal_height="yes" el_class="mg-bottom-35"][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461830074386{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#33a752"][/vc_column][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" css=".vc_custom_1461830082653{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#ea4334"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="round" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#4185f3" css=".vc_custom_1461830091364{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#4185f3"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column][g5plus_products title="New Arrivals" title_style="style_01" category="clothing" number="8" columns="5" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3"][g5plus_product_categories_box image="1837" title="WOMAN CATEGORY" category="bags, men, women, headphones"][/vc_column][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3"][g5plus_product_categories_box image="1838" title="MAN CATEGORY" category="bags, men, women, headphones"][/vc_column][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3"][g5plus_product_categories_box image="1839" title="KID CATEGORY" category="bags, men, women, headphones"][/vc_column][vc_column width="1/2" offset="vc_col-md-3"][g5plus_product_categories_box image="1840" title="BAG CATEGORY" category="bags, men, women, headphones"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column][g5plus_banner hover_effect="bubba-effect" banner_image="1543"][/vc_column][/vc_row][vc_row el_class="mg-bottom-30"][vc_column width="1/3" el_class="sm-mg-bottom-20"][g5plus_product_sidebar title="Featured" show="featured" category="essentials,clothing" number="3"][/vc_column][vc_column width="1/3" el_class="sm-mg-bottom-20"][g5plus_product_sidebar title="On Sale" show="sale" category="clothing,essentials,accessories" number="3"][/vc_column][vc_column width="1/3"][g5plus_product_sidebar title="Top Rated" show="top-rated" category="accessories" number="3"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1532"][/vc_column][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1533"][/vc_column][vc_column width="1/2" el_class="xs-mg-bottom-20" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1534"][/vc_column][vc_column width="1/2" offset="vc_col-md-3 vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1535"][/vc_column][/vc_row][vc_row el_class="mg-bottom-25"][vc_column width="1/3" el_class="xs-mg-bottom-20"][g5plus_heading title="Reviews" style="style_01"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ne%20eirmod%20copiosae%20neglegentur%20mea%2C%20virtute%20impedit%20fastidii%20quo%20ad%20ne.%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20vim%20adipisci%20aliquando%2C%20augue%20perpetua%20quaerendum%20ex%20ius%2C%20duo%20id.%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" arrows="true" autoplaytimeout="5000" nav="yes"][/vc_column][vc_column width="2/3" el_class="sm-mg-bottom-20"][g5plus_posts title="From The Blog" title_style="style_01" source="recent" number="4" columns="2" arrows_style="classic" is_slider="true"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 8</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column][rev_slider_vc alias="fullscreen"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" el_class="mg-bottom-35"][vc_column width="1/3" offset="vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1547"][/vc_column][vc_column width="1/3" offset="vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1599"][/vc_column][vc_column width="1/3" offset="vc_col-xs-12"][g5plus_banner hover_effect="layla-effect" banner_image="1549"][/vc_column][/vc_row][vc_row el_class="mg-bottom-10"][vc_column][g5plus_products title="NEW ARRIVALS" title_style="style_01" title_size="lg" title_align="center" category="clothing" number="8" columns="4"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column width="1/2" el_class="sm-mg-bottom-30"][g5plus_sale_box sale="-40%" title="WOMAN’S TANKTOP &amp; CROPTOP" description="Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum. " featured="HOT"][/vc_column][vc_column width="1/2"][g5plus_sale_box sale="-50%" title="ALL ITEMS LAST SEASON" description="Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum. " featured="HOT"][/vc_column][/vc_row][vc_row full_width="stretch_row" parallax="content-moving" overlay_mode="color" overlay_color="rgba(255,255,255,0.4)" css=".vc_custom_1464056160724{padding-top: 50px !important;padding-bottom: 50px !important;background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-01.jpg?id=327) !important;}" el_class="mg-bottom-35"][vc_column][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22avatar%22%3A%22324%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ne%20eirmod%20copiosae%20neglegentur%20mea%2C%20virtute%20impedit%20fastidii%20quo%20ad%20ne.%22%2C%22avatar%22%3A%22323%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20vim%20adipisci%20aliquando%2C%20augue%20perpetua%20quaerendum%20ex%20ius%2C%20duo%20id.%22%2C%22avatar%22%3A%22322%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_style="style2" arrows_position="center" arrows="true" autoplaytimeout="5000" nav="yes"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40 sm-mg-bottom-20"][vc_column][g5plus_posts title="From Our Blog" title_style="style_01" title_size="lg" title_align="center" source="recent" number="5" columns="3" arrows="" is_slider="true"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes"][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="light" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461832518958{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #34a853 !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="light" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461832529558{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #32a051 !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="light" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461832541723{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #34a853 !important;}"][/vc_column][/vc_row]
+					</textarea></p>	
+					<h7>Shortcode set for Home 9</h7>
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-35"][vc_column offset="vc_col-lg-8 vc_col-md-8 vc_col-xs-12" el_class="sm-mg-bottom-20"][rev_slider_vc alias="slider-container-480"][/vc_column][vc_column offset="vc_col-lg-4 vc_col-md-4 vc_col-xs-12"][g5plus_banner hover_effect="bubba-effect" banner_image="1555" css=".vc_custom_1463819026056{margin-bottom: 21px !important;}"][g5plus_banner hover_effect="bubba-effect" banner_image="1556"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column][g5plus_products title="Featured Products" title_style="style_01" show="featured" category="clothing" number="8" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column][g5plus_product_categories title="Shop By Categories" title_style="style_01" show="categories" columns="4" rows="1" arrows_style="classic" category="men, women, headphones, shoes, bags" is_slider="true"][/vc_column][/vc_row][vc_row content_placement="middle" el_class="pd-top-30 pd-bottom-30 mg-bottom-35" css=".vc_custom_1464057090441{padding-left: 30px !important;background-color: #dddddd !important;border-radius: 3px !important;}"][vc_column width="1/2"][g5plus_icon_box title="JOIN OUR NEWSLETTER" description="Ut id massa ligula. Vestibulum ultrices malesuada lorem, in maximus tellus lobortis bibendum. " icon_font="pe-7s-mail-open" icon_vertical="middle" icon_color="#33a652"][/vc_column][vc_column width="1/2"][vc_column_text el_class="mc-style2"][mc4wp_form][/vc_column_text][/vc_column][/vc_row][vc_row el_class="mg-bottom-25"][vc_column width="1/3"][g5plus_posts title="From The Blog" title_style="style_01" source="recent" number="1" columns="1"][/vc_column][vc_column width="1/3" el_class="sm-mg-bottom-20"][g5plus_heading title="OUR SERVICES" style="style_01"][g5plus_icon_box size="sm" title="DEDICATED SERVICE" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-shopbag" read_more="Get In Touch" custom_icon_color="#33a752" css=".vc_custom_1464052027324{margin-bottom: 20px !important;border-bottom-width: 1px !important;padding-bottom: 13px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="FREE RETURNS" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-repeat" read_more="Return Policy" css=".vc_custom_1464052036271{margin-bottom: 20px !important;border-bottom-width: 1px !important;padding-bottom: 13px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="INTERNATIONAL SHIPPING" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-world" read_more="Read more" custom_icon_color="#4185f3"][/vc_column][vc_column width="1/3"][g5plus_heading title="Reviews" style="style_01"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20ex%20vix%20illud%20nonummy%2C%20novum%20tation%20et%20his.%20At%20vix%20scriptaset%20patrioque%20et%20scribentur.%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ne%20eirmod%20copiosae%20neglegentur%20mea%2C%20virtute%20impedit%20fastidii%20quo%20ad%20ne.%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20vim%20adipisci%20aliquando%2C%20augue%20perpetua%20quaerendum%20ex%20ius%2C%20duo%20id.%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" arrows="true" autoplaytimeout="5000" nav="yes"][/vc_column][/vc_row][vc_row el_class="mg-bottom-30"][vc_column][vc_separator color="custom" accent_color="#dddddd"][/vc_column][/vc_row][vc_row][vc_column][g5plus_partner_carousel layout_style="bordered" size="size_02" images="724,725,726,727,728,729" custom_links_target="" arrows_position="center" arrows_style="square" is_slider="true"][/vc_column][/vc_row]
+					</textarea></p>	
+					<h7>Shortcode set for Home 10</h7>
+					<p><textarea data-lang="html">[vc_row][vc_column][rev_slider_vc alias="fullscreen"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle" el_class="xs-mg-bottom-40"][vc_column width="1/2" el_class="bg-padding-reponsive"][g5plus_products title="Featured Products" title_style="style_01" title_size="lg" title_align="center" show="featured" category="clothing" number="6" columns="3" rows="1" arrows_position="bottom" arrows_style="classic" is_slider="true" el_class="product-split-screen"][/vc_column][vc_column width="1/2" css=".vc_custom_1464062725507{background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-05.jpg?id=1885) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_empty_space height="380px" el_class="mg-top-100 mg-bottom-100 xs-mg-top-25 xs-mg-bottom-25 pd-top-50 xs-pd-top-25 pd-bottom-50 xs-pd-bottom-25"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle" el_class="xs-mg-bottom-40"][vc_column width="1/2" el_class="col-md-push-6 col-sm-push-6 bg-padding-reponsive"][g5plus_products title="New Arrivals" title_style="style_01" title_size="lg" title_align="center" show="new-in" category="clothing" number="6" columns="3" rows="1" arrows_position="bottom" arrows_style="classic" is_slider="true" el_class="product-split-screen"][/vc_column][vc_column width="1/2" css=".vc_custom_1464062843898{background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-06.jpg?id=1886) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="col-md-pull-6 col-sm-pull-6"][vc_empty_space height="380px" el_class="mg-top-100 mg-bottom-100 xs-mg-top-25 xs-mg-bottom-25 pd-top-50 xs-pd-top-25 pd-bottom-50 xs-pd-bottom-25"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes" content_placement="middle"][vc_column width="1/2" el_class="bg-padding-reponsive mg-bottom-20"][g5plus_heading title="Shop By Categories" style="style_01" size="lg" align="center"][g5plus_slider_container arrows="" infinite="" items="3" itemsdesktop="3" itemsdesktopsmall="2" itemstablet="1"][g5plus_product_categories_box image="1837" title="WOMAN CATEGORY" category="bags, men, women, headphones, shoes, t-shirts, accessories"][g5plus_product_categories_box image="1838" title="MAN CATEGORY" category="bags, men, women, headphones, shoes, t-shirts, accessories"][g5plus_product_categories_box image="1839" title="KID CATEGORY" category="bags, men, women, headphones, shoes, t-shirts, accessories"][g5plus_product_categories_box image="1840" title="BAG CATEGORY" category="bags, men, women, headphones, shoes, t-shirts, accessories"][/g5plus_slider_container][/vc_column][vc_column width="1/2" css=".vc_custom_1464062948951{background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-07.jpg?id=1887) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_empty_space height="380px" el_class="mg-top-100 mg-bottom-100 xs-mg-top-25 xs-mg-bottom-25 pd-top-50 xs-pd-top-25 pd-bottom-50 xs-pd-bottom-25"][/vc_column][/vc_row][vc_row full_width="stretch_row_content_no_spaces" equal_height="yes"][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="light" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461832518958{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #34a853 !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="light" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461832529558{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #32a051 !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box align="center" color_scheme="light" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461832541723{padding-top: 17.5px !important;padding-bottom: 17.5px !important;background-color: #34a853 !important;}"][/vc_column][/vc_row]
+					</textarea></p>					
+					<h7>Shortcode set for Home 11</h7>
+					<p><textarea data-lang="html">[vc_row full_width="row_content_no_spaces" el_class="fix-row-content"][vc_column el_class="col-md-push-3" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-385"][/vc_column][vc_column el_class="col-md-pull-9" offset="vc_col-md-3"][g5plus_widget_product_categories widget_layout="widget-border" dropdown="0" show_children_only="0" el_class="fix-border-duplicate"][/vc_column][/vc_row][vc_row full_width="row_content_no_spaces"][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="square_outline" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" icon_color="#33a752" css=".vc_custom_1461833213314{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="square_outline" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" custom_icon_color="#33a752" icon_color="#ea4334" css=".vc_custom_1461833222039{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="square_outline" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#33a752" icon_color="#4185f3" css=".vc_custom_1461833231460{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}"][/vc_column][/vc_row][vc_row][vc_column el_class="col-md-push-3" offset="vc_col-md-9"][g5plus_products title="New Arrivals" title_style="style_01" show="new-in" category="clothing" number="6" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true" el_class="mg-top-35 mg-bottom-30"][vc_row_inner equal_height="yes" gap="15" el_class="mg-bottom-30"][vc_column_inner el_class="sm-mg-bottom-20" offset="vc_col-md-4"][g5plus_icon_box layout="round" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_align="center" custom_icon_color="#33a752" icon_color="#33a752"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-20" offset="vc_col-md-4"][g5plus_icon_box layout="round" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_align="center" icon_color="#ea4334"][/vc_column_inner][vc_column_inner offset="vc_col-md-4"][g5plus_icon_box layout="round" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_align="center" custom_icon_color="#4185f3" icon_color="#4185f3"][/vc_column_inner][/vc_row_inner][vc_row_inner el_class="mg-bottom-30"][vc_column_inner el_class="sm-mg-bottom-20" width="1/3"][g5plus_product_sidebar title="Featured" show="featured" category="essentials,clothing" number="3"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-20" width="1/3"][g5plus_product_sidebar title="Top Rated" show="top-rated" category="accessories" number="3"][/vc_column_inner][vc_column_inner el_class="sm-mg-bottom-20" width="1/3"][g5plus_product_sidebar title="On Sale" show="sale" category="clothing" number="3"][/vc_column_inner][/vc_row_inner][g5plus_banner hover_effect="bubba-effect" banner_image="1969" el_class="mg-bottom-30"][g5plus_products title="Accessories" title_style="style_01" category="accessories" number="6" columns="4" rows="1" arrows_style="classic" product_category_enable="" column_gap="15" is_slider="true" custom_catalog_style_enable="true" el_class="mg-bottom-35"][/vc_column][vc_column el_class="col-md-pull-9" offset="vc_col-md-3"][g5plus_widget_text_block widget_layout="widget-border-background" title="SUBSCRIBE US!" text="Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.
+					`{`mc4wp_form`}`" el_class="mc-style4 fix-border-duplicate"][g5plus_banner banner_image="1331"][vc_row_inner el_class="vc_row-no-padding"][vc_column_inner css=".vc_custom_1464077364223{border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;border-left-color: #dddddd !important;border-left-style: solid !important;border-right-color: #dddddd !important;border-right-style: solid !important;border-top-color: #dddddd !important;border-top-style: solid !important;border-bottom-color: #dddddd !important;border-bottom-style: solid !important;}"][g5plus_heading title="Why Choose Us?" style="style_01" el_class="pd-top-35" css=".vc_custom_1464076324758{padding-right: 10px !important;padding-left: 10px !important;}"][g5plus_icon_box size="sm" title="DEDICATED SERVICE" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-shopbag" read_more="Get In Touch" custom_icon_color="#33a752" css=".vc_custom_1464076460895{margin-bottom: 28px !important;border-bottom-width: 1px !important;padding-right: 10px !important;padding-bottom: 25px !important;padding-left: 10px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="FREE RETURNS" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-repeat" read_more="Return Policy" css=".vc_custom_1464076471904{margin-bottom: 28px !important;border-bottom-width: 1px !important;padding-right: 10px !important;padding-bottom: 25px !important;padding-left: 10px !important;border-bottom-color: #eeeeee !important;border-bottom-style: solid !important;}"][g5plus_icon_box size="sm" title="INTERNATIONAL SHIPPING" description="Consult our specialists for help with an order, customization, or design advice" icon_font="pe-7s-world" read_more="Read more" custom_icon_color="#4185f3" css=".vc_custom_1464076481095{padding-right: 10px !important;padding-bottom: 25px !important;padding-left: 10px !important;}"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1464077940849{border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;border-left-color: #dddddd !important;border-left-style: solid !important;border-right-color: #dddddd !important;border-right-style: solid !important;border-bottom-color: #dddddd !important;border-bottom-style: solid !important;}" el_class="vc_row-no-padding xs-mg-bottom-15"][vc_column_inner][g5plus_heading title="Testimonials" style="style_01" el_class="pd-top-35" css=".vc_custom_1464077162371{padding-right: 10px !important;padding-left: 10px !important;}"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20eget%20risus%20porta%2C%20tincidunt%20turpis%20at%2C%20interdum%20tortor.%20Suspendisse%20potenti.%20Lorem%20ipsum%20dolor%20sit%20amet.%22%2C%22avatar%22%3A%22324%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20id%20unum%20autem%20voluptaria%20cum%2C%20quot%20assentior%20definiebas%20eum%20ut.%20Aliquip%20convenire%20instructior%20cu%20eam.%20Dicant%20mnesarchum%20in%20per%2C%20vim%20no%20posse%20facer%20soluta%20qui.%22%2C%22avatar%22%3A%22323%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20errem%20doctus%20invidunt%20ex%20usu%2C%20te%20ius%20tation%20delenit%20invidunt.%20Vitae%20epicurei%20conclusionemque%20ei%20eum.%20Ut%20novum%20paulo%20tritani.%22%2C%22avatar%22%3A%22322%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_type="st1_type2" arrows_style="classic" arrows="true" autoplaytimeout="5000" nav="yes" el_class="mg-bottom-20 testimonial-fix-border"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 12</h7>
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-20"][vc_column][rev_slider_vc alias="slider-homepage-09-part2"][/vc_column][/vc_row][vc_row el_class="mg-bottom-20"][vc_column offset="vc_col-md-6" el_class="sm-mg-bottom-20"][g5plus_product_categories_box layout="horizontal" image="1817" title="WOMAN CATEGORY" description="Aliquam quis tincidunt quam. Aliquam et ligula eu est luctus malesuada. Aliquam varius dui eget." badge="HOT" category="bags, men, women, headphones"][/vc_column][vc_column offset="vc_col-md-6"][g5plus_product_categories_box layout="horizontal" image="1818" title="MAN CATEGORY" description="Aliquam quis tincidunt quam. Aliquam et ligula eu est luctus malesuada. Aliquam varius dui eget." badge="HOT" category="bags, men, women, headphones"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column width="1/3" el_class="xs-mg-bottom-20" offset="vc_col-xs-12"][g5plus_banner hover_effect="jazz-effect" banner_image="1603"][/vc_column][vc_column width="1/3" el_class="xs-mg-bottom-20" offset="vc_col-xs-12"][g5plus_banner hover_effect="jazz-effect" banner_image="1604"][/vc_column][vc_column width="1/3" offset="vc_col-xs-12"][g5plus_banner hover_effect="jazz-effect" banner_image="1605"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column][g5plus_products title="Featured Products" title_style="style_01" show="featured" category="clothing" number="6" columns="4" rows="1" arrows_style="classic" is_slider="true"][/vc_column][/vc_row][vc_row el_class="mg-bottom-30"][vc_column][vc_separator color="custom" accent_color="#dddddd"][/vc_column][/vc_row][vc_row][vc_column][g5plus_partner_carousel layout_style="bordered" size="size_02" images="724,725,726,727,728,729" custom_links_target="" arrows_position="center" arrows_style="square" is_slider="true"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 13</h7>
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-20"][vc_column el_class="sm-mg-bottom-20" offset="vc_col-md-9"][rev_slider_vc alias="slider-container-505"][/vc_column][vc_column offset="vc_col-md-3"][g5plus_widget_nav_menu widget_layout="widget-border-round" title="Top Categories" nav_menu="Top Categories" el_class="mg-bottom-20"][g5plus_widget_nav_menu widget_layout="widget-border-round" title="Trending" nav_menu="Trending"][/vc_column][/vc_row][vc_row equal_height="yes" el_class="mg-bottom-30"][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="MONEY BACK GUARANTEE" description="100% money back guarantee" description_size="sm" icon_font="pe-7s-piggy" icon_vertical="middle" custom_icon_color="#33a752" css=".vc_custom_1461830074386{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#33a752"][/vc_column][vc_column offset="vc_col-md-4" el_class="sm-mg-bottom-20"][g5plus_icon_box layout="round" size="lg" title="FREE SHIPPING &amp; RETURN" description="Free shipping on all orders over $99" description_size="sm" icon_font="pe-7s-cart" icon_vertical="middle" css=".vc_custom_1461830082653{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#ea4334"][/vc_column][vc_column offset="vc_col-md-4"][g5plus_icon_box layout="round" size="lg" title="ONLINE SUPPORT 24/7" description="Lorem ipsum dolor sit amet" description_size="sm" icon_font="pe-7s-help2" icon_vertical="middle" custom_icon_color="#4185f3" css=".vc_custom_1461830091364{padding-top: 16.5px !important;padding-bottom: 16.5px !important;}" icon_color="#4185f3"][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column][vc_tta_tabs style="default" spacing="20" gap="20" active_section="1"][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="NEW ARRIVALS" tab_id="new-arrivals" add_icon="true"][g5plus_products show="new-in" category="new-collection" number="8" columns="5" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="ON SALE" tab_id="on-sale" add_icon="true"][g5plus_products show="sale" number="8" columns="5" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][vc_tta_section i_position="right" i_icon_fontawesome="fa fa-plus" title="FEATURES" tab_id="features" add_icon="true"][g5plus_products show="featured" number="8" columns="5" rows="1" arrows_style="classic" product_category_enable="" column_gap="20" is_slider="true" custom_catalog_style_enable="true"][/vc_tta_section][/vc_tta_tabs][/vc_column][/vc_row][vc_row el_class="mg-bottom-35"][vc_column width="3/4" el_class="xs-mg-bottom-20"][g5plus_products title="Woman's Dress" title_style="style_01" show="recent-review" category="clothing" number="8" columns="4" rows="1" arrows_style="classic" is_slider="true"][/vc_column][vc_column width="1/4"][g5plus_heading title="Testimonials" style="style_01"][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%20Sed%20eget%20risus%20porta%2C%20tincidunt%20turpis%20at%2C%20interdum%20tortor.%20Suspendisse%20potenti.%20Lorem%20ipsum%20dolor%20sit%20amet.%22%2C%22avatar%22%3A%22324%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20id%20unum%20autem%20voluptaria%20cum%2C%20quot%20assentior%20definiebas%20eum%20ut.%20Aliquip%20convenire%20instructior%20cu%20eam.%20Dicant%20mnesarchum%20in%20per%2C%20vim%20no%20posse%20facer%20soluta%20qui.%22%2C%22avatar%22%3A%22323%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20errem%20doctus%20invidunt%20ex%20usu%2C%20te%20ius%20tation%20delenit%20invidunt.%20Vitae%20epicurei%20conclusionemque%20ei%20eum.%20Ut%20novum%20paulo%20tritani.%22%2C%22avatar%22%3A%22322%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_type="st1_type2" arrows_style="classic" arrows="true" autoplaytimeout="5000" nav="yes" el_class="mg-bottom-20"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column width="3/4" el_class="xs-mg-bottom-20"][g5plus_posts title="From The Blog" title_style="style_01" source="recent" number="5" columns="3" arrows_style="classic" is_slider="true"][/vc_column][vc_column width="1/4"][g5plus_banner hover_effect="layla-effect" banner_image="1331"][/vc_column][/vc_row][vc_row el_class="mg-bottom-40"][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3"][g5plus_product_categories_box image="1837" title="WOMAN CATEGORY" category="bags, men, women, headphones"][/vc_column][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3"][g5plus_product_categories_box image="1838" title="MAN CATEGORY" category="bags, men, women, headphones"][/vc_column][vc_column width="1/2" el_class="sm-mg-bottom-20" offset="vc_col-md-3"][g5plus_product_categories_box image="1839" title="KID CATEGORY" category="bags, men, women, headphones"][/vc_column][vc_column width="1/2" offset="vc_col-md-3"][g5plus_product_categories_box image="1840" title="BAG CATEGORY" category="bags, men, women, headphones"][/vc_column][/vc_row]
+					</textarea></p>
+					<h7>Shortcode set for Home 14</h7>
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][rev_slider_vc alias="slider-fullwidth"][/vc_column][/vc_row][vc_row equal_height="yes" el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][g5plus_heading title="Our Services" style="style_02"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" css=".vc_custom_1461838127073{margin-bottom: 40px !important;}"][g5plus_icon_box layout="classic" title="Customer Support" description="In sed nisl felis. Phasellus luctus vestibulum mi a rutrum. Nullam et eleifend ipsum. Proin eu est sed mauris scelerisque porttitor." icon_font="pe-7s-users" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" css=".vc_custom_1461838118160{margin-bottom: 40px !important;}"][g5plus_icon_box layout="classic" title="Sliders" description="Vivamus mollis, turpis sit amet mollis malesuada, ante urna sodales erat, a laoreet ipsum nisl ut ipsum." icon_font="pe-7s-exapnd2" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" css=".vc_custom_1461837883160{margin-bottom: 40px !important;}"][g5plus_icon_box layout="classic" title="HTML5" description="Phasellus sit amet justo sodales, finibus quam eget, semper arcu. Mauris mattis, lacus ut rutrum luctus, mauris sem pulvinar enim." icon_font="pe-7s-config" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" el_class="sm-mg-bottom-40 xs-mg-bottom-40"][g5plus_icon_box layout="classic" title="Lightboxes" description="In sed nisl felis. Phasellus luctus vestibulum mi a rutrum. Nullam et eleifend ipsum. Proin eu est sed mauris scelerisque porttitor." icon_font="pe-7s-browser" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" el_class="xs-mg-bottom-40"][g5plus_icon_box layout="classic" title="Shortcodes" description="Vivamus mollis, turpis sit amet mollis malesuada, ante urna sodales erat, a laoreet ipsum nisl ut ipsum." icon_font="pe-7s-keypad" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12"][g5plus_icon_box layout="classic" title="Videos" description="Phasellus sit amet justo sodales, finibus quam eget, semper arcu. Mauris mattis, lacus ut rutrum luctus, mauris sem pulvinar enim." icon_font="pe-7s-film" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][/vc_row][vc_row full_width="stretch_row" equal_height="yes" css=".vc_custom_1464083417071{background-color: #122e4f !important;}"][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="HAPPY CLIENTS" counter_value="5,000" counter_unit="+" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-45 sm-pd-bottom-0 xs-pd-bottom-0"][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="YEARS IN BUSINESS" counter_value="12" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-45 sm-pd-bottom-0 xs-pd-bottom-0"][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="DONE PROJECTS" counter_value="95" counter_unit="%" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-40 sm-pd-bottom-45 xs-pd-bottom-0"][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="CUPS OF COFFEE" counter_value="577" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-40 sm-pd-bottom-45"][/vc_column][/vc_row][vc_row full_width="stretch_row" overlay_mode="color" overlay_color="rgba(0,0,0,0.7)" css=".vc_custom_1464083556389{padding-top: 55px !important;padding-bottom: 70px !important;background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-08.jpg?id=2047) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Vivamus%20mollis%2C%20turpis%20sit%20amet%20mollis%20malesuada%2C%20ante%20urna%20sodales%20erat%2C%20a%20laoreet%20ipsum%20nisl%20ut%20ipsum.%20Sed%20tristique%20orci%20urna%2C%20non%20mattis%20quam%20pellentesque%20vitae.%20%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20novum%20praesent%20vulputate%20sed%2C%20quis%20iudico%20te%20nam.%20Rebum%20scripta%20has%20eu.%20Ne%20choro%20impetus%20mea.%20Eum%20at%20tempor%20ancillae.%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20decore%20principes%20scriptorem%20sed%20in.%20Per%20soleat%20facilisis%20comprehensam%20no%2C%20te%20eos%20postulant%20adversarium.%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_style="style2" layout_type_2="st2_type2" color_scheme="color-light" arrows_position="center" arrows_style="classic" arrows="true" dots="true" autoplaytimeout="5000" nav="yes"][/vc_column][/vc_row][vc_row full_width="stretch_row" el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][g5plus_our_team title="Meet The Team" title_style="style_02" columns="4" current_page="1" ajax="0" is_slider="true"][/vc_column][/vc_row][vc_row el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column width="1/2"][g5plus_heading title="Who we are" style="style_02"][vc_column_text el_class="mg-bottom-25"]Vivamus mollis, turpis sit amet mollis malesuada, ante urna sodales erat, a laoreet ipsum nisl ut ipsum. Sed tristique orci urna, non mattis quam pellentesque vitae.[/vc_column_text][g5plus_lists bullet="icon" color="primary" size="xs" values="%5B%7B%22icon_font%22%3A%22fa%20fa-plus%22%2C%22label%22%3A%22Vivamus%20mollis%2C%20turpis%20sit%20amet%20mollis%20malesuada%2C%20ante%20urna%20sodales%20erat%2C%20a%20laoreet%20ipsum%20nisl%20ut%20ipsum.%22%7D%2C%7B%22icon_font%22%3A%22fa%20fa-plus%22%2C%22label%22%3A%22Integer%20facilisis%20ex%20in%20mauris%20semper%20tempor.%20Aenean%20faucibus%20varius%20lorem%2C%20eget%20sollicitudin%20tortor%20tincidunt%20ut.%20Fusce%20nec%20nisi%20eu%20enim%20bibendum%20dapibus.%20%22%7D%2C%7B%22icon_font%22%3A%22fa%20fa-plus%22%2C%22label%22%3A%22Suspendisse%20magna%20quam%2C%20commodo%20venenatis%20nunc%20vel.%22%7D%5D"][/vc_column][vc_column width="1/2"][vc_progress_bar layout_style="style_01" values="%5B%7B%22label%22%3A%22HTML%2FCSS%22%2C%22value%22%3A%2290%22%2C%22color%22%3A%22bar_green%22%7D%2C%7B%22label%22%3A%22DESIGN%22%2C%22value%22%3A%22100%22%2C%22color%22%3A%22bar_green%22%7D%2C%7B%22label%22%3A%22WORDPRESS%22%2C%22value%22%3A%2285%22%2C%22color%22%3A%22bar_green%22%7D%2C%7B%22label%22%3A%22SHORTCODE%22%2C%22value%22%3A%2295%22%2C%22color%22%3A%22bar_green%22%7D%5D" units="%"][/vc_column][/vc_row][vc_row full_width="stretch_row" el_class="mg-bottom-25 sm-mg-bottom-15" css=".vc_custom_1464083978802{background-color: #222222 !important;}"][vc_column][g5plus_portfolio title="Our Portfolio" title_style="style_02" title_scheme="light" layout_style="portfolio-masonry" color_scheme="portfolio-color-dark" show_category="left" overlay_style="portfolio-overlay-title-category-icon" icon_color_scheme="icon-color-light" hover_effect="default-effect" items="12" columns="3" arrows_position="center" column_padding="20px" image_size="portfolio-size2" current_page="1" ajax="0" arrows="true" el_class="mg-top-55 sm-mg-top-35 mg-bottom-60 sm-mg-bottom-40"][/vc_column][/vc_row][vc_row el_class="mg-bottom-30 sm-mg-bottom-10"][vc_column][g5plus_partner_carousel size="size_02" images="724,725,726,727,728" custom_links_target="" arrows_position="center" arrows_style="classic" is_slider="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1464084179028{background-color: #eeeeee !important;}"][vc_column][g5plus_posts title="From The Blog" title_style="style_01" layout="style_04" source="recent" number="5" columns="3" arrows="" is_slider="true" dots="true" el_class="mg-top-55 sm-mg-top-35 mg-bottom-60 sm-mg-bottom-40" icon_light="true"][/vc_column][/vc_row]
+					</textarea></p>
+					
+					<h7>And updating, view more demo at:</h7><strong> <a target="_blank" href="http://themes.g5plus.net/ORSON/main/">ORSON Demo</a></strong>
+					
+					<p>Paste one of these content into your <strong>Homepage</strong>, choose Template "<strong>Home Pages</strong>", then publish this page and set it as your frontpage(<a title="Settings a static page as Home" class="data-ref" href="#home-page">8.1. Settings a static page as Home</a>) in the Wordpress Settings panel.</p>
+					<p>For a further understanding on these shortcodes and what they do, please visit <strong><a target="_blank" href="http://themes.g5plus.net/ORSON/main/"> ORSON Demo</a></strong> page.</p>
+				</div>			
+			</section>
+			
+			<section id="one-page">				
+				<h2>Building OnePage</h2>
+				<div class="document-content">					
+					<p>Recently OnePage sites has become a trend, and ORSON can help you do it easily. You just have to create a Menu with Links as items.</p>
+					<p><img src="images/build-onepage-01.gif"></p>	
+					<p>After that, any where want menu link to section, please edit row by Visual Composer and type id on field: Row ID</p>
+					<p><img src="images/build-onepage-02.gif"></p>
+				</div>
+			</section>
+			
+			<section id="build-an-example">
+				<h2>BUILD AN EXAMPLE</h2>
+				<h4>THIS IS STEP BY STEP HOW TO BUILD HOME PAGE "simple" MANUAL FOR <a href="http://themes.g5plus.net/orson/home-15">http://themes.g5plus.net/orson/home-15</a></h4>
+				<div class="content">
+					<h4>Need Wordpress, ORSON & plugins are already</h4>
+					<h4>I. Overview elements area on page</h4>
+					<p>
+						<img class="img-center" src="images/overview-simple.jpg">
+					</p>					
+					<h3>II. BUILDING</h3>	
+					<h4>1. Build & Setting Top Bar area</h4>
+					<h4>1.1. Build Top Bar Left</h4>
+					<p><strong>Add Three " Text Widgets "to "Top Bar Left" Area</strong></p>
+					<p>Go to <strong>Widget Manager</strong></p>
+					<p><img class="img-center" src="images/4.2.1-build-page-footer-area.png"></p>
+					<p><strong>Add Text Widget 01:</strong></p>				
+					<p><img src="images/top-bar-left-text01.jpg"></p>
+					<h7>Code HTML</h7>
+					<p><textarea data-lang="html">
+						<div class="custom-dropdown-list fold-out hover">
+							<span>USD <i class="fa fa-plus"></i></span>
+							<ul class="fold-out-drop  drop-shadow">
+								<li><a href="#">USD - US Dollar</a></li>
+								<li><a href="#">EUR - Euro</a></li>
+								<li><a href="#">GBP - British Pound</a></li>
+								<li><a href="#">INR - Indian Rupee</a></li>
+							</ul>
+						</div>
+				    </textarea></p>	
+				    <p><strong>Add Text Widget 02:</strong></p>
+					<p><img src="images/top-bar-left-text02.jpg"></p>
+					<h7>Code HTML</h7>
+					<p><textarea data-lang="html">
+					<div class="custom-dropdown-list fold-out hover">
+							<span>English <i class="fa fa-plus"></i></span>
+							<ul class="fold-out-drop drop-shadow">
+								<li><a href="#">EN - English</a></li>
+								<li><a href="#">FR - French</a></li>
+								<li><a href="#">DE - German</a></li>
+								<li><a href="#">JA - Japanese</a></li>
+								<li><a href="#">VN - Vietnam</a></li>
+							</ul>
+					</div>					
+				    </textarea></p>
+				    <p><strong>Add Text Widget 03:</strong></p>
+					<p><img src="images/top-bar-left-text03.jpg"></p>
+					<h4>1.2. Build Top Bar Right</h4>				
+					<p><strong>Add " Custom Menu and G5Plus - Social Profile Widgets "to "Top Bar Right" Area</strong></p>	
+					<p><strong>Add Custom Menu Widget :</strong></p>						
+					<p><img src="images/top-bar-right01.jpg"></p>	
+					<p><strong>For more information create menu: </strong><a href="#create-menu">Cick here</a></p>
+					
+	
+					
+					<p><strong>Add Social Profile Widget :</strong></p>
+					<p><img src="images/top-bar-right02.jpg"></p>
+					<h4>2. Build & Setting header area</h4>
+					<h5>2.1 Upload logo</h5>
+					<p>Go to <strong>ThemeOptions</strong> >> <strong>Logo Setting</strong> tab, do follow:</p>
+					<p><img class="img-center" src="images/1.2-build-page-header-area.jpg"></p>					
+					<h4 id ="create-menu"> 2.2 Create menu</h4>
+					<p>Go to <strong>Apperance</strong> >> <strong>Menus</strong>, do follow:</p>
+					<p><img class="img-center" src="images/1.3-build-page-header-area.jpg"></p>
+				
+					<h4>2.3 Settings</h4>
+					<p>Go to <strong>ThemeOptions</strong> >> <strong>Header</strong> tab, then setting below</p>
+					<p><img class="img-center" src="images/1.1-build-page-header-area.jpg"></p>
+										
+					<h3>3. Import slider & create home page</h3>
+					<h4>3.1. Import slider simple</h4>
+					<p>You can reference how to import slider at <strong><a class="data-ref" href="#import-slider">IMPORT SLIDER HOME PAGE</a></strong></br>
+					And locate zip file slider to import on path: wp-content\plugins\orson-framework\install-demo\data\main\revslider</p>					
+					<h4>3.2. <strong><a href="#create-new-page">Create A New Page</a></strong></h4>		
+					<p>Click classic mode, add code below:</p>
+					<p><textarea data-lang="html">[vc_row el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][rev_slider_vc alias="slider-fullwidth"][/vc_column][/vc_row][vc_row equal_height="yes" el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][g5plus_heading title="Our Services" style="style_02"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" css=".vc_custom_1461838127073{margin-bottom: 40px !important;}"][g5plus_icon_box layout="classic" title="Customer Support" description="In sed nisl felis. Phasellus luctus vestibulum mi a rutrum. Nullam et eleifend ipsum. Proin eu est sed mauris scelerisque porttitor." icon_font="pe-7s-users" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" css=".vc_custom_1461838118160{margin-bottom: 40px !important;}"][g5plus_icon_box layout="classic" title="Sliders" description="Vivamus mollis, turpis sit amet mollis malesuada, ante urna sodales erat, a laoreet ipsum nisl ut ipsum." icon_font="pe-7s-exapnd2" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" css=".vc_custom_1461837883160{margin-bottom: 40px !important;}"][g5plus_icon_box layout="classic" title="HTML5" description="Phasellus sit amet justo sodales, finibus quam eget, semper arcu. Mauris mattis, lacus ut rutrum luctus, mauris sem pulvinar enim." icon_font="pe-7s-config" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" el_class="sm-mg-bottom-40 xs-mg-bottom-40"][g5plus_icon_box layout="classic" title="Lightboxes" description="In sed nisl felis. Phasellus luctus vestibulum mi a rutrum. Nullam et eleifend ipsum. Proin eu est sed mauris scelerisque porttitor." icon_font="pe-7s-browser" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12" el_class="xs-mg-bottom-40"][g5plus_icon_box layout="classic" title="Shortcodes" description="Vivamus mollis, turpis sit amet mollis malesuada, ante urna sodales erat, a laoreet ipsum nisl ut ipsum." icon_font="pe-7s-keypad" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][vc_column width="1/2" offset="vc_col-md-4 vc_col-xs-12"][g5plus_icon_box layout="classic" title="Videos" description="Phasellus sit amet justo sodales, finibus quam eget, semper arcu. Mauris mattis, lacus ut rutrum luctus, mauris sem pulvinar enim." icon_font="pe-7s-film" custom_icon_color="#33a752" icon_color="#212121"][/vc_column][/vc_row][vc_row full_width="stretch_row" equal_height="yes" css=".vc_custom_1464083417071{background-color: #122e4f !important;}"][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="HAPPY CLIENTS" counter_value="5,000" counter_unit="+" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-45 sm-pd-bottom-0 xs-pd-bottom-0"][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="YEARS IN BUSINESS" counter_value="12" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-45 sm-pd-bottom-0 xs-pd-bottom-0"][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="DONE PROJECTS" counter_value="95" counter_unit="%" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-40 sm-pd-bottom-45 xs-pd-bottom-0"][/vc_column][vc_column width="1/2" offset="vc_col-lg-3 vc_col-md-3 vc_col-xs-12"][g5plus_counter counter_title="CUPS OF COFFEE" counter_value="577" counter_unit_align="right" color_scheme="light" el_class="pd-top-80 pd-bottom-80 sm-pd-top-40 sm-pd-bottom-45"][/vc_column][/vc_row][vc_row full_width="stretch_row" overlay_mode="color" overlay_color="rgba(0,0,0,0.7)" css=".vc_custom_1464083556389{padding-top: 55px !important;padding-bottom: 70px !important;background-image: url(http://localhost/orson/wp-content/uploads/2016/05/background-08.jpg?id=2047) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}" el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][g5plus_testimonials values="%5B%7B%22quote%22%3A%22Vivamus%20mollis%2C%20turpis%20sit%20amet%20mollis%20malesuada%2C%20ante%20urna%20sodales%20erat%2C%20a%20laoreet%20ipsum%20nisl%20ut%20ipsum.%20Sed%20tristique%20orci%20urna%2C%20non%20mattis%20quam%20pellentesque%20vitae.%20%22%2C%22author%22%3A%22JOLLIE%20ROSE%22%2C%22author_info%22%3A%22CEO%20%26%20Founder%20-%20Digital%20Creative%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20ut%20novum%20praesent%20vulputate%20sed%2C%20quis%20iudico%20te%20nam.%20Rebum%20scripta%20has%20eu.%20Ne%20choro%20impetus%20mea.%20Eum%20at%20tempor%20ancillae.%22%2C%22author%22%3A%22DAVID%20%20JOAH%22%2C%22author_info%22%3A%22Computer%20Systems%20Analyst%22%7D%2C%7B%22quote%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20decore%20principes%20scriptorem%20sed%20in.%20Per%20soleat%20facilisis%20comprehensam%20no%2C%20te%20eos%20postulant%20adversarium.%22%2C%22author%22%3A%22WILIAM%20DAVID%22%2C%22author_info%22%3A%22Software%20Developer%22%7D%5D" layout_style="style2" layout_type_2="st2_type2" color_scheme="color-light" arrows_position="center" arrows_style="classic" arrows="true" dots="true" autoplaytimeout="5000" nav="yes"][/vc_column][/vc_row][vc_row full_width="stretch_row" el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column][g5plus_our_team title="Meet The Team" title_style="style_02" columns="4" current_page="1" ajax="0" is_slider="true"][/vc_column][/vc_row][vc_row el_class="mg-bottom-55 sm-mg-bottom-35"][vc_column width="1/2"][g5plus_heading title="Who we are" style="style_02"][vc_column_text el_class="mg-bottom-25"]Vivamus mollis, turpis sit amet mollis malesuada, ante urna sodales erat, a laoreet ipsum nisl ut ipsum. Sed tristique orci urna, non mattis quam pellentesque vitae.[/vc_column_text][g5plus_lists bullet="icon" color="primary" size="xs" values="%5B%7B%22icon_font%22%3A%22fa%20fa-plus%22%2C%22label%22%3A%22Vivamus%20mollis%2C%20turpis%20sit%20amet%20mollis%20malesuada%2C%20ante%20urna%20sodales%20erat%2C%20a%20laoreet%20ipsum%20nisl%20ut%20ipsum.%22%7D%2C%7B%22icon_font%22%3A%22fa%20fa-plus%22%2C%22label%22%3A%22Integer%20facilisis%20ex%20in%20mauris%20semper%20tempor.%20Aenean%20faucibus%20varius%20lorem%2C%20eget%20sollicitudin%20tortor%20tincidunt%20ut.%20Fusce%20nec%20nisi%20eu%20enim%20bibendum%20dapibus.%20%22%7D%2C%7B%22icon_font%22%3A%22fa%20fa-plus%22%2C%22label%22%3A%22Suspendisse%20magna%20quam%2C%20commodo%20venenatis%20nunc%20vel.%22%7D%5D"][/vc_column][vc_column width="1/2"][vc_progress_bar layout_style="style_01" values="%5B%7B%22label%22%3A%22HTML%2FCSS%22%2C%22value%22%3A%2290%22%2C%22color%22%3A%22bar_green%22%7D%2C%7B%22label%22%3A%22DESIGN%22%2C%22value%22%3A%22100%22%2C%22color%22%3A%22bar_green%22%7D%2C%7B%22label%22%3A%22WORDPRESS%22%2C%22value%22%3A%2285%22%2C%22color%22%3A%22bar_green%22%7D%2C%7B%22label%22%3A%22SHORTCODE%22%2C%22value%22%3A%2295%22%2C%22color%22%3A%22bar_green%22%7D%5D" units="%"][/vc_column][/vc_row][vc_row full_width="stretch_row" el_class="mg-bottom-25 sm-mg-bottom-15" css=".vc_custom_1464083978802{background-color: #222222 !important;}"][vc_column][g5plus_portfolio title="Our Portfolio" title_style="style_02" title_scheme="light" layout_style="portfolio-masonry" color_scheme="portfolio-color-dark" show_category="left" overlay_style="portfolio-overlay-title-category-icon" icon_color_scheme="icon-color-light" hover_effect="default-effect" items="12" columns="3" arrows_position="center" column_padding="20px" image_size="portfolio-size2" current_page="1" ajax="0" arrows="true" el_class="mg-top-55 sm-mg-top-35 mg-bottom-60 sm-mg-bottom-40"][/vc_column][/vc_row][vc_row el_class="mg-bottom-30 sm-mg-bottom-10"][vc_column][g5plus_partner_carousel size="size_02" images="724,725,726,727,728" custom_links_target="" arrows_position="center" arrows_style="classic" is_slider="true"][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1464084179028{background-color: #eeeeee !important;}"][vc_column][g5plus_posts title="From The Blog" title_style="style_01" layout="style_04" source="recent" number="5" columns="3" arrows="" is_slider="true" dots="true" el_class="mg-top-55 sm-mg-top-35 mg-bottom-60 sm-mg-bottom-40" icon_light="true"][/vc_column][/vc_row]
+					</textarea></p>					
+				
+					<h3>4. Choose source data content Portfolio,Our Team</h3>
+					<h4>4.1. Choose data for Portfolio shortcode</h4>
+					<p><img class="img-center" src="images/3.2-build-page-header-area.png"></p>
+					<p><h4>Follow below to create Portfolio item or Category</h6>
+					   <img class="img-center" src="images/3.2.1-build-page-header-area.png"></p>
+					   <h4>4.2. Choose data for Our Team shortcode</h4>
+					<p><img class="img-center" src="images/3.1-build-page-header-area.png"></p>
+					<p><h4>Follow below to create Our Team item or Category</h6>
+					   <img class="img-center" src="images/3.1.1-build-page-header-area.png"></p>
+										
+					
+					<h3>5. Setting Footer & Create content footer</h3>		
+					<h4>5.1 Settings Footer</h4>
+					<p>Go to <strong>ThemeOptions</strong> >> <strong>Footer</strong> tab, then setting below</p>
+					<p><img class="img-center" src="images/4.1-build-page-footer-area.jpg"></p>
+					<h4>5.2 Add widgets "G5Plus: Image", "Text" , "G5Plus - Social Profile"to "Footer 1" area</h4>
+					<p>Go to <strong>Widget Manager</strong></p>
+					<p><img class="img-center" src="images/4.2.1-build-page-footer-area.png"></p>
+					<p><strong>	Add content "G5Plus: Image":</strong><br/>
+					<img class="img-center" src="images/4.4-build-page-footer-area.png"></p>
+					<p><strong>	Add content "Text":</strong><br/>
+					<img class="img-center" src="images/4.4.1-build-page-footer-area.png"></p>
+					<p><strong>	Add content "G5Plus - Social Profile":</strong><br/>
+					<img class="img-center" src="images/4.4.2-build-page-footer-area.png"></p>
+					<h4>5.3 Add widgets "Text" to "Footer 2" area</h4>
+					<p><strong>	Add content "Text":</strong><br/>
+					<p><img class="img-center" src="images/4.3-build-page-footer-area.png"></p>
+					<h7>Code HTML</h7>
+					<p><textarea data-lang="html"><ul class="icon-info">
+					<li>
+						<i class="fa fa-map-marker"></i>
+						<div>
+							<div class="icon-info-title">ADDRESS</div>
+							<p>1908 Street Name, City Name, United States</p>
+						</div>
+					</li>
+					<li>
+						<i class="fa fa-phone"></i>
+						<div>
+							<div class="icon-info-title">PHONE</div>
+							<p>+1 (008) 789 77 35</p>
+						</div>
+					</li>
+					<li>
+						<i class="fa fa-envelope"></i>
+						<div>
+							<div class="icon-info-title">EMAIL</div>
+							<p>info@orsontheme.com</p>
+						</div>
+					</li>
+					<li>
+						<i class="fa fa-clock-o"></i>
+						<div>
+							<div class="icon-info-title">WORKING DAYS/HOURS</div>
+							<p>Mon - Sun / 9:00 AM - 8:00 PM</p>
+						</div>
+					</li>
+				</ul>
+				</textarea></p>	
+					<h4>5.4 Add Widget "Tag Cloud" to "Footer 3" area</h4>		
+					<p><strong>Add widget "Tag Cloud" to Footer 3</strong><br/>
+					<img class="img-center" src="images/4.6-build-page-footer-area.png"></p>
+					<h4>5.5 Add Widget "G5Plus:Twitter" to "Footer 4" area</h4>		
+					<p><strong>Add widget "G5Plus:Twitter" to Footer 4</strong><br/>
+					<img class="img-center" src="images/4.6.1-build-page-footer-area.png"></p>
+					<h4>5.6 Add text Copyright to "Bottom Bar Left" area</h4>		
+					<p><img class="img-center" src="images/4.7-build-page-footer-area.png"></p>			
+					<h4>5.7 Add G5Plus:Image paypal to "Bottom Bar Right" area</h4>		
+					<p><img class="img-center" src="images/4.7.2-build-page-footer-area.png"></p>						
+				</div>	
+			</section>
+			
+			<section id="import-demo-content">
+				<h2>Import Demo Content</h2>
+				<div class="document-content">
+					<p>If you are new to WordPress and have problems with setting up the theme you might want to import the demo content file that comes with the theme. The following actions will import some dummy posts and pages from the live preview:</p>
+					<ul>
+						<li>Go to menu <strong>Tools</strong> &gt; <strong>Import</strong></li>
+						<li>Select <strong>WordPress</strong> from the list</li>
+						<li>If you haven't installed the <strong>WordPress import plugin</strong>, a popup window will appears and ask you to install it. Just click Install Now. When the installation progress is completed, click <strong>Activate Plugin &amp; Run Importer</strong>. If you have installed this plugin, skip to next step.</li>
+						<li>Click <strong>Browse</strong> and select <strong>demo-data.xml</strong> file from the download package<br/>
+							<i>(Example: simple demo on path: ORSON\assets\data-demo\simple, so the same for others)</i>
+						</li>
+						<li>Click <strong>Upload</strong> file and import</li>
+						<li>When you are asked to import author, you can create new author or import to existing author. You also should check the <strong>Download</strong> checkbox and import file attachments.
+						</li>
+					</ul>
+					<p><img alt="demo" src="images/import-demo-content-1.gif"></p><p>
+					</p><p>Select <strong>WordPress</strong> from the list</p>
+					<p><img alt="demo" src="images/import-demo-content-2.gif"></p>
+					<p>Continue with steps in image</p>
+					<p>Continue with steps in image</p>
+					<p><img alt="demo" src="images/import-demo-content-3.gif"></p>
+					<p>Display asked to import author, selected and continue</p>
+					<p><img alt="demo" src="images/import-demo-content-4.gif"></p>					
+
+					<p>After completing all above steps, open frontend link(Home 1) to see the pages imported to make, look like below is ok</p>
+					<p><img alt="demo" src="images/01_homepage.jpg"></p>
+					<p>If you don't want to use the demo content pack, you can read the instructions on how to work with our theme built-in Page Builder below to make your own pages.</p>
+				</div>
+			</section>
+			
+			<section id="import-slider">
+				<h2>Import Slider Home Page </h2>
+				<div class="document-content">						
+					<p>After setting up the homepage, you need to setup the slider for homepage to make it display the same as in live preview.</p>
+					<p>The <strong>download package</strong> contains the exported slider (Revolution Slider) that can be used as your slider template. Please follow the steps below to import it to your shop:</p>
+					<ul>
+						<li>Go to "<strong>Revolution Slider</strong>"</li>
+						<li>Click "<strong>Import Slider</strong>" button</li>
+						<li>When a popup appear, click "<strong>Browse</strong>" and select one of zip sliders(these files include in main file downloaded) file.</li>
+						<li>Click "<strong>Import Slider</strong>" button to start import the selected slider</li>
+						<li>Repeat the steps to <strong>import all</strong></li>
+					</ul>
+					<p><img src="images/slider-import-01.gif"></p>
+					<p><img src="images/slider-import-02.gif"></p>
+					<p class="note">Please note that these steps are to set up slider for homepage the same as in live demo. If you want to make your own slider, please follow the <a title="Slider Revolution official documentation" href="https://www.themepunch.com/revslider-doc/first-steps/#newslider">official Slider Revolution document</a>.</p>
+				</div>
+			</section>
+			
+			<section id="sidebar-widget">
+				<h2>Sidebars and Widgets</h2>
+				<div class="document-content">					
+					<p>In this section will provide a list of pre-defined sidebars as well as a map of their locations on a page, so that you will find it easier when pulling out widgets to set up your site.</p>
+					<p><img src="images/sidebar-widgets-01.jpg"></p>
+					<h7>01 Sidebar 1 Widget Area on frontend</h7>
+					<p><img src="images/sidebar-widgets-02.jpg"></p>
+						
+					<h7>02. Top Drawer Widget Area on frontend</h7>
+					<p>Current, on my theme is haven't. But if you want to have it.
+						You can do follow here:
+					</p>
+					<p><img src="images/top-drawer02.jpg"></p>
+					<p><img src="images/sidebar-widgets-03.jpg"></p>
+					<h7>03, 04. Top Bar Right, Top Bar Left Widget Area on frontend</h7>
+					<p><img src="images/sidebar-widgets-044.jpg"></p>
+					<h7>05,06,07,08,09,10 Footer 1, Footer 2, Footer 3, Footer 4, Bottom Bar Left, Bottom Bar Right Sidebar Widget Area on frontend</h7>
+					<p><img src="images/sidebar-widgets-04.jpg"></p>					
+						
+					<h7>11. WooCommerce Widget Area on frontend</h7>
+					<p><img src="images/sidebar-widgets-06.jpg"></p>
+					<h7>12. Single Product Area on frontend</h7>
+					<p><img src="images/single Product.jpg"></p>					
+					<h7>13. Canvas Menu Widget Area on frontend</h7>
+					<p><img src="images/canvas-menu.jpg"></p>		
+					<p><img src="images/canvas-menu01.jpg"></p>				
+					<h7>14. Home 2 - Footer 1 Area on frontend</h7>
+					<p><img src="images/home2-footer1.jpg"></p>
+					<h7>15. Top Bar Mobile Left Area on frontend</h7>
+					<p><img src="images/top-bar-mobile-left.jpg"></p>
+					<h7>16. Top Bar Mobile Right Area on frontend</h7>
+					<p><img src="images/top-bar-mobile-right.jpg"></p>
+					<h7>17. Home 8 - Widget Area on frontend</h7>
+					<p><img src="images/home8-widget.jpg"></p>
+					
+							
+			</section>
+			
+			<section id="contact-form">
+			<h2>Contact Form</h2>
+			<div class="document-content">								
+				<p>You can do step by step as image below to build contact form</p>
+				<h7>Add New Contact Form</h7>
+				<p><img src="images/contact-form-01.gif"></p>
+				<p><img src="images/contact-form-02.gif"></p>
+				<p>You can visit <a href="https://wordpress.org/plugins/contact-form-7/" target="_blank">Contact Form 7 Plugin</a> to further details.</p>
+				<p>Or copy and paste content below to Form field(see image above)</p>				
+				<h7>Value Content "Contact form 1"</h7>
+				<p><textarea data-lang="html"><p>Your Name (required)<br />
+				[text* your-name] </p>
+
+			<p>Your Email (required)<br />
+				[email* your-email] </p>
+
+			<p>Subject<br />
+				[text your-subject] </p>
+
+			<p>Your Message<br />
+				[textarea your-message] </p>
+
+			<p>[submit "Send"]</p>
+			</textarea></p>
+				
+				<h7>Value Content "Homepage 5"</h7>
+				<p><textarea data-lang="html"><div class = "g5plus-contact-form style_01">
+				[text* class:name placeholder "Your Name *"]
+				[email* class:email placeholder "Your Email *"]
+				[text* class:subject placeholder "Subject *"]
+				[textarea* class:message placeholder "Your Mesage *"]
+				[submit class:submit class:btn "SEND MESAGE"]
+				</div>
+				</textarea></p>
+				
+		<h7>And a lot of our contact form created here</h7>
+			<p><img src="images/contact-forms.jpg"></p>
+			</div>
+			</section>			
+			
+			<section id="general-options">			
+				<h2>General Options</h2>												
+				<div class="document-content">
+					<p>You can adjust WordPress settings as follows:</p>
+					<p>&nbsp;</p>
+					<p><strong>Step 1</strong>&nbsp;– You can set <em>Site Title, Tagline</em>&nbsp;in <strong>Settings &gt; General</strong></p>
+					<p><img class="img-center" src="images/general-options.jpg"></p>
+					<p>&nbsp;</p>
+					<p><strong>Step 2</strong>&nbsp;– You can set <em>Blog pages show at most</em> in <strong>Settings &gt; Reading</strong></p>
+					<p>&nbsp;</p>
+					<p><strong>Step 3</strong>&nbsp;– You can select <em>Front Page displays&nbsp;</em>in <strong>Settings &gt; Reading</strong></p>
+					<p><img class="img-center" src="images/reading.png" ></p>
+					<p>&nbsp;</p>
+					<p><strong>Step 4</strong>&nbsp;– You can set <em>Discussion settings</em> in <strong>Settings &gt; Discussion</strong></p>
+					<p><img class="img-center" src="images/discussion.png"></p>
+					<p>&nbsp;</p>
+					<p><strong>Step 5</strong>&nbsp;– You can change <em>Image sizes</em> in <strong>Settings &gt; Media<img class="img-center" src="images/media.png"></a></strong></p>
+					<p style="padding-left: 30px;">We used the following sizes on our demo sites:<br>
+					<strong>Thumbnail size:</strong>&nbsp;150 x 150<br>
+					<strong>Medium size:</strong>&nbsp;300 x 300<br>
+					<strong>Large size:</strong> 1024 x 1024</p>
+					<p style="padding-left: 30px;">
+					</p><p><strong>Step 6</strong>&nbsp;– You should ensure that a non-default permalink setting is selected, e.g. <em>Month and name</em> in <strong>Settings &gt; Permalinks</strong></p>
+					<p><img class="img-center" src="images/month.png" ></a></p>
+				</div>
+				
+			</section>
+			
+			<section id="theme-options">
+				<h2>Theme Options/ORSON Options</h2>
+				<div class="document-content">
+					<p>By clicking on the "<strong>Theme Options</strong>" menu, you'll be able to change all template specific settings.</p>
+					<p><img src="images/template-setting.png" alt=""></p>
+				</div>
+			</section>
+			
+			<section id="config-options-general-settings">				
+				<h2>General Settings</h2>
+				<div class="document-content">
+					<p>"General Settings" tab is divided into a few sections. Asides from the Install Demo Data section mentioned above, there are a few important sections for you to customize your layout.</p>
+					<p>You can upload this Logo on your server, or just paste an URL into the Logo box</p>
+					<p><img src="images/general-settings.jpg"/></p>
+					<h7>1. Pre-Loading display</h7>
+					<p><img src="images/pre-loading.jpg"/></p>
+					<h7>2. On/Off smooth scroll</h7>
+					<p><img src="images/smooth-scroll.jpg"/></p>
+					<h7>3.Back to top</h7>
+					<p><img src="images/show-back-to-top.jpg"/></p>
+				</div>
+				
+				<h3>Maintenance Mode</h3>				
+				<div class="document-content">
+					<p>"Maintenance Mode" use for update/maintenance website. Can choose custom page or default(basic)</p>
+					<p><img src="images/maintenance-mode.jpg"/></p>
+				</div>
+				
+				<h3>Performance</h3>				
+				<div class="document-content">
+					<p>"Performance" use on/off js & css for faster loading page</p>
+					<p><img src="images/performance.jpg"/></p>
+				</div>
+				
+				<h3>Page Transition</h3>				
+				<div class="document-content">
+					<p><img src="images/page-transition.jpg"/></p>
+				</div>
+				
+				<h3>Custom Favicon</h3>				
+				<div class="document-content">
+					<p>Have many options for each devices/screen, view on image to further more details.</p>
+					<p><img src="images/custom-favicon.jpg"/></p>
+				</div>
+				
+				<h3>404 Setting</h3>				
+				<div class="document-content">
+					<p>You can input information, background for 404 page with out install plugins.</p>
+					<p><img src="images/404-setting.jpg"/></p>
+					<h7>Frontend display</h7>
+					<p><img src="images/404-display.jpg"/></p>
+				</div>				
+			</section>			
+		
+			<section id="layout-options">
+				<h2>Layout Options</h2>
+				<div class="document-content">
+					<p><img src="images/page-archive-setting.jpg"/></p>			
+				</div>
+			</section>
+			<section id="page-title">
+				<h2>Page Title</h2>
+				<div class="document-content">
+					<p><img src="images/page-title-setting.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="blog-single-blog">
+				<h2>Blog & Single Blog</h2>
+				<div class="document-content">
+					<p><img src="images/blog-single-blog.jpg"/></p>
+				</div>
+			</section>			
+						
+			<section id="logo">				
+				<h2>Logo Setting</h2>
+				<div class="document-content">
+					<p><img src="images/logo-setting.jpg"/></p>
+					<h7>Frontend display</h7>
+					<p><img src="images/logo-default.jpg"/></p>
+					<p><img src="images/logo-light.jpg"/></p>
+				</div>
+			</section>
+						
+			<section id="top-drawer">				
+				<h2>Top Drawer</h2>
+				<div class="document-content">
+					<p><img src="images/top-drawer.jpg"/></p>
+				</div>
+			</section>
+			<section id="top-bar">				
+				<h2>Top Bar</h2>
+				<div class="document-content">
+					<p><img src="images/top-bar.jpg"/></p>
+				</div>
+			</section>
+						
+			<section id="header">				
+				<h2>Header Setting</h2>
+				<div class="document-content">
+					<p><img src="images/header-setting.jpg"/></p>					
+				</div>		
+			</section>
+			
+		
+			<section id="header-customize">
+				<h2>Header Customize</h2>
+				<div class="document-content">				
+					<p><img src="images/header-customize.jpg"/></p>
+				</div>
+			</section>		
+			
+			<section id="footer">				
+				<h2>Footer Setting</h2>
+				<div class="document-content">
+					<p><img src="images/footer-setting.jpg"/></p>
+					<h7>Frontend display</h7>
+					<p>View position Footer and Bottom Left Sidebar and Bottom Right Sidebar on widgets area part here: <a href="#sidebar-widget" title="Sidebar &amp; Widgets" class="current"><strong>5. Sidebar &amp; Widgets</strong></a></p>
+				</div>
+			</section>			
+			
+			<section id="theme-color">			
+				<h2>Theme Color</h2>
+				<div class="document-content">
+					<p>User can custom and change many options color on website.</p>
+					<p><img src="images/theme-color.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="custom-font">			
+				<h2>Custom Font</h2>
+				<div class="document-content">
+					<p>User can custom and upload many options font for website.</p>
+					<p><img src="images/custom-font.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="font-options">				
+				<h2>Font Options</h2>
+				<div class="document-content">
+					<p>User can choose from many font style.</p>
+					<p><img src="images/font-options.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="social-profiles">				
+				<h2>Social Profiles</h2>
+				<div class="document-content">
+					<p>These options are for a box that enable people to share your blog content on various social networks which automatically shows up under the content blog posts, an important function that helps promoting your site. You can also check the options to decide which network they are allowed to share the content of your website on. You can also turn off all options if you don't want your content to be shared at all.</p>
+					<p><img src="images/social-profiles.jpg"/></p>
+					<h7>Frontend display</h7>
+					<p><img src="images/social-profiles-01.jpg"/></p>
+					<p><img src="images/social-profiles-02.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="woocommerce">				
+				<h2>Woocommerce</h2>
+				<div class="document-content">
+					<p><img src="images/woocommerce.jpg"/></p>
+					<h7>Frontend display</h7>
+					<p><img src="images/woocommerce-01.jpg"/></p>
+					<p><img src="images/woocommerce-02.jpg"/></p>
+				</div>
+			</section>		
+		
+			<section id="custom-post-type">				
+				<h2>Custom Post Type</h2>
+				<div class="document-content">
+					<p>Users can disable the custom post types used within the theme here, by checking the corresponding box. Settings many options for them, also.</p>
+					<p><img src="images/custom-post-type.jpg"/></p>
+					<p><img src="images/full-add-portfolio01.jpg" alt="" class="img-full"/></p>
+				</div>
+				<h3>Our Team</h3>
+				<div class="document-content">
+					<p>Users can disable the custom post types used within the theme here, by checking the corresponding box. Settings many options for them, also.</p>
+					<p><img src="images/our-team-settings.jpg"/></p>			
+				</div>	
+				
+				<h3>Portfolio Settings</h3>
+				<div class="document-content">
+					<p>Users can disable the custom post types used within the theme here, by checking the corresponding box. Settings many options for them, also.</p>
+					<p><img src="images/portfolio-settings.jpg"/></p>			
+				</div>		
+						
+			</section>
+			
+			<section id="resources-options">				
+				<h2>Resources Options</h2>
+				<div class="document-content">
+					<p>Resources options let you utilize boostrap elements to style your store quick and easily.</p>
+					<p><img src="images/resources-options.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="custom-css-script">				
+				<h2>Custom CSS & Script</h2>
+				<div class="document-content">
+					<p>In case you want to add new CSS class or JS to your website, add it in this text box. This will add/overwrite the theme CSS,JS, so please be careful!</p>
+					<p><img src="images/custom-css-script.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="import-export">			
+				<h2>Import/Export</h2>
+				<div class="document-content">
+					<p>You can back up the options you chose here and restore them later, in case you want to fiddle with it.
+					   You can even swap data between different installations by pasting the text in the box under Transfer Theme Options Data and click Import Options button.</p>
+					<p><img src="images/import-options.jpg"/></p>
+				</div>
+			</section>
+			
+			<section id="meta-options">
+				<h2>Meta Options</h2>
+				<div class="content">
+					<p>ORSON features custom settings for your pages that you can set globally under Theme Options and individually on a per Page basis in your Edit Page screen under the Meta Options section (the section will be above or below your Visual Composer editor section).</p>
+					<p>You can set the following Options for the Page you are currently editing:</p>
+				</div>
+			</section>
+
+			<!-- SECTION META OPTIONS PAGE LAYOUT -->
+			<section id="meta-page-layout">
+				<h3>1. Page Layout</h3>
+				<div class="content">
+					<p>ORSON features custom setting page layout for your pages that you can overwrite page layout settings in Theme Options</p>
+					<p><img src="images/meta-options-page-layout.png" alt="Meta Options Page Layout"></p>
+					<p>You can set the following Page Layout Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 150px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Layout Style</td>
+							<td>Overwrite the Default <b>Layout Style</b> (set in Theme Options) for this page.</td>
+						</tr>
+						<tr>
+							<td>Layout</td>
+							<td>Overwrite the Default <b>Layout</b> of pages settings section in Theme Options for this page.</td>
+						</tr>
+						<tr>
+							<td>Sidebar Layout</td>
+							<td>Set position for the page sidebar: none, left, right, both of left and right</td>
+						</tr>
+						
+						<tr>
+							<td>Content Padding</td>
+							<td> Set content top/bottom padding. Do not include units (empty to set default)</td>
+						</tr>
+						
+						<tr>
+							<td>Remove Content Padding</td>
+							<td> If turn on this function. It will Remove Content Padding top/bottom padding, include value default</td>
+						</tr>
+						<tr>
+							<td>Page Class Extra</td>
+							<td>Add class extra in to body tag for this page</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+             <!-- SECTION META OPTIONS LOGO -->
+			<section id="meta-logo">
+				<h3>2. Logo</h3>
+				<div class="content">
+					<p>ORSON features custom setting logo for your pages that you can overwrite Logo settings in Theme Options</p>
+					<p><img src="images/meta-options-logo.jpg" alt="Meta Options Logo"></p>
+					<p>You can set the following Logo Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td colspan="2"><b>Logo Desktop</b></td>
+						</tr>
+						<tr>
+							<td>Header Logo</td>
+							<td>Upload header logo if you want custom header logo for this page.</td>
+						</tr>
+						<tr>
+							<td>Header Logo Retina</td>
+							<td>Upload Header Logo Retina for retina if you want custom Header Logo Retina for this page</td>
+						</tr>
+						<tr>				
+
+                        <tr>
+							<td>Sticky Logo</td>
+							<td>Upload logo sticky if you want custom logo for this page.</td>
+						</tr>
+						<tr>
+							<td>Sticky Logo Retina</td>
+							<td>Upload logo sticky for retina if you want custom logo retina for this page</td>
+						</tr>					
+						<tr>
+							<td>Logo max height</td>
+							<td>Set max height for logo, if leave empty will take value in Theme Options</td>
+						</tr>
+
+						<tr>
+							<td>Logo padding </td>
+							<td>Set padding for logo, if leave empty will take value in Theme Options</td>
+						</tr>						
+						
+
+						<tr>
+							<td colspan="2"><b>Logo Mobile</b></td>
+						</tr>						
+						<tr>
+							<td>Mobile Logo</td>
+							<td>Upload logo if you want custom logo mobile for this page.</td>
+						</tr>
+						<tr>
+							<td>Mobile Logo Retina</td>
+							<td>Upload logo mobile for retina if you want custom logo retina for this page</td>
+						</tr>
+						
+						<tr>
+							<td>Mobile Logo Max Height</td>
+							<td>Set max height for logo mobile, if leave empty will take value in Theme Options</td>
+						</tr>
+
+						<tr>
+							<td>Mobile Logo Padding</td>
+							<td>Set padding top/bottom for logo, if leave empty will take value in Theme Options</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<!-- SECTION META OPTIONS TOP DRAWER -->
+			<section id="meta-top-drawer">
+				<h3>2. Top Drawer</h3>
+				<div class="content">
+					<p>ORSON features custom setting top drawer for your pages that you can overwrite top drawer settings in Theme Options</p>
+					<p><img src="images/meta-options-top-drawer.png" alt="Meta Options Top Drawer"></p>
+					<p>You can set the following Top Drawer Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 220px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Top Drawer Type</td>
+							<td>Set type of top drawer: 'Disable', 'Always Show', 'Toggle'. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Drawer Sidebar</td>
+							<td>Set Sidebar for top drawer sidebar, if not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Drawer Wrapper Layout</td>
+							<td>Set layout wrapper for top drawer: 'Full Width', 'Container', 'Container Fluid'. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Drawer hide on mobile</td>
+							<td>Set visible for top drawer area on mobile. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Drawer Padding</td> Top drawer padding top. Do not include units (empty to set default)
+							<td>Set Padding top/bottom for Drawer area. If you not choose it will set value default</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- SECTION META OPTIONS TOP BAR -->
+			<section id="meta-top-bar">
+				<h3>3. Top Bar</h3>
+				<div class="content">
+					<p>ORSON features custom setting top bar for your pages that you can overwrite top bar settings in Theme Options</p>
+					<p><img src="images/meta-options-top-bar.jpg" alt="Meta Options Top Bar"></p>
+					<p>You can set the following Top Bar Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td colspan="2"><b>Desktop Settings</b></td>
+						</tr>
+						<tr>
+							<td>Show/Hide Top Bar</td>
+							<td>Set visible of top bar. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Bar Layout</td>
+							<td>Set layout for top bar: '1/2-1/2', '2/3-1/3', '1/3-2/3', 'full', if not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Left Sidebar</td>
+							<td>Set sidebar for left sidebar. If not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Right Sidebar</td>
+							<td>Set sidebar for right sidebar. If not selected will take value in Theme Options</td>
+						</tr>
+						
+						<tr>
+							<td>Top Bar Border </td>
+							<td>Set border for top bar area:'Default','None', 'Full Bordered', 'Container Border'. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td colspan="2"><b>Mobile Settings</b></td>
+						</tr>
+						<tr>
+							<td>Show/Hide Top Bar</td>
+							<td>Set visible of top bar. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Bar Layout</td>
+							<td>Set layout for top bar: '1/2-1/2', '2/3-1/3', '1/3-2/3', 'full', if not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Left Sidebar</td>
+							<td>Set sidebar for left sidebar. If not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Top Right Sidebar</td>
+							<td>Set sidebar for right sidebar. If not selected will take value in Theme Options</td>
+						</tr>
+						
+						<tr>
+							<td>Top Bar Border</td>
+							<td>Set border for top bar area:'Default','None', 'Full Bordered', 'Container Border'. If selected default will take value in Theme Options</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- SECTION META OPTIONS HEADER -->
+			<section id="meta-header">
+				<h3>4.Page Header</h3>
+				<div class="content">
+					<p>ORSON features custom setting header for your pages that you can overwrite header settings in Theme Options</p>
+					<p><img src="images/meta-options-header.jpg" alt="Meta Options Header"></p>
+					<p>You can set the following Header Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Header On/Off?</td>
+							<td>Set visible of header</td>
+						</tr>
+						<tr>
+							<td colspan="2"><b>Desktop Settings</b></td>
+						</tr>
+						<tr>
+							<td>Header Layout</td>
+							<td>Set layout of header. If no selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Header Container Layout</td>
+							<td>Set container layout for header: 'Container', 'Container Full'. If not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Header Float</td>
+							<td>Set float for header. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Show/Hide Header Sticky</td>
+							<td>Set sticky mode for header. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Header padding</td>
+							<td>Set Padding top/bottom for Header area. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Navigation Height</td>
+							<td>Set header navigation height (px). Do not include unit. If selected default will take value in Theme Options</td>
+						</tr>
+						
+							<td colspan="2"><b>Page Header Mobile</b></td>
+						</tr>
+						<tr>
+							<td>Header Mobile Layout</td>
+							<td>Set layout fot header mobile. If no selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Menu Drop Type</td>
+							<td>Set drop type for menu mobile: 'Dropdown Menu', 'Fly Menu'. If not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Header mobile sticky</td>
+							<td>Set sticky mode for mobile header. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Mobile Header Search Box</td>
+							<td>Set visible for search box. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Mobile Header Shopping Cart</td>
+							<td>Set visible for shopping cart. If selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Mobile header border bottom</td>
+							<td>Set border bottom for mobile header: 'None', 'Bordered', 'Container Bordered'. If selected default will take value in Theme Options</td>
+						</tr>
+						
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- SECTION META OPTIONS HEADER CUSTOMIZE -->
+			<section id="meta-header-customize">
+				<h3>5.Page Header Customize</h3>
+				<div class="content">
+					<p>ORSON features custom setting header customize area for your pages that you can overwrite header customize settings in Theme Options</p>
+					<p><img src="images/meta-options-header-customize.jpg" alt="Meta Options Header Customize"></p>
+					<p>You can set the following Header Customize Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td colspan="2"><b>Header Customize Left</b></td>
+						</tr>						
+						<tr>
+							<td>Header Customize Left</td>
+							<td>Set visible and order item for Header Left: 'Email', 'Phone', 'Search Type', 'Sidebar', 'Custom text content left', 'Navigation Item Spacing '</td>
+						</tr>
+						<tr>
+							<td>Header Customize Right</td>
+							<td>Set visible and order item for Header Right: 'Email', 'Phone', 'Search Type', 'Sidebar', 'Custom text content right', 'Navigation Item Spacing '</td>
+						</tr>			
+						<tr>
+							<td>Header Customize Navigation</td>
+							<td>Set visible and order item for header navigation: 'Email', 'Phone', 'Search Type', 'Sidebar', 'Custom text content ', 'Navigation Item Spacing '</td>
+						</tr>
+						
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			
+
+			<!-- SECTION META OPTIONS Menu -->
+			<section id="meta-menu">
+				<h3>7. Menu</h3>
+				<div class="content">
+					<p>ORSON features custom setting menu for your pages that you can overwrite Menu settings</p>
+					<p><img src="images/meta-options-menu.jpg" alt="Meta Options Menu"></p>
+					<p>You can set the following Menu Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Page menu</td>
+							<td>Optionally you can choose to override the menu that is used on the page.</td>
+						</tr>						
+						<tr>
+							<td>Page menu mobile</td>
+							<td>Optionally you can choose to override the menu mobile that is used on the page</td>
+						</tr>
+						<tr>
+							<td>Is One Page</td>
+							<td>Set page style is One Page</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- SECTION META OPTIONS PAGE TITLE -->
+			<section id="meta-page-title">
+				<h3>8. Page Title</h3>
+				<div class="content">
+					<p>ORSON features custom setting page title for your pages that you can overwrite Page Title settings in Theme Options</p>
+					<p><img src="images/meta-options-page-title.jpg" alt="Meta Options Page Title"></p>
+					<p>You can set the following Page Title Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>Show/Hide Page Title?</td>
+							<td>Set visible of header, if selected default will take value in Theme Options</td>
+						</tr>
+						
+						<tr>
+							<td>Page Title Layout</td>
+							<td>Set Layout for Page Title: 'Default', 'Tile Left & Breadcrumb Right' , 'Center'</td>
+						</tr>
+						<tr>
+							<td>Custom Page Title</td>
+							<td>Set content of page title. If leave empty will take value title of page</td>
+						</tr>
+						<tr>
+							<td>Custom Page Subtitle?</td>
+							<td>Set custom for page subtitle, if selected Off will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Padding </td>
+							<td>Set padding top/bottom for page title. If leave empty will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Custom Background Color?</td>
+							<td>Set custom background color for page title. If selected Off will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Page Title Parallax</td>
+							<td>Set parallax mode for page title. If selected Default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Breadcrumbs Enable</td>
+							<td>Set visible of breadcrumbs for page title. If selected Default will take value in Theme Options</td>
+						</tr>						
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<!-- SECTION META OPTIONS FOOTER -->
+			<section id="meta-footer">
+				<h3>9. Footer</h3>
+				<div class="content">
+					<p>ORSON features custom setting footer for your pages that you can overwrite Footer settings in Theme Options</p>
+					<p><img src="images/meta-options-footer.jpg" alt="Meta Options Footer"></p>
+					<p>You can set the following Footer Options for the Page you are currently editing:</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td colspan="2"><b>General Settings</b></td>
+						</tr>
+						<tr>
+							<td>Show/Hide Footer?</td>
+							<td>Set visible of footer, if selected default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Footer Container Layout</td>
+							<td>Set container layout for footer: 'Full Width', 'Container Fluid', 'Container', if selected Off will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Layout</td>
+							<td>Set layout sidebar for footer, if not selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Background Image</td>
+							<td>Set background image for footer. If leave empty will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Footer Parallax</td>
+							<td>Set parallax mode for footer. If selected Default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Collapse footer on mobile device</td>
+							<td>Set collapse mode for footer on mobile device. If selected Default will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Footer Border Top</td>
+							<td>Set Border Top for footer: 'Default', 'None', 'Full Border' , 'Container Border' </td>
+						</tr>
+						<tr>
+							<td> Footer padding</td>
+							<td>Set padding top/bottom for main footer. If leave empty will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td colspan="2"><b>Bottom Bar Settings</b></td>
+						</tr>
+						<tr>
+							<td>Show/Hide Bottom Bar</td>
+							<td>Set visible of footer bottom area, if selected default will take value in Theme Options</td>
+						</tr>
+
+						<tr>
+							<td>Bottom Bar Layout</td>
+							<td>Set layout sidebar of footer bottom area, if no selected will take value in Theme Options</td>
+						</tr>
+
+						<tr>
+							<td>Bottom Bar Left Sidebar</td>
+							<td>Set sidebar for footer bottom left, if no selected will take value in Theme Options</td>
+						</tr>
+
+						<tr>
+							<td>Bottom Bar Right Sidebar</td>
+							<td>Set sidebar for footer bottom right, if no selected will take value in Theme Options</td>
+						</tr>
+						<tr>
+							<td>Bottom Bar Border Top</td>
+							<td>Set Border Top for Bottom Bar: 'Default', 'None', 'Full Border' , 'Container Border' </td>
+						</tr>
+						<tr>
+							<td>Bottom bar padding </td>
+							<td>Set padding top/bottom for footer bottom area. If leave empty will take value in Theme Options</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			
+			<section id="meta-color">
+				<h3>10. Page Color</h3>
+				<div class="content">
+					<p>ORSON features setting page color, allow you custom different color for each page</p>
+					<p><img src="images/meta-options-color.jpg" alt="Meta Options Footer"></p>
+					<p>You can set color for each area on page :</p>
+					<table class="table-ref" width="100%">
+						<thead>
+						<tr>
+							<th style="width: 200px;">Attribute</th>
+							<th>Description</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td colspan="2"><b>General Settings</b></td>
+						</tr>
+						<tr>
+							<td>Accent Color Customize</td>
+							<td>Customize color for Accent Area</td>
+						</tr>
+						<tr>
+							<td>Top Drawer Customize</td>
+							<td>Customize color for Top Drawer Area</td>
+						</tr>
+						<tr>
+							<td>Header Customize</td>
+							<td>Customize color for Header Area</td>
+						</tr>
+						<tr>
+							<td>Top Bar Customize</td>
+							<td>Customize color for Top Bar</td>
+						</tr>
+						<tr>
+							<td>Navigation Customize</td>
+							<td>Customize color for Navigation Area</td>
+						</tr>
+						<tr>
+							<td>Footer Customize</td>
+							<td>Customize color for Footer Area</td>
+						</tr>
+						<tr>
+							<td>Bottom Bar Customize</td>
+							<td>Customize color for Bottom Bar Area </td>
+						</tr>
+						
+						</tbody>
+					</table>
+				</div>
+			</section>
+			
+			
+
+						
+			
+			<section id="woocommerce-settings">			
+				<h2>WooCommerce Settings</h2>
+				<h4>How to config product image like demo</h4>
+				<h5>Step 1</h5>
+				<div class="document-content">					
+					<p><img  src="images/woo-commerce-settings-01.png"></p>
+				</div>
+				
+				<h5>Step 2</h5>
+				<div class="document-content">					
+					<p><img  src="images/woo-commerce-settings-02.png"></p>
+				</div>
+				
+				<h5>Step 3</h5>
+				<div class="document-content">					
+					<p>Install plugin <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">http://wordpress.org/extend/plugins/regenerate-thumbnails/</a></p>
+				</div>
+				
+				<h5>Step 4</h5>
+				<div class="document-content">					
+					<p><img  src="images/woo-commerce-settings-03.png"></p>
+				</div>
+			</section>	
+					
+			<section id="mega-menu">
+				<h2>Mega Custom Menu</h2>
+				<div class="document-content">
+					<p>We use <strong>XMENU</strong>, please visit <a href="http://themes.g5plus.net/documentation/xmenu/"><strong>Document XMENU</strong></a> for further details.</p>
+				</div>	
+			</section>			
+			
+			<section id="home-page">
+				<h2>Setting a static page as Home</h2>
+				<div class="document-content">
+					<p>If you installed the <strong>Demo Content,</strong> you don’t need to create a new Home Page, you just need to choose from the list Home Pages that were automatically created from the demo content, following these steps:</p>
+					<ul>
+						<li>Go to Settings &gt; Reading</li>
+						<li>For Front page displays, select A static page (select below)</li>
+						<li>Choose either Home 1, Home 2 from the dropdown for Front page</li>
+						<li>Click Save Changes</li>
+					</ul>
+					<p><img src="images/build-page-01.gif" /></p>
+					<p><img src="images/build-page-02.png" /></p>
+					<p><strong>Save all your changes!</strong></p>
+				<div>
+			</section>			
+		
+			<section id="row-column">
+				<h2>Config row / column</h2>
+				<div class="content">
+					<p>
+						Content management is a breeze with Fortuna and it requires absolutely no coding skills. Using a highly customized version of the Visual Composer plugin the theme offers a user friendly Drag'n'Drop interface for easy page creation and editing. Follow these simple steps to create a Page with ORSON:
+					</p>
+					<p><span class="step">Step 1:</span>Go to <b>Pages > Add new</b> in your Dashboard. Add a Title to your Page (top field).</p>
+					<p><span class="step">Step 2:</span>Switch to Backend Editor if you are currently under Classic Mode (button below Title field).</p>
+					<p><span class="step">Step 3:</span>Start adding page content by clicking on the Plus button or <b>Add Element</b>.</p>
+					<p><img src="images/row-column-step-1.jpg" alt=""/></p>
+					<p><span class="step">Step 4:</span>The <b>Add Element</b> Popup appears, click on the first element in order to add a new <b>Row</b> to your page. A Row is a main building block of a page, you can split your Rows into Columns, place various elements into your rows, set Row Backgrounds, effects etc.</p>
+					<p><img src="images/row-column-step-4.jpg" alt=""/></p>
+					<p><span class="step">Step 5:</span>Once you have the new Row added to your page you can split that Row into Columns in order to organize elements nicely in it. Once you split your Row into column you can start adding different Page Elements into your columns. If you want to edit your Row/Column Settings click on the small Pen icon (top right corner of the Row/Column). You can also Duplicate your Row with the Icon (duplicate icon) next to it or Remove the Row/Column with the icon to the right (trash bin icon).</p>
+					<p><img src="images/row-column-step-5.jpg" alt=""/></p>
+					<h4>Row Settings (General)</h4>
+					<p>Click on the Edit Row button (Pen icon, top right of the Row). You will see the Row Settings Dialog popup.</p>
+					<p><img src="images/row-setting.jpg" alt=""/></p>
+					<p><span class="step">Layout:</span></p>
+					<p><b>Full Width (overflow hidden)</b> - Row will full width (option default)</p>
+					<p><b>Full Width (overflow visible)</b> - Row will full width, visible content if overflow</p>
+					<p><b>Container</b> - Max width 1170px and center.</p>
+					<p><b>Container Fluid</b>  - Full width, padding left and padding right 15px.</p>
+					<p><img src="images/row-layout.jpg" alt=""/></p>
+					<p><span class="step">Columns gap:</span></p>
+					<p>In order to control gaps between columns navigate to row parameter window and change column gap option - the gap will be introduced between all columns within this row. Default value of gap is set to 0.</p>
+					<p><b>Important:</b> In case of mobile stacking gap will be introduced between stacked columns as well.</p>
+					<p><span class="step">Full Height Row and Video Background:</span></p>
+					<iframe width="600" height="300"
+							src="http://www.youtube.com/embed/kpe8YHns8R8">
+					</iframe>
+					<p><span class="step">Equal height:</span></p>
+					<p>In order to set columns within row to be equal height you must navigate to row parameter window and check Equal height option to be active. All columns within this row will have equal height and align to the longest column.</p>
+					<p><span class="step">Content position:</span></p>
+					<p>In order to control vertical alignment of content within rows/columns navigate to row parameter window and select position of content - top, middle or bottom. By default value is set to "Default" meaning it will use Top or any other alternative if defined within your WP theme.</p>
+					<p><span class="step">Parallax:</span></p>
+					<iframe width="600" height="300"
+							src="http://www.youtube.com/embed/J5G6yNp4UG4">
+					</iframe>
+					<p><span class="step">Show background overlay (Overlay Color)</span></p>
+					<p><img src="images/row-overlay-color.jpg" alt=""/></p>
+					<p><b>Color</b> - Click button to select color of background overlay</p>
+					<p><b>Overlay Opacity</b> - Set opacity for overlay (0 &#8594; 100)</p>
+					<p><span class="step">Show background overlay (Overlay Image)</span></p>
+					<p><img src="images/row-overlay-image.jpg" alt=""/></p>
+					<p><b>Image</b> - Click button to select select image or set background image from <b>Design Options</b></p>
+					<p><b>Overlay Opacity</b> - Set opacity for overlay (0 &#8594; 100)</p>
+					<p><span class="step">Row ID</span></p>
+					<p>Set ID of row (Note: make sure it is unique and valid according to <a href="http://www.w3schools.com/tags/att_global_id.asp" target="_blank">w3c specification</a>)</p>
+					<h4>Row Settings (Design Options)</h4>
+					<iframe width="600" height="300"
+							src="http://www.youtube.com/embed/34Xd9L_oLcs">
+					</iframe>
+					<h4>Row Settings (Animation Settings)</h4>
+					<p><img src="images/row-animation.jpg" alt=""/></p>
+					<p><b>CSS Animation</b> - Select type of animation if you want this element to be animated when it enters into the browsers viewport.</p>
+					<p><b>Animation Duration</b> - Duration in seconds. You can use decimal points in the value. Use this field to specify the amount of time the animation plays. <em>The default value depends on the animation, leave blank to use the default.</em></p>
+					<p><b>Animation Delay</b> - Delay in seconds. You can use decimal points in the value. Use this field to delay the animation for a few seconds, this is helpful if you want to chain different effects one after another above the fold.</p>
+					<h4>Managing Columns</h4>
+					<p>Once you have the desired number of columns in a Row you can manage each Column's individual settings by clicking on the Toolbar icons of that specific Column. The Plus Icon adds an element to the top of the Column, the bottom Plus Icon adds an elemnt to the bottom of the Column. The Trash Bin icon removes the Column. Access the Column Settings by clicking on the Pen Icon.</p>
+					<p><img src="images/column-manager.jpg" alt=""/></p>
+					<h4>Column Settings (General)</h4>
+					<p>Access the Column Settings by clicking on the Pen Icon. The General tab provides with the option to add CSS classes to your Column if you wish to access it via CSS (can pass more than one divided by a space).</p>
+					<p><img src="images/column-general.jpg" alt=""/></p>
+					<h4>Column Settings (Design Options)</h4>
+					<iframe width="600" height="300"
+							src="http://www.youtube.com/embed/34Xd9L_oLcs">
+					</iframe>
+					<h4>Column Settings (Responsive Options)</h4>
+					<iframe width="600" height="300"
+							src="http://www.youtube.com/embed/_C1SE2Cj-4k">
+					</iframe>
+				</div>
+			</section>
+			
+			<section id="elements">
+				<h2>Add / Edit Page Elements</h2>
+				<div class="content">
+					<p>
+						Adding Page Elements to your Page is pretty straightforward. First you need to have created a new page, added a Row to it and defined your Row Columns <a class="data-ref" href="#row-column">(read more in the previous section)</a>.
+					</p>
+					<p><span class="step">Step 1:</span>Click on one of the Plus Icons within the column you want to add a new element to.</p>
+					<p><img src="images/element-add-new-page.jpg" alt=""/></p>
+					<p><span class="step">Step 2:</span>The Page Elements dialog will appear, click on the element you want to add to your Column/Row.</p>
+					<p><img src="images/element-add-new.jpg" alt=""/></p>
+					<p><span class="step">Step 3:</span>The Element Settings Dialog of the Element you are adding appears. Customize your element anyway you want, then click <b>Save</b>.</p>
+					<p><img src="images/element-post-setting.jpg" alt=""/></p>
+					<p><span class="step">Step 4:</span>Your element is now in the Column you added it to. Once you hover your newly added element you will see a small popup that let's you manage it. You can do the following with your elements:</p>
+					<p><b>Move</b> - Drag your element via the Direction Icon to move it around within the Column,Row or Page.</p>
+					<p><b>Edit</b> - Click on the Pen Icon to edit your Element's properties.</p>
+					<p><b>Clone</b> - Click on the Copy Icon to duplicate your Element.</p>
+					<p><b>Delete</b>  - Click on the Trash Bin Icon to remove your Element.</p>
+					<p><img src="images/element-config-icon.jpg" alt=""/></p>
+				</div>
+			</section>
+			
+			<!-- SECTION CUSTOME POST TYPE DEFINE -->
+			<section id="add_new_post_type">
+				<h2>Custom post type</h2>
+				<div class="content">
+					<!-- class: img-left, img-right, img-center, img-full -->
+					<p><img src="images/custom-post-type.jpg" alt="" class="img-left"/></p>
+					<p>Meagtron includes 5 custom post type:</p>
+					<p>
+                        <ul>
+                            <li>Pricing Table: play an important role for every company that offers products or services, and help users pick the most appropriate plan for them.</li>
+                            <li>Service Table: provide company services</li>
+                            <li>Our Team: Our Team is the custom post type to introduce the staff in your organization to the customer.</li>
+                            <li>Portfolio: ORSON provide post type Portfolio to create 1 or more portfolio for your website</li>
+                            <li>Count down: ORSON provide post type Countdown to create time count down that insert to comming soon or under construction page</li>
+                        </ul>
+					</p>
+                    <p>
+                        <h4> Create Portfolio Items</h4>
+                    </p>
+                    <p>
+                        ORSON provide a Portfolio custom post type that lets you feature your work in style. To create your Portfolio items follow the steps below:
+                    </p>
+                    <div>
+                        <p><img src="images/add-portfolio.jpg" alt="" class="img-right"/></p>
+                        <p><span class="step">Step 1:</span> Go to Portfolio > Add New in your Dashboard.</p>
+                        <p><span class="step">Step 2:</span>  Click on Add New to make a new post. Create a title and insert your post content in the editing field. You can use any of our short code builder elements inside the post.</p>
+                        <p><span class="step">Step 3:</span>  Add Categories from the right side. To assign it to the post, check the box next to the Category name. These Categories are the filters that will sit above your portfolio images and allow you to filter the different types of projects.</p>
+                        <p><span class="step">Step 4:</span>  Add Tags from the right side. Type the name of the tag in the field, separate multiple tags with commas.</p>
+                        <p><span class="step">Step 5:</span>  To select Feature Image click the first Featured Image Box, select an image and click “Set Featured Image”. This is image that display on shortcode portfolio</p>
+                        <p><span class="step">Step 6:</span>  Add portfolio custom information by input to 'Custom Field' section. You can add multiple file by click 'Add custom field'</p>
+                        <p><span class="step">Step 7:</span>  Add portfolio extra information by input to 'Portfolio Extra' section. In case you want link portfolio to another page out site or in site when click portfolio you need input link to 'Link to detail'</p>
+                        <p><span class="step">Step 8:</span>  Select detail layout. ORSON provide 7 layouts : Horizonal slide, Vertical slide, Small slide, Big slide, Center gallery small, Right gallery small, Full content</p>
+                        <p><span class="step">Step 9:</span>  Once you are finished, click Publish to save the portfolio post</p>
+                    </div>
+
+				</div>
+                <h4>Here Is A Screenshot That Shows The Various Areas Of The Portfolio Post Page Described Above</h4>
+                <div class="content">
+                    <p><img src="images/full-add-portfolio.jpg" alt="" class="img-full"/></p>
+					
+                </div>
+			</section>
+
+            <!-- SECTION DEFINE -->
+            <section id="settting_post_type">
+                <h2>Setting Custom post type</h2>
+                <div class="content">
+                    <p><img src="images/setting-custom-post-type.jpg" alt="" class="img-left"/></p>
+                    <p>
+                        Each custom post type has each page setting to change slug, display name. To change setting custom post type follow the steps below:
+                    </p>
+                    <div>
+                        <p><span class="step">Step 1:</span> Go to 'Custom Post Type' (ex: Portfolio ) > Settings in your Dashboard.</p>
+                        <p><span class="step">Step 2:</span>  Input value to 'New slug post type' and 'New name post type'</p>
+                        <p><span class="step">Step 3:</span>  Input value to 'New slug category'  and 'New name category' .</p>
+                        <p><span class="step">Step 4:</span>  Once you are finished, click 'Save Changes' to save the settings</p>
+                    </div>
+
+                </div>
+                <h4  style="clear: both">Here Is A Screenshot That Shows Setting Custom Post Type Described Above</h4>
+                <div class="content">
+                    <p><img src="images/update-setting-custom-post-type.jpg" alt="" class="img-full"/></p>
+                </div>
+            </section>
+			
+			<section id="contact-form-settings">				
+				<h2>Contact Forms Settings</h2>
+					<div class="document-content">
+					<h7>Settings For Send Mail</h7>
+					<p><img src="images/contact-form-03.gif"></p>
+					<p><img src="images/contact-form-04.jpg"></p>
+					<p>You can visit <a href="https://wordpress.org/plugins/wp-mail-smtp/" target="_blank">WP Mail SMTP Plugin</a> to further details.</p>
+				</h2>
+			</section>
+			
+			<section id="mailchimp-setting">				
+				<h2>Mail Chimp Settings</h2>
+					<div class="document-content">
+					<h4>Step 1: Choose menu follow:</h4>
+					<p><img src="images/mailchimp-01.gif"></p>					
+					<h4>Step 2:</h4>
+					<p><img src="images/mailchimp-02.gif"></p>	
+					<h4>Step 3:</h4>
+					<p><img src="images/mailchimp-03.gif"></p>	
+					<h4>Step 4:</h4>
+					<p><img src="images/mailchimp-04.gif"></p>	
+					<h4>Step 5:</h4>
+					<p><img src="images/mailchimp-06.gif"></p>	
+					<h4>Step 6, the last:</h4>
+					<p><img src="images/mailchimp-07.gif"></p>	
+				</h2>
+			</section>
+			<section id="update-theme">				
+				<h2>Update theme to latest version</h2>
+				<div class="document-content">					
+					<p>To update theme to latest version: </p>
+					<p>Please do follow here: <a href="http://support.g5plus.net/knowledge-base/how-to-update-to-latest-version/">http://support.g5plus.net/knowledge-base/how-to-update-to-latest-version/</a>.</p> 
+				</div>
+			</section>
+			<section id="update-plugins">			
+				<h2>Update shortcode/framework plugins to latest version</h2>
+				<div class="document-content">					
+					<p>To update shortcode/framework plugins to latest version: </p>
+					<p>Please do follow here: <a href="http://support.g5plus.net/knowledge-base/how-to-update-shortcodeframework-plugins-to-latest-version/">http://support.g5plus.net/knowledge-base/how-to-update-shortcodeframework-plugins-to-latest-version/</a>.</p> 
+				</div>
+			</section>
+						
+			
+			<section id="thank-you">			
+				<h2>Thank you for purchasing our theme</h2>
+				<div class="document-content">					
+					<p>If you have any questions that are beyond the scope of this documentation</p>
+					Please create topic here: <a href="http://support.g5plus.net">http://support.g5plus.net</a>.
+					Thanks so much!
+				</div>
+			</section>			
+			
+		</div>
+	</div>
+</body>
+</html>

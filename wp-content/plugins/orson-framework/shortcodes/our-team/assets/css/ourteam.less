@@ -1,0 +1,233 @@
+.g5plus-ourteam {
+	.ourteam-tab {
+		-webkit-transition-property: height, width;
+		-moz-transition-property: height, width;
+		-ms-transition-property: height, width;
+		-o-transition-property: height, width;
+		transition-property: height, width;
+		-webkit-transition-duration: 0.8s;
+		-moz-transition-duration: 0.8s;
+		-ms-transition-duration: 0.8s;
+		-o-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+	}
+	.column-2 {
+		.ourteam-item {
+			width: 50%;
+		}
+	}
+	.column-3 {
+		.ourteam-item {
+			width: 33.33333333%;
+		}
+	}
+	.column-4 {
+		.ourteam-item {
+			width: 25%;
+		}
+	}
+	img {
+		.border-radius(4px 4px 0 0);
+		width: 100%;
+	}
+	li, li i, a, div:after, .social-ourteam, .ourteam-avatar {
+		.transition(all 0.3s);
+	}
+	.btn:not(.btn-light) {
+		cursor: not-allowed;
+		&:hover {
+			color: #fff;
+		}
+	}
+	.btn.ot-load-more {
+		cursor: pointer;
+	}
+	.ourteam-filter-group {
+		margin-bottom: 20px;
+		a {
+			margin-bottom: 10px;
+			margin-right: 6px;
+			cursor: pointer;
+			i {
+				font-size: 10px;
+			}
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+	select.ourteam-filter-group {
+		width: 100%;
+		margin-bottom: 30px;
+		font-weight: bold;
+		font-size: 13px;
+		display: none;
+		&:focus {
+			.border-radius(5px 5px 0 0);
+		}
+	}
+	&.style1 {
+		.content-ourteam-item {
+			.border-radius(4px);
+			border-width: 1px;
+			border-style: solid;
+			&:hover {
+				.ourteam-avatar >.avatar:after, .social-ourteam {
+					opacity: 1;
+				}
+			}
+		}
+		.top-content-ourteam-item {
+			border-bottom-width: 1px;
+			border-bottom-style: solid;
+		}
+		.ourteam-avatar {
+			position: relative;
+			>.avatar {
+				position: relative;
+				&:after {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					.rgba-bg-color(#000, 0.4);
+					content: '';
+					display: block;
+					opacity: 0;
+					.border-radius(4px 4px 0 0);
+				}
+			}
+		}
+		.social-ourteam {
+			position: absolute;
+			width: 100%;
+			top: 50%;
+			margin-top: -18px;
+			opacity: 0;
+			ul {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+				li {
+					display: inline-block;
+					width: 36px;
+					height: 36px;
+					.border-radius(3px);
+					margin-right: 1px;
+					margin-bottom: 5px;
+					&:last-child {
+						margin-right: 0;
+					}
+					a {
+						display: block;
+						i {
+							color: #777;
+							line-height: 36px;
+						}
+					}
+					&:hover a i {
+						color: #fff;
+					}
+				}
+			}
+		}
+		.title {
+			font-size: 14px;
+			font-weight: bold;
+			color: #212121;
+			letter-spacing: -0.03em;
+			margin-top: 23px;
+			margin-bottom: 3px;
+		}
+		.ourteam-job {
+			display: block;
+			margin-bottom: 14px;
+		}
+		p {
+			color: #858585;
+			margin: 20px 25px 17px 25px;
+		}
+	}
+	&.style2 {
+		.content-ourteam-item {
+			background-color: #fff;
+			border-width: 1px;
+			border-style: solid;
+			.border-radius(4px);
+		}
+		.ourteam-info {
+			padding-top: 23px;
+			h3 {
+				font-size: 14px;
+				font-weight: bold;
+				color: #212121;
+				letter-spacing: -0.03em;
+				margin-bottom: 3px;
+			}
+		}
+		.ourteam-job {
+			display: block;
+			margin-bottom: 10px;
+		}
+		.social-ourteam {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			margin-bottom: 13px;
+			li {
+				display: inline-block;
+				margin-right: 15px;
+				&:last-child {
+					margin-right: 0;
+				}
+				a {
+					display: block;
+					i {
+						color: #999;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and(max-width: 991px) {
+	.g5plus-ourteam {
+		.column-4 {
+			.ourteam-item {
+				width: 33.3333333%;
+			}
+		}
+		select.ourteam-filter-group {
+			display: block;
+		}
+		.hidden-sm, .owl-nav-top .owl-nav {
+			display: none !important;
+		}
+	}
+}
+
+@media screen and(max-width: 767px) {
+	.g5plus-ourteam {
+		.column-3, .column-4 {
+			.ourteam-item {
+				width: 50%;
+			}
+		}
+	}
+}
+@media screen and(max-width: 480px) {
+	.g5plus-ourteam {
+		.column-2, .column-3, .column-4 {
+			.ourteam-item {
+				width: 100%;
+			}
+		}
+		.ourteam-item {
+			width: 100%;
+		}
+	}
+}
+
+

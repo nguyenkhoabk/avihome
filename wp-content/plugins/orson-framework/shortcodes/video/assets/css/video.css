@@ -1,0 +1,41 @@
+.g5plus-video {
+  text-align: center;
+}
+.g5plus-video a {
+  display: inline-block;
+  cursor: pointer;
+}
+.g5plus-video.style_01 a span {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 70px;
+  line-height: 1;
+  color: #fff;
+}
+.g5plus-video.style_02 a {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  width: 70px;
+  height: 70px;
+  border: solid 1px #fff;
+  -webkit-border-radius: 50%;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 50%;
+  -moz-background-clip: padding;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.g5plus-video.style_02 a span {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 40px;
+  line-height: 70px;
+  color: #fff;
+  margin-left: 6px;
+}
